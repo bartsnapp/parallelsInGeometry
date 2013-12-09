@@ -1,0 +1,251 @@
+\begin{theindex}
+
+  \item altitude, 40
+  \item associative, 91
+
+  \indexspace
+
+  \item Battle Royale, 118
+  \item bees, 15
+  \item boat
+    \subitem lost at night, 48
+  \item brain juices, 48
+
+  \indexspace
+
+  \item $\C$, 88
+  \item calisson, 21
+  \item Cavalieri's Principle, 24, 25
+  \item centroid, 40, 43, 63, 87
+  \item circle, 56
+    \subitem city geometry, 103
+    \subitem Coordinate   Geometry, 77
+  \item circumcenter, 41, 42, 63, 87
+  \item circumcircle, 41, 43
+  \item city geometry, 100, 102
+    \subitem circle, 103
+    \subitem midset, 107
+    \subitem parabola, 109
+    \subitem triangle, 102
+  \item closed, 91
+  \item collapsing compass, 33
+  \item commutative, 91
+  \item compass
+    \subitem collapsing, 33
+  \item compass and straightedge
+    \subitem bisecting a segment, 33
+    \subitem bisecting an angle, 34
+    \subitem copying an angle, 35
+    \subitem division, 90
+    \subitem equilateral triangle, 32
+    \subitem impossible problems, 96
+    \subitem multiplication, 89
+    \subitem parallel to a line through a point, 36
+    \subitem perpendicular to a line through a point, 34
+    \subitem SAA triangle, 45
+    \subitem SAS triangle, 44
+    \subitem SSS triangle, 44
+    \subitem transferring a segment, 33
+  \item complement, 3
+  \item congruent
+    \subitem angles, 65
+    \subitem segments, 65
+    \subitem triangles, 65
+  \item constructible numbers, 88
+  \item constructions, 
+		\see{compass and straightedge \textit{or}     origami}{32}
+  \item coordinate geometry
+    \subitem bisecting a segment, 78
+    \subitem bisecting an angle, 79
+    \subitem equilateral triangle, 80
+    \subitem intersection of a line and a circle, 79
+    \subitem intersection of two circles, 80
+    \subitem line between two points, 79
+    \subitem parallel through a point, 78
+    \subitem perpendicular through a point, 78
+  \item Crane Alley, 115, 116
+  \item cubic equations
+    \subitem origami, 98
+
+  \indexspace
+
+  \item $\D$, 88
+  \item $d$
+    \subitem Euclidean, 78
+    \subitem taxicab, 101
+  \item Descartes numbers, 88
+  \item diagonal reflection, 125
+  \item directrix, 83, 166
+  \item dissection proof, 17
+  \item distance
+    \subitem Euclidean, 78
+    \subitem taxicab, 101
+  \item doubling the cube, 19, 96
+
+  \indexspace
+
+  \item $\in$, 1, 88
+  \item empty set, 3
+  \item envelope of tangents, 58
+  \item equilateral triangle, 61
+  \item Escher, M.C., 9
+  \item Euclid, 31
+
+  \indexspace
+
+  \item field, 90
+  \item focus, 166
+  \item focus of a   parabola, 83
+  \item folding and tracing
+    \subitem bisecting a segment, 54
+    \subitem bisecting an angle, 55
+    \subitem copying an angle, 54
+    \subitem equilateral triangle, 57
+    \subitem intersection of a line and a circle, 56
+    \subitem intersection of two circles, 57
+    \subitem parabola, 58
+    \subitem parallel through a point, 55
+    \subitem perpendicular through a point, 55
+    \subitem transferring a segment, 54
+    \subitem trisecting the angle, 59
+  \item free point, 32
+
+  \indexspace
+
+  \item geometry
+    \subitem City, 100, 102
+    \subitem Euclidean, 100
+  \item gorilla suit, 113
+  \item group, 141
+  \item group table, 142
+
+  \indexspace
+
+  \item horizontal reflection, 125
+
+  \indexspace
+
+  \item identity matrix, 134
+  \item incenter, 41, 43, 63, 87
+  \item incircle, 41, 43
+  \item integers, 89
+  \item interior angles, 151
+  \item intersection, 2
+  \item isometry, 122
+
+  \indexspace
+
+  \item Kepler, Johannes, 9
+
+  \indexspace
+
+  \item line
+    \subitem Coordinate Geometry, 77
+  \item Louie Llama, 123, 125, 127, 150, 152
+
+  \indexspace
+
+  \item matrix, 121
+    \subitem multiplication, 122
+  \item median, 40
+  \item midset, 169
+    \subitem city geometry, 107
+  \item Morley's Theorem, 60
+
+  \indexspace
+
+  \item nexus of the universe, 100
+
+  \indexspace
+
+  \item $\O$, 88
+  \item origami
+    \subitem solving cubic equations, 98
+  \item origami numbers, 88
+  \item orthocenter, 40, 42, 63, 87
+
+  \indexspace
+
+  \item parabola, 57, 83
+    \subitem city geometry, 109
+  \item paradox, 110
+    \subitem $\sqrt{2}=2$, 110
+    \subitem triangle dissection, 18
+  \item Parallel-Side Theorem, 66
+  \item Plato, 31
+  \item point
+    \subitem Coordinate Geometry, 77
+  \item puzzle-stroll, 118
+  \item Pythagorean Theorem, 11, 16, 44
+  \item Pythagorean Triple, 73
+
+  \indexspace
+
+  \item $\Q$, 90
+  \item $\Q(\alpha)$, 92
+  \item quadrilateral
+    \subitem tessellation of, 10
+
+  \indexspace
+
+  \item rational numbers, 90
+  \item reflection, 124
+    \subitem diagonal, 125
+    \subitem horizontal, 125
+    \subitem vertical, 125
+  \item regular
+    \subitem polygon, 9
+    \subitem tessellation, 9
+  \item rotation, 127
+
+  \indexspace
+
+  \item SAS-Similarity Theorem, 70
+  \item set, 1
+  \item set theory symbols
+    \subitem $-$, 3
+    \subitem $\emptyset$, 3
+    \subitem $\in$, 1, 88
+    \subitem $\cap$, 2
+    \subitem $\subset$, 2
+    \subitem $\cup$, 2
+  \item similar triangles, 65, 70, 89, 90
+  \item Socrates, 31
+  \item Split-Side Theorem, 69
+  \item $\sqrt{2}$, 110
+  \item squaring the circle, 96
+  \item subset, 2
+  \item symmetry   group, 144
+
+  \indexspace
+
+  \item taxicab distance, 101
+  \item tessellation, 9
+    \subitem any quadrilateral, 10
+    \subitem regular, 9
+    \subitem triangles, 10
+  \item Theorem
+    \subitem Parallel-Side, 66
+    \subitem SAS Similarity, 70
+    \subitem Split-Side, 69
+  \item translation, 123
+  \item triangle
+    \subitem city geometry, 102
+    \subitem sum of interior angles, 151
+  \item trisecting the angle, 59, 61, 97
+
+  \indexspace
+
+  \item $\cup$, 2
+  \item union, 2
+
+  \indexspace
+
+  \item vertical reflection, 125
+
+  \indexspace
+
+  \item $\Z$, 89
+  \item zebra, 120
+
+\end{theindex}

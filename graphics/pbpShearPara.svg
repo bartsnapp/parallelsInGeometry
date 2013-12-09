@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5a -->
+
+<!-- CreationDate: Tue Dec 14 14:43:40 2010 -->
+
+<!-- Magnification: 1.050 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="4.0in"
+   height="0.8in"
+   viewBox="4003 5892 4749 970"
+   id="svg4240"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="pbpShearPara.fig">
+  <metadata
+     id="metadata4278">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4276">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 36 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="360 : 36 : 1"
+       inkscape:persp3d-origin="180 : 24 : 1"
+       id="perspective4280" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="487"
+     id="namedview4274"
+     showgrid="false"
+     inkscape:zoom="1.5111111"
+     inkscape:cx="180"
+     inkscape:cy="36"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4240" />
+  <g
+     style="stroke-width:.025in; fill:none"
+     id="g4242">
+    <!-- Line -->
+    <polyline
+       points="6141,6377 6818,6377 "
+       style="stroke:#000000;stroke-width:32; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline4244" />
+    <!-- Arrowhead on XXXpoint 6141 6377 - 6992 6377-->
+    <polygon
+       points="6813 6409 6971 6377 6813 6346 6845 6377 6813 6409  "
+       style="stroke:#000000;stroke-width:8;stroke-miterlimit:8; fill:#000000;"
+       id="polygon4246" />
+    <!-- Line -->
+    <polyline
+       points="4015,6850 4015,6850 4015,6850 4015,6850 5433,6850 6377,5905 4960,5905 4015,6850 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; fill:#ffffff; "
+       id="polyline4248" />
+    <g
+       style="stroke:#000000; stroke-width:1"
+       id="g4250">
+      <defs
+         id="defs4252">
+        <pattern
+           id="tile1"
+           x="0"
+           y="0"
+           width="200"
+           height="200"
+           patternUnits="userSpaceOnUse">
+          <path
+             d="M 0 50 200 50"
+             id="path4255" />
+          <path
+             d="M 0 150 200 150"
+             id="path4257" />
+        </pattern>
+      </defs>
+    </g>
+    <polyline
+       points="4015,6850 4015,6850 4015,6850 4015,6850 5433,6850 6377,5905 4960,5905 4015,6850 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; fill:url(#tile1); "
+       id="polyline4259" />
+    <!-- Line -->
+    <polyline
+       points="8740,5905 7322,5905 7322,6850 8740,6850 8740,5905 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; fill:#ffffff; "
+       id="polyline4261" />
+    <g
+       style="stroke:#000000; stroke-width:1"
+       id="g4263">
+      <defs
+         id="defs4265">
+        <pattern
+           id="tile2"
+           x="0"
+           y="0"
+           width="200"
+           height="200"
+           patternUnits="userSpaceOnUse">
+          <path
+             d="M 0 50 200 50"
+             id="path4268" />
+          <path
+             d="M 0 150 200 150"
+             id="path4270" />
+        </pattern>
+      </defs>
+    </g>
+    <polyline
+       points="8740,5905 7322,5905 7322,6850 8740,6850 8740,5905 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; fill:url(#tile2); "
+       id="polyline4272" />
+  </g>
+</svg>

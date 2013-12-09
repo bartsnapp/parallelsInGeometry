@@ -1,0 +1,54 @@
+\newpage
+\section{Centers, Circles, and Lines Oh My!}
+
+In this activity, we are going to explore the basic centers, circles,
+and lines related to triangles. To make things more pleasant, I
+suggest you let \textsl{GeoGebra} help you out.
+
+\begin{prob} 
+Draw yourself a triangle. Now construct the perpendicular bisectors of
+the sides---notice anything? Does this work for every triangle?
+\end{prob}
+
+\begin{prob}
+Now bisect the angles---notice anything? Does this work for every
+triangle?
+\end{prob}
+
+\begin{prob}
+Now construct the lines containing the altitudes---notice anything?
+Does this work for every triangle?
+\end{prob}
+
+\begin{prob}
+Now construct the medians---notice anything? Does this work for every
+triangle?
+\end{prob}
+
+\begin{prob}
+Now construct the circumcircle using the ``three-point-circle'' tool.
+Construct the circumcenter using the ``midpoint-or-center''
+tool. Notice anything in connection to the lines drawn above? Does
+this work for every triangle?
+\end{prob}
+
+\begin{prob}
+The incenter is found via the intersection of the angle
+bisectors. Construct the incircle.
+\end{prob}
+
+\begin{prob}
+Fill in the following handy chart summarizing the information you found
+above. 
+\[
+\begin{tabular}{| l || c | c | c | c |}
+\hline
+  & \begin{minipage}{10ex}\minipad  what are they? (draw pictures) \minipad\end{minipage}& \begin{minipage}{10ex}\minipad associated point? \minipad\end{minipage} & \begin{minipage}{10ex}\minipad always inside the triangle? \minipad\end{minipage} & meaning? \\ \hline\hline 
+\begin{minipage}{7ex}\minipad perpendicular \\ bisectors \minipad\end{minipage} & \rule[0mm]{0mm}{7mm}\hspace{20mm}  &\hspace{20mm}  &\hspace{20mm}  & \hspace{20mm} \\ \hline
+\begin{minipage}{7ex}\minipad angle \\ bisectors \minipad\end{minipage} & \rule[0mm]{0mm}{7mm}   &  &  & \\ \hline
+\begin{minipage}{12ex}\minipad lines \\ containing altitudes \minipad\end{minipage} & \rule[0mm]{0mm}{7mm}   &  &  &  \\ \hline
+\begin{minipage}{12ex}\minipad lines \\ containing the medians  \minipad\end{minipage} & \rule[0mm]{0mm}{7mm}   &  &  &   \\ \hline
+\end{tabular}
+\]
+Be sure to put this in a safe place like in a safe, or under your bed.
+\end{prob}

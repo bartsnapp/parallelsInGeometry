@@ -1,0 +1,35 @@
+\newpage
+\section{Bola, Para Bola}           
+
+We've mentioned several times that a parabola is the set of points
+that are equidistant from a given point (the focus) and a given line
+(the directrix):\index{focus}\index{directrix}
+\[
+\includegraphics[angle=90,scale=.4]{../graphics/parabolapointline.pdf}
+\]
+In this activity we are going to try an reconcile the definition given
+above with the equation that you know and love (admit it!):
+\[
+y = ax^2 + bx + c
+\]
+
+\begin{prob}
+How do we compute the distance between two points? Be explicit!
+\end{prob}
+
+\begin{prob}
+Let the focus be the point $(0,1)$ and the directrix be the
+$x$-axis. Find the formula for the given parabola.
+\end{prob}
+
+\begin{prob}
+Let the focus be the point $(0,1)$ and the directrix be the line
+$y = -1$.  Find the formula for the given parabola.
+\end{prob}
+
+\begin{prob}
+Let the focus be the point $(1,1)$ and the directrix be the line $y =
+-2$.  Find the formula for the given parabola.
+\end{prob}
+
+

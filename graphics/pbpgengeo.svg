@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5a -->
+
+<!-- CreationDate: Tue Dec 14 14:43:23 2010 -->
+
+<!-- Magnification: 1.050 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2.7in"
+   height="2.9in"
+   viewBox="-1244 -223 3244 3493"
+   id="svg3804"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="pbpgengeo.fig">
+  <metadata
+     id="metadata3868">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3866">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 130.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="243 : 130.5 : 1"
+       inkscape:persp3d-origin="121.5 : 87 : 1"
+       id="perspective3870" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="487"
+     id="namedview3864"
+     showgrid="false"
+     inkscape:zoom="0.90421456"
+     inkscape:cx="121.5"
+     inkscape:cy="130.5"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3804" />
+  <g
+     style="stroke-width:.025in; fill:none"
+     id="g3806">
+    <!-- Line: box -->
+    <rect
+       x="629"
+       y="1259"
+       width="1259"
+       height="629"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3808" />
+    <!-- Line -->
+    <polyline
+       points="0,1889 0,2834 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="polyline3810" />
+    <!-- Line: box -->
+    <rect
+       x="629"
+       y="0"
+       width="419"
+       height="1259"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3812" />
+    <!-- Line: box -->
+    <rect
+       x="0"
+       y="0"
+       width="1889"
+       height="1889"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3814" />
+    <!-- Line: box -->
+    <rect
+       x="1049"
+       y="0"
+       width="280"
+       height="839"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3816" />
+    <!-- Line: box -->
+    <rect
+       x="1330"
+       y="559"
+       width="559"
+       height="280"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3818" />
+    <!-- Line: box -->
+    <rect
+       x="1049"
+       y="839"
+       width="839"
+       height="419"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3820" />
+    <!-- Line: box -->
+    <rect
+       x="-944"
+       y="0"
+       width="2834"
+       height="2834"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3822" />
+    <!-- Line: box -->
+    <rect
+       x="1330"
+       y="0"
+       width="186"
+       height="559"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3824" />
+    <!-- Line: box -->
+    <rect
+       x="1517"
+       y="372"
+       width="372"
+       height="186"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3826" />
+    <!-- Line: box -->
+    <rect
+       x="1517"
+       y="0"
+       width="123"
+       height="372"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3828" />
+    <!-- Line: box -->
+    <rect
+       x="1640"
+       y="248"
+       width="248"
+       height="123"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3830" />
+    <!-- Line: box -->
+    <rect
+       x="1640"
+       y="0"
+       width="82"
+       height="248"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3832" />
+    <!-- Line: box -->
+    <rect
+       x="1723"
+       y="165"
+       width="165"
+       height="82"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3834" />
+    <!-- Line: box -->
+    <rect
+       x="0"
+       y="0"
+       width="629"
+       height="1889"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3836" />
+    <!-- Text -->
+    <text
+       xml:space="preserve"
+       x="377"
+       y="3212"
+       fill="#000000"
+       font-family="Times"
+       font-style="normal"
+       font-weight="normal"
+       font-size="114"
+       text-anchor="start"
+       id="text3838">1</text>
+    <!-- Text -->
+    <text
+       xml:space="preserve"
+       x="-1228"
+       y="1511"
+       fill="#000000"
+       font-family="Times"
+       font-style="normal"
+       font-weight="normal"
+       font-size="114"
+       text-anchor="start"
+       id="text3840">1</text>
+    <!-- Text -->
+    <text
+       xml:space="preserve"
+       x="-566"
+       y="-94"
+       fill="#000000"
+       font-family="Times"
+       font-style="normal"
+       font-weight="normal"
+       font-size="114"
+       text-anchor="start"
+       id="text3842">r</text>
+    <!-- Text -->
+    <text
+       xml:space="preserve"
+       x="850"
+       y="2362"
+       fill="#000000"
+       font-family="Times"
+       font-style="normal"
+       font-weight="normal"
+       font-size="114"
+       text-anchor="start"
+       id="text3844">r(1-r)</text>
+    <!-- Text -->
+    <text
+       xml:space="preserve"
+       x="1984"
+       y="1133"
+       fill="#000000"
+       font-family="Times"
+       font-style="normal"
+       font-weight="normal"
+       font-size="114"
+       text-anchor="start"
+       id="text3846">r(1-r)<tspan
+   font-size="76"
+   dy="-52"
+   id="tspan3848">2</tspan><tspan
+   dy="52"
+   id="tspan3850" /></text>
+    <!-- Text -->
+    <text
+       xml:space="preserve"
+       x="1984"
+       y="755"
+       fill="#000000"
+       font-family="Times"
+       font-style="normal"
+       font-weight="normal"
+       font-size="114"
+       text-anchor="start"
+       id="text3852">r(1-r)<tspan
+   font-size="76"
+   dy="-52"
+   id="tspan3854">3</tspan><tspan
+   dy="52"
+   id="tspan3856" /></text>
+    <!-- Text -->
+    <text
+       xml:space="preserve"
+       x="1984"
+       y="1606"
+       fill="#000000"
+       font-family="Times"
+       font-style="normal"
+       font-weight="normal"
+       font-size="114"
+       text-anchor="start"
+       id="text3858">r(1-r)</text>
+    <!-- Text -->
+    <text
+       xml:space="preserve"
+       x="1984"
+       y="2362"
+       fill="#000000"
+       font-family="Times"
+       font-style="normal"
+       font-weight="normal"
+       font-size="114"
+       text-anchor="start"
+       id="text3860">r</text>
+    <!-- Text -->
+    <text
+       xml:space="preserve"
+       x="-566"
+       y="1511"
+       fill="#000000"
+       font-family="Times"
+       font-style="normal"
+       font-weight="normal"
+       font-size="114"
+       text-anchor="start"
+       id="text3862">r</text>
+  </g>
+</svg>

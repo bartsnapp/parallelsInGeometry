@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5a -->
+
+<!-- CreationDate: Tue Dec 14 14:43:38 2010 -->
+
+<!-- Magnification: 1.000 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="3.9in"
+   height="2.0in"
+   viewBox="3288 3438 4674 2424"
+   id="svg4180"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="pbpquadarea.fig">
+  <metadata
+     id="metadata4236">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4234">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 90 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="351 : 90 : 1"
+       inkscape:persp3d-origin="175.5 : 60 : 1"
+       id="perspective4238" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="487"
+     id="namedview4232"
+     showgrid="false"
+     inkscape:zoom="1.3111111"
+     inkscape:cx="175.5"
+     inkscape:cy="90"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4180" />
+  <g
+     style="stroke-width:.025in; fill:none"
+     id="g4182">
+    <!-- Line -->
+    <polyline
+       points="4650,3750 4200,4500 4950,4800 5550,4500 4650,3750 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline4184" />
+    <!-- Line -->
+    <polyline
+       points="5550,4500 6000,3750 5250,3450 4650,3750 5550,4500 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#ffbfbf; "
+       id="polyline4186" />
+    <!-- Line -->
+    <polyline
+       points="6000,3750 5550,4500 6300,4800 6900,4500 6000,3750 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline4188" />
+    <!-- Line -->
+    <polyline
+       points="5850,5550 6300,4800 5550,4500 4950,4800 5850,5550 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#ffbfbf; "
+       id="polyline4190" />
+    <!-- Line -->
+    <polyline
+       points="4200,4500 4650,3750 3900,3450 3300,3750 4200,4500 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#ffbfbf; "
+       id="polyline4192" />
+    <!-- Line -->
+    <polyline
+       points="6900,4500 7350,3750 6600,3450 6000,3750 6900,4500 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#ffbfbf; "
+       id="polyline4194" />
+    <!-- Line -->
+    <polyline
+       points="6300,4800 5850,5550 6600,5850 7200,5550 6300,4800 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline4196" />
+    <!-- Line -->
+    <polyline
+       points="4950,4800 4500,5550 5250,5850 5850,5550 4950,4800 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline4198" />
+    <!-- Line -->
+    <polyline
+       points="4500,5550 4950,4800 4200,4500 3600,4800 4500,5550 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#ffbfbf; "
+       id="polyline4200" />
+    <!-- Line -->
+    <polyline
+       points="7200,5550 7650,4800 6900,4500 6300,4800 7200,5550 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#ffbfbf; "
+       id="polyline4202" />
+    <!-- Line -->
+    <polyline
+       points="3300,3750 4650,3750 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4204" />
+    <!-- Line -->
+    <polyline
+       points="3300,3750 3600,4800 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4206" />
+    <!-- Line -->
+    <polyline
+       points="3600,4800 4950,4800 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4208" />
+    <!-- Line -->
+    <polyline
+       points="3600,4800 3900,5850 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4210" />
+    <!-- Line -->
+    <polyline
+       points="3900,5850 5250,5850 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4212" />
+    <!-- Line -->
+    <polyline
+       points="5250,5850 4950,4800 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4214" />
+    <!-- Line -->
+    <polyline
+       points="5250,5850 6600,5850 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4216" />
+    <!-- Line -->
+    <polyline
+       points="6600,5850 6300,4800 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4218" />
+    <!-- Line -->
+    <polyline
+       points="6300,4800 7650,4800 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4220" />
+    <!-- Line -->
+    <polyline
+       points="7650,4800 7350,3750 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4222" />
+    <!-- Line -->
+    <polyline
+       points="7350,3750 6000,3750 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4224" />
+    <!-- Line -->
+    <polyline
+       points="7650,4800 7950,5850 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4226" />
+    <!-- Line -->
+    <polyline
+       points="7950,5850 6600,5850 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4228" />
+    <!-- Line -->
+    <polyline
+       points="4650,3750 4950,4800 6300,4800 6000,3750 4650,3750 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:bevel; stroke-linecap:butt; stroke-dasharray:40 40;"
+       id="polyline4230" />
+  </g>
+</svg>

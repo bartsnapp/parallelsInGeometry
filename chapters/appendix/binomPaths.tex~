@@ -1,0 +1,25 @@
+\newpage
+\section{The Path Not Taken}
+                                  
+
+In Euclidean geometry, there is a unique shortest path between two
+points. Not so in city geometry, here you have many different
+choices. Let's investigate this further.
+
+
+\begin{prob} 
+Place two points $5$ units apart on the grid below. How many paths are
+there that follow the grid lines? Note, if your answer is $1$, then
+maybe you should pick another point!
+\[
+\includegraphics{../graphics/complexPlane}
+\]
+Be sure to demand that your results are shared with the rest of the
+class.
+\end{prob}
+
+\begin{prob}
+Do the first problem again, except for points that are 4 units apart
+and then for points that are 6 units apart. What do you notice? Can
+you explain this?
+\end{prob}

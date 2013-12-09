@@ -1,0 +1,206 @@
+typsetting:
+http://www-ra.phys.utas.edu.au/~jstevens/code_thesis_style.html
+
+use kp fonts... see
+http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=kpfonts
+
+
+Transform:
+=======================
+ADD SIMILAR FIGURE SECTION WITH SCALING!!!!
+Herb's questions from 507--getting at the group structure
+-- flip a parabola around find vertex etc..
+Constructions. "what is a line"? etc
+
+
+ADD: illustration for geometric transformation!
+
+
+Add: Take a point relfect, translate, rotate,
+write a single expression with F, T, R that represents the blah
+
+CHECK GEOMETRIC TRANSFORMATION!!!!!
+why are they ALL true!? ALSO CHECK BOTTOM RIGHT HAND CORNER!!!!!!
+
+matrices that tesselate a figure
+
+rotate around a pt not the origin.
+
+
+Random:
+===============
+Why is Pi unique?
+
+
+
+City:
+====================================
+
+classify the parabolas/midsets as an aid for drawing them
+(why do we classify things!)
+
+
+see:
+
+http://www.mathematische-basteleien.de/taxicabgeometry.htm
+
+
+Coordinate:
+==========================
+
+Add eg to coordinate constructions--the students need to be shown what
+is expected of them there. (level of rigor/explanation etc)
+
+
+Maybe loose the D (descartes numbers) stuff.
+Just say:
+
+C is the set of compass and straightedge constructible numbers. Note
+that this is \textbf{the same} as the set of numbers constructible via
+coordiante consturctions.
+
+\item\label{P:COORD:Ri} The complex numbers $\C$ can be expressed as follows: 
+\[ \C = \R(i) =
+\{a + b i: a,b\in \R \} 
+\] 
+Can you devise a similar way of expressing $\Q(\sqrt{2})$? Explain
+your reasoning.
+
+\item Considering Problem~\ref{P:COORD:Ri}, can you devise a similar
+way of expressing $\Q(\sqrt{2},\sqrt{3})$? Explain your reasoning.
+
+DUPLICATE COMPLEX NUMBER STUFF!!!!
+(rationalize denominator)
+
+
+How does $\Q(\sqrt{6})$ compare with $\Q(\sqrt{2},\sqrt{3})$
+
+Are the questions: Is \sqrt{7} rational, is it constructible? Good?
+
+
+List all constructible regular n-gons with n from 1 to 100.
+
+Robert C. Yates. Geometrical Tools: A Mathematical Sketch and Model Book. Educational Publishers, 1949.
+
+
+
+=============================================
+TAKE HOME is gunked up.  
+since the apothem is 1, the sidelengths and constructed lengths are
+actually fixed.... Possible fix: 
+
+Considering that the apothem is 1, what is a resonable estimate for
+$\l$? In this case what is $d$? What does this say about the
+correctness/accuracy of this construction?
+
+
+===================================
+Lesson Plan: Area & Perimeter
+
+
+
+
+Set Theory: 
+=============================================
+count number of sections in venn diagrams produce venn
+diagram for 4 sets
+
+
+
+Tessellations:
+===================================
+FIX CHART PROBLEM.
+
+ANGLE(S) TOO VAGUE
+ANOTHER SLOT FOR PRODUCT OF # AROUND EACH VERTEX AND ANGLE!
+
+=====================================
+
+Compass:
+=========================================
+FOR THE CHALLENGE CONST, COULD YOU SUGGEST THAT YOU START WITH A TRI
+AND MEASURE TO GET PARTS THAT WORK?
+
+for parallel through a point, maybe make tops of isosceles cross???
+
+Given an isoceles triangle, prove that the angle bisector
+perpendicularly bisects the opposite side.
+
+
+
+perimeter and area / talk to Betsy
+
+
+
+Origami:
+=========================================
+Simiar figures SCALE!!!
+Remove dfn on equal angles
+restate SAS-Sim to state that triangles have congruent angles.
+
+3.3 #7 - does it need to be right? If not then what?
+
+
+
+See Hartshorne's Book: Geometry: Euclid and Beyond. for similar triangle!!!
+
+
+
+TV Qs: A HDTV has an aspect ratio of $16:9$. On the other hand, the
+size of a TV is given by its diagonal. What are the dimentions of the
+following TV's?
+
+*13"
+*24"
+*33"
+*42"
+*50"
+
+Regular TV $4:3$, CHECK IMAX
+
+Is an IMAX closer to a HDTV or a traditional TV?
+
+
+
+FOR SEMESTER CONVERSION - 
+ADD SOLIDS SECTION
+
+
+Laying down stair case 
+code for steps, 3/8th difference. Roof line. etc
+
+
+
+http://nrich.maths.org/6323
+
+
+some thought will be needed here!!!
+
+http://nrich.maths.org/5511
+
+
+------
+OK MAYBE A SEQUENCE:
+
+
+-- the first one should be totally doable.  can be done with
+-- side-splitting, or through simple similar triangle reasoning.
+
+
+-- http://nrich.maths.org/public/viewer.php?obj_id=5472&part=index&refpage=monthmanager.php
+
+
+http://nrich.maths.org/public/viewer.php?obj_id=5473&part=index&refpage=monthmanager.php
+
+http://nrich.maths.org/5474
+
+-----
+
+http://nrich.maths.org/483
+
+
+http://nrich.maths.org/416
+
+
+
+

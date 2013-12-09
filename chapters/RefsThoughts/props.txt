@@ -1,0 +1,78 @@
+
+
+Figures are composed of lines and points.
+
+
+
+Proof By Picture
+
+Anatomy
+-lines
+-circles
+-break polys into triangles (TA)
+
+Compass
+-Constructions
+-Tricker Constructions
+-constructible numbers (beginning)
+
+Origami
+-Constructons
+-Tricker Constructions
+-constructible numbers (beginning)
+
+Coordinate
+-Constructions
+-Constructible numbers
+-Impossibilites
+
+Taxicab
+-constructions
+-conic sections
+-getting work done
+
+Transformations
+
+Theory of parallels could be acheived by discussing
+hyperbolic/spherical geometry.
+
+
+Chapters/Handouts:
+
+Anatomy of Triangles
+TA Median etc etc
+TA Euler Line (DO IT JUSTICE)
+Compass and Strightedge Constructions
+
+
+
+
+
+
+
+
+1. Constructing an equilateral triangle on a given segment. 
+2. SAS - EP4
+3. EP5 -- interested in this.....
+4. EP6 -- not used 
+5
+
+
+Similarity needs to be addressed -- could this be addressed in
+transformations?
+
+
+
+Rules for construction vs axioms for verification.
+
+Dfns - redefine definition per section. each time they will get more precise. 
+
+Can you use origami to solve constructions from Ideas in Geometry?
+
+
+
+Origami
+ - theory of parallels!
+Parallels need to be addressed. Page 499 Beckman, EP 27-34
+Check Beckman for good constructions.
+

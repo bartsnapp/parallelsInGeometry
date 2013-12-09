@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5a -->
+
+<!-- CreationDate: Tue Dec 14 14:43:28 2010 -->
+
+<!-- Magnification: 1.050 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2.8in"
+   height="1.2in"
+   viewBox="-12 7546 3332 1442"
+   id="svg3932"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="pbppyth1.fig">
+  <metadata
+     id="metadata3958">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3956">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 54.000004 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="252 : 54.000004 : 1"
+       inkscape:persp3d-origin="126 : 36.000003 : 1"
+       id="perspective3960" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="487"
+     id="namedview3954"
+     showgrid="false"
+     inkscape:zoom="2.1587302"
+     inkscape:cx="126"
+     inkscape:cy="54.000004"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3932" />
+  <g
+     style="stroke-width:.025in; fill:none"
+     id="g3934">
+    <!-- Line -->
+    <polyline
+       points="944,7559 0,8031 0,7559 944,7559 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; fill:#b46100; "
+       id="polyline3936" />
+    <!-- Line -->
+    <polyline
+       points="472,8976 1417,8503 1417,8976 472,8976 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; fill:#b46100; "
+       id="polyline3938" />
+    <!-- Line -->
+    <polyline
+       points="1889,8976 2834,8503 2834,8976 1889,8976 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; fill:#b46100; "
+       id="polyline3940" />
+    <!-- Line -->
+    <polyline
+       points="2834,8503 1889,8976 1889,8503 2834,8503 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; fill:#b46100; "
+       id="polyline3942" />
+    <!-- Line -->
+    <polyline
+       points="0,8031 472,8976 0,8976 0,8031 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; fill:#ffbfbf; "
+       id="polyline3944" />
+    <!-- Line -->
+    <polyline
+       points="1417,8503 944,7559 1417,7559 1417,8503 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; fill:#ffbfbf; "
+       id="polyline3946" />
+    <!-- Line: box -->
+    <rect
+       x="1889"
+       y="7559"
+       width="1417"
+       height="1417"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3948" />
+    <!-- Line -->
+    <polyline
+       points="3307,8503 2834,7559 3307,7559 3307,8503 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; fill:#ffbfbf; "
+       id="polyline3950" />
+    <!-- Line -->
+    <polyline
+       points="2834,7559 3307,8503 2834,8503 2834,7559 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; fill:#ffbfbf; "
+       id="polyline3952" />
+  </g>
+</svg>

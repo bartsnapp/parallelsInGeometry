@@ -1,0 +1,1755 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Arch Linux) (format=pdflatex 2013.5.9)  9 MAY 2013 21:18
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ParallelsInGeometry.tex
+(./ParallelsInGeometry.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/share/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks16
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+)
+(/usr/share/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks26
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/share/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2013/03/13 v2.5 Micro-typographical refinements (RS)
+\MT@toks=\toks27
+\MT@count=\count101
+LaTeX Info: Redefining \textls on input line 771.
+\MT@outer@kern=\dimen114
+LaTeX Info: Redefining \textmicrotypecontext on input line 1290.
+\MT@listname@count=\count102
+
+(/usr/share/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2013/03/13 v2.5 Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 889.
+LaTeX Info: Redefining \lslig on input line 889.
+\MT@outer@space=\skip58
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2013/03/13 v2.5 microtype main configuration file (RS)
+))
+(/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks28
+\verbatim@line=\toks29
+\verbatim@in@stream=\read1
+)
+(/usr/share/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write3
+\openout3 = `ParallelsInGeometry.idx'.
+
+
+Writing index file ParallelsInGeometry.idx
+\c@thm=\count103
+\c@prob=\count104
+(./ParallelsInGeometry.aux)
+\openout1 = `ParallelsInGeometry.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+
+(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen115
+\scratchbox=\box28
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen116
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks31
+) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Info: Redefining \microtypecontext on input line 137.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2011/04/09 v2.1 microtype config. file: Computer Modern Roman 
+(RS)
+) (../chapters/front.tex
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmss' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+stmry on input line 11.
+
+(/usr/share/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
+ (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+[1] [2
+
+] [3] (./ParallelsInGeometry.toc [4
+
+])
+\tf@toc=\write4
+\openout4 = `ParallelsInGeometry.toc'.
+
+) [5] (../chapters/picture.tex
+Chapter 1.
+<../graphics/set1.pdf, id=28, 181.17688pt x 108.90688pt>
+File: ../graphics/set1.pdf Graphic file (type pdf)
+
+<use ../graphics/set1.pdf>
+Package pdftex.def Info: ../graphics/set1.pdf used on input line 33.
+(pdftex.def)             Requested size: 181.17642pt x 108.90659pt.
+ [1
+
+ <../graphics/set1.pdf>]
+<../graphics/set2.pdf, id=36, 181.17688pt x 108.90688pt>
+File: ../graphics/set2.pdf Graphic file (type pdf)
+
+<use ../graphics/set2.pdf>
+Package pdftex.def Info: ../graphics/set2.pdf used on input line 70.
+(pdftex.def)             Requested size: 181.17642pt x 108.90659pt.
+
+<../graphics/set3.pdf, id=37, 181.17688pt x 108.90688pt>
+File: ../graphics/set3.pdf Graphic file (type pdf)
+
+<use ../graphics/set3.pdf>
+Package pdftex.def Info: ../graphics/set3.pdf used on input line 83.
+(pdftex.def)             Requested size: 181.17642pt x 108.90659pt.
+ [2 <../graphics/set2.pdf>]
+<../graphics/set4.pdf, id=44, 235.37938pt x 108.90688pt>
+File: ../graphics/set4.pdf Graphic file (type pdf)
+
+<use ../graphics/set4.pdf>
+Package pdftex.def Info: ../graphics/set4.pdf used on input line 88.
+(pdftex.def)             Requested size: 235.3788pt x 108.90659pt.
+
+<../graphics/set5.pdf, id=45, 181.17688pt x 108.90688pt>
+File: ../graphics/set5.pdf Graphic file (type pdf)
+
+<use ../graphics/set5.pdf>
+Package pdftex.def Info: ../graphics/set5.pdf used on input line 106.
+(pdftex.def)             Requested size: 181.17642pt x 108.90659pt.
+File: ../graphics/set4.pdf Graphic file (type pdf)
+ <use ../graphics/set4.pdf>
+Package pdftex.def Info: ../graphics/set4.pdf used on input line 111.
+(pdftex.def)             Requested size: 235.3788pt x 108.90659pt.
+ [3 <../graphics/set3.pdf> <../graphics/set4.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/set4.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+> <../graphics/set5.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/set5.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+>] <../graphics/setproof.pdf, id=54, 181.17688pt x 149.55875pt>
+File: ../graphics/setproof.pdf Graphic file (type pdf)
+
+<use ../graphics/setproof.pdf>
+Package pdftex.def Info: ../graphics/setproof.pdf used on input line 132.
+(pdftex.def)             Requested size: 181.17642pt x 149.55838pt.
+
+<../graphics/setproof1.pdf, id=55, 181.17688pt x 149.55875pt>
+File: ../graphics/setproof1.pdf Graphic file (type pdf)
+
+<use ../graphics/setproof1.pdf>
+Package pdftex.def Info: ../graphics/setproof1.pdf used on input line 137.
+(pdftex.def)             Requested size: 181.17642pt x 149.55838pt.
+
+Underfull \vbox (badness 1112) has occurred while \output is active []
+
+ [4 <../graphics/setproof.pdf>]
+<../graphics/setproof2.pdf, id=62, 181.17688pt x 149.55875pt>
+File: ../graphics/setproof2.pdf Graphic file (type pdf)
+
+<use ../graphics/setproof2.pdf>
+Package pdftex.def Info: ../graphics/setproof2.pdf used on input line 142.
+(pdftex.def)             Requested size: 181.17642pt x 149.55838pt.
+
+<../graphics/setproof3.pdf, id=63, 181.17688pt x 149.55875pt>
+File: ../graphics/setproof3.pdf Graphic file (type pdf)
+
+<use ../graphics/setproof3.pdf>
+Package pdftex.def Info: ../graphics/setproof3.pdf used on input line 146.
+(pdftex.def)             Requested size: 181.17642pt x 149.55838pt.
+
+<../graphics/setproof4.pdf, id=64, 181.17688pt x 149.55875pt>
+File: ../graphics/setproof4.pdf Graphic file (type pdf)
+
+<use ../graphics/setproof4.pdf>
+Package pdftex.def Info: ../graphics/setproof4.pdf used on input line 152.
+(pdftex.def)             Requested size: 181.17642pt x 149.55838pt.
+ [5 <../graphics/setproof1.pdf> <../graphics/setproof2.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/setproof2.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <../graphics/setproof3.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/setproof3.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>] [6 <../graphics/setproof4.pdf>]
+File: ../graphics/set4.pdf Graphic file (type pdf)
+ <use ../graphics/set4.pdf>
+Package pdftex.def Info: ../graphics/set4.pdf used on input line 169.
+(pdftex.def)             Requested size: 235.3788pt x 108.90659pt.
+ [7] [8]
+<../graphics/semiRegTess.pdf, id=85, 225.57942pt x 66.24434pt>
+File: ../graphics/semiRegTess.pdf Graphic file (type pdf)
+
+<use ../graphics/semiRegTess.pdf>
+Package pdftex.def Info: ../graphics/semiRegTess.pdf used on input line 259.
+(pdftex.def)             Requested size: 225.57887pt x 66.24417pt.
+
+<../graphics/regtess.pdf, id=86, 251.92915pt x 62.44449pt>
+File: ../graphics/regtess.pdf Graphic file (type pdf)
+
+<use ../graphics/regtess.pdf>
+Package pdftex.def Info: ../graphics/regtess.pdf used on input line 273.
+(pdftex.def)             Requested size: 251.92853pt x 62.44432pt.
+
+<../graphics/triangletess.pdf, id=87, 248.39859pt x 71.26625pt>
+File: ../graphics/triangletess.pdf Graphic file (type pdf)
+
+<use ../graphics/triangletess.pdf>
+Package pdftex.def Info: ../graphics/triangletess.pdf used on input line 294.
+(pdftex.def)             Requested size: 248.39798pt x 71.26605pt.
+ [9 <../graphics/semiRegTess.pdf> <../graphics/regtess.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/regtess.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>] <../graphics/quadtess.pdf, id=94, 201.32109pt x 91.74202pt>
+File: ../graphics/quadtess.pdf Graphic file (type pdf)
+
+<use ../graphics/quadtess.pdf>
+Package pdftex.def Info: ../graphics/quadtess.pdf used on input line 299.
+(pdftex.def)             Requested size: 201.32059pt x 91.74179pt.
+
+<../graphics/lightningsquares.pdf, id=95, 88.65509pt x 27.21097pt>
+File: ../graphics/lightningsquares.pdf Graphic file (type pdf)
+
+<use ../graphics/lightningsquares.pdf>
+Package pdftex.def Info: ../graphics/lightningsquares.pdf used on input line 30
+8.
+(pdftex.def)             Requested size: 88.65486pt x 27.21089pt.
+
+<../graphics/lightningtess.pdf, id=96, 193.35732pt x 83.39107pt>
+File: ../graphics/lightningtess.pdf Graphic file (type pdf)
+
+<use ../graphics/lightningtess.pdf>
+Package pdftex.def Info: ../graphics/lightningtess.pdf used on input line 312.
+(pdftex.def)             Requested size: 193.35683pt x 83.39085pt.
+
+<../graphics/watersquares.pdf, id=97, 91.24088pt x 28.00462pt>
+File: ../graphics/watersquares.pdf Graphic file (type pdf)
+
+<use ../graphics/watersquares.pdf>
+Package pdftex.def Info: ../graphics/watersquares.pdf used on input line 318.
+(pdftex.def)             Requested size: 91.24063pt x 28.00453pt.
+
+<../graphics/nonconvextess.pdf, id=98, 215.08076pt x 143.5263pt>
+File: ../graphics/nonconvextess.pdf Graphic file (type pdf)
+
+<use ../graphics/nonconvextess.pdf>
+Package pdftex.def Info: ../graphics/nonconvextess.pdf used on input line 325.
+(pdftex.def)             Requested size: 215.08023pt x 143.52596pt.
+ [10 <../graphics/triangletess.pdf> <../graphics/quadtess.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/quadtess.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <../graphics/lightningsquares.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/lightningsquares.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <../graphics/lightningtess.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/lightningtess.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+> <../graphics/watersquares.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/watersquares.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>] <../graphics/birdstess.pdf, id=108, 215.79295pt x 126.05371pt>
+File: ../graphics/birdstess.pdf Graphic file (type pdf)
+
+<use ../graphics/birdstess.pdf>
+Package pdftex.def Info: ../graphics/birdstess.pdf used on input line 329.
+(pdftex.def)             Requested size: 215.79242pt x 126.05339pt.
+
+<../graphics/pbppyth.pdf, id=109, 118.26927pt x 64.27344pt>
+File: ../graphics/pbppyth.pdf Graphic file (type pdf)
+
+<use ../graphics/pbppyth.pdf>
+Package pdftex.def Info: ../graphics/pbppyth.pdf used on input line 349.
+(pdftex.def)             Requested size: 118.26898pt x 64.27327pt.
+ [11 <../graphics/nonconvextess.pdf> <../graphics/birdstess.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/birdstess.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <../graphics/pbppyth.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/pbppyth.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>] <../graphics/pbppyth2.pdf, id=123, 157.18999pt x 157.2501pt>
+File: ../graphics/pbppyth2.pdf Graphic file (type pdf)
+
+<use ../graphics/pbppyth2.pdf>
+Package pdftex.def Info: ../graphics/pbppyth2.pdf used on input line 360.
+(pdftex.def)             Requested size: 157.18959pt x 157.24971pt.
+
+<../graphics/pbppyth2a.pdf, id=124, 195.83632pt x 169.75163pt>
+File: ../graphics/pbppyth2a.pdf Graphic file (type pdf)
+
+<use ../graphics/pbppyth2a.pdf>
+Package pdftex.def Info: ../graphics/pbppyth2a.pdf used on input line 370.
+(pdftex.def)             Requested size: 195.83583pt x 169.7512pt.
+ [12 <../graphics/pbppyth2.pdf> <../graphics/pbppyth2a.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/pbppyth2a.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>] [13] [14]
+File: ../graphics/pbppyth2.pdf Graphic file (type pdf)
+ <use ../graphics/pbppyth2.pdf>
+Package pdftex.def Info: ../graphics/pbppyth2.pdf used on input line 455.
+(pdftex.def)             Requested size: 157.18959pt x 157.24971pt.
+ [15]
+<../graphics/pbpAreaRight.pdf, id=148, 56.80273pt x 84.93587pt>
+File: ../graphics/pbpAreaRight.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpAreaRight.pdf>
+Package pdftex.def Info: ../graphics/pbpAreaRight.pdf used on input line 489.
+(pdftex.def)             Requested size: 56.80258pt x 84.93564pt.
+File: ../graphics/pbppyth.pdf Graphic file (type pdf)
+ <use ../graphics/pbppyth.pdf>
+Package pdftex.def Info: ../graphics/pbppyth.pdf used on input line 505.
+(pdftex.def)             Requested size: 118.26898pt x 64.27327pt.
+ [16 <../graphics/pbpAreaRight.pdf>]
+<../graphics/pbppythsqr.pdf, id=156, 230.23048pt x 287.68172pt>
+File: ../graphics/pbppythsqr.pdf Graphic file (type pdf)
+
+<use ../graphics/pbppythsqr.pdf>
+Package pdftex.def Info: ../graphics/pbppythsqr.pdf used on input line 520.
+(pdftex.def)             Requested size: 230.2299pt x 287.681pt.
+
+<../graphics/pbppyth1.pdf, id=157, 199.36899pt x 85.7016pt>
+File: ../graphics/pbppyth1.pdf Graphic file (type pdf)
+
+<use ../graphics/pbppyth1.pdf>
+Package pdftex.def Info: ../graphics/pbppyth1.pdf used on input line 529.
+(pdftex.def)             Requested size: 199.36848pt x 85.70139pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <../graphics/pbppythsqr.pdf>]
+<../graphics/triparadox.pdf, id=163, 273.59401pt x 273.59401pt>
+File: ../graphics/triparadox.pdf Graphic file (type pdf)
+
+<use ../graphics/triparadox.pdf>
+Package pdftex.def Info: ../graphics/triparadox.pdf used on input line 546.
+(pdftex.def)             Requested size: 273.59334pt x 273.59334pt.
+ [18 <../graphics/pbppyth1.pdf> <../graphics/triparadox.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/triparadox.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+>] <../graphics/pbpsquare.pdf, id=170, 85.64146pt x 85.64146pt>
+File: ../graphics/pbpsquare.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpsquare.pdf>
+Package pdftex.def Info: ../graphics/pbpsquare.pdf used on input line 564.
+(pdftex.def)             Requested size: 85.64124pt x 85.64124pt.
+
+<../graphics/119VolumeCube.pdf, id=171, 321.2pt x 348.6616pt>
+File: ../graphics/119VolumeCube.pdf Graphic file (type pdf)
+
+<use ../graphics/119VolumeCube.pdf>
+Package pdftex.def Info: ../graphics/119VolumeCube.pdf used on input line 569.
+(pdftex.def)             Requested size: 128.47772pt x 139.46216pt.
+ [19 <../graphics/pbpsquare.pdf> <../graphics/119VolumeCube.pdf>]
+<../graphics/pbptriangle.pdf, id=182, 114.60497pt x 99.32028pt>
+File: ../graphics/pbptriangle.pdf Graphic file (type pdf)
+
+<use ../graphics/pbptriangle.pdf>
+Package pdftex.def Info: ../graphics/pbptriangle.pdf used on input line 603.
+(pdftex.def)             Requested size: 114.60468pt x 99.32002pt.
+
+<../graphics/pbptriangle1.pdf, id=183, 114.60497pt x 99.32028pt>
+File: ../graphics/pbptriangle1.pdf Graphic file (type pdf)
+
+<use ../graphics/pbptriangle1.pdf>
+Package pdftex.def Info: ../graphics/pbptriangle1.pdf used on input line 614.
+(pdftex.def)             Requested size: 114.60468pt x 99.32002pt.
+
+<../graphics/pbptriangle2.pdf, id=184, 114.60497pt x 99.32028pt>
+File: ../graphics/pbptriangle2.pdf Graphic file (type pdf)
+
+<use ../graphics/pbptriangle2.pdf>
+Package pdftex.def Info: ../graphics/pbptriangle2.pdf used on input line 618.
+(pdftex.def)             Requested size: 114.60468pt x 99.32002pt.
+ [20 <../graphics/pbptriangle.pdf> <../graphics/pbptriangle1.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/pbptriangle1.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>] <../graphics/pbporicas.pdf, id=192, 49.58899pt x 53.7067pt>
+File: ../graphics/pbporicas.pdf Graphic file (type pdf)
+
+<use ../graphics/pbporicas.pdf>
+Package pdftex.def Info: ../graphics/pbporicas.pdf used on input line 645.
+(pdftex.def)             Requested size: 49.58885pt x 53.70654pt.
+
+<../graphics/pbpcas.pdf, id=193, 186.87784pt x 97.7765pt>
+File: ../graphics/pbpcas.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpcas.pdf>
+Package pdftex.def Info: ../graphics/pbpcas.pdf used on input line 652.
+(pdftex.def)             Requested size: 186.87737pt x 97.77625pt.
+ [21 <../graphics/pbptriangle2.pdf> <../graphics/pbporicas.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/pbporicas.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <../graphics/pbpcas.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/pbpcas.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>] [22]
+File: ../graphics/pbpAreaRight.pdf Graphic file (type pdf)
+ <use ../graphics/pbpAreaRight.pdf>
+Package pdftex.def Info: ../graphics/pbpAreaRight.pdf used on input line 706.
+(pdftex.def)             Requested size: 56.80258pt x 84.93564pt.
+
+<../graphics/pbpDisTri.pdf, id=204, 158.34157pt x 86.3727pt>
+File: ../graphics/pbpDisTri.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpDisTri.pdf>
+Package pdftex.def Info: ../graphics/pbpDisTri.pdf used on input line 714.
+(pdftex.def)             Requested size: 158.34117pt x 86.37247pt.
+ [23]
+<../graphics/pbpDisTriGio.pdf, id=208, 157.28763pt x 86.14684pt>
+File: ../graphics/pbpDisTriGio.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpDisTriGio.pdf>
+Package pdftex.def Info: ../graphics/pbpDisTriGio.pdf used on input line 721.
+(pdftex.def)             Requested size: 157.28723pt x 86.14662pt.
+
+<../graphics/pbpShearTri.pdf, id=209, 149.4215pt x 80.92035pt>
+File: ../graphics/pbpShearTri.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpShearTri.pdf>
+Package pdftex.def Info: ../graphics/pbpShearTri.pdf used on input line 736.
+(pdftex.def)             Requested size: 149.42111pt x 80.92014pt.
+
+<../graphics/pbpShearPara.pdf, id=210, 282.0374pt x 56.80273pt>
+File: ../graphics/pbpShearPara.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpShearPara.pdf>
+Package pdftex.def Info: ../graphics/pbpShearPara.pdf used on input line 742.
+(pdftex.def)             Requested size: 282.0367pt x 56.80258pt.
+ [24 <../graphics/pbpDisTri.pdf> <../graphics/pbpDisTriGio.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/pbpDisTriGio.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <../graphics/pbpShearTri.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/pbpShearTri.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+Overfull \hbox (2.29526pt too wide) in paragraph at lines 748--750
+[]\OT1/cmr/m/n/10 (-20) Give two ex-pla-na-tions of how the fol-low-ing pic-tur
+e ``proves'' the Pythagorean
+ []
+
+File: ../graphics/pbppyth1.pdf Graphic file (type pdf)
+<use ../graphics/pbppyth1.pdf>
+Package pdftex.def Info: ../graphics/pbppyth1.pdf used on input line 751.
+(pdftex.def)             Requested size: 199.36848pt x 85.70139pt.
+
+Overfull \hbox (2.29526pt too wide) in paragraph at lines 753--755
+[]\OT1/cmr/m/n/10 (-20) Give two ex-pla-na-tions of how the fol-low-ing pic-tur
+e ``proves'' the Pythagorean
+ []
+
+<../graphics/pbppyth3.pdf, id=228, 203.77246pt x 77.6975pt>
+File: ../graphics/pbppyth3.pdf Graphic file (type pdf)
+
+<use ../graphics/pbppyth3.pdf>
+Package pdftex.def Info: ../graphics/pbppyth3.pdf used on input line 756.
+(pdftex.def)             Requested size: 203.77194pt x 77.6973pt.
+
+<../graphics/pbpdavinci.pdf, id=229, 157.90292pt x 186.63458pt>
+File: ../graphics/pbpdavinci.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpdavinci.pdf>
+Package pdftex.def Info: ../graphics/pbpdavinci.pdf used on input line 760.
+(pdftex.def)             Requested size: 157.90253pt x 186.63411pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <../graphics/pbpShearPara.pdf> <../graphics/pbppyth3.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/pbppyth3.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>] <../graphics/trap.pdf, id=247, 155.38794pt x 56.80273pt>
+File: ../graphics/trap.pdf Graphic file (type pdf)
+
+<use ../graphics/trap.pdf>
+Package pdftex.def Info: ../graphics/trap.pdf used on input line 777.
+(pdftex.def)             Requested size: 155.38754pt x 56.80258pt.
+
+<../graphics/pbptrap.pdf, id=248, 56.74313pt x 84.93587pt>
+File: ../graphics/pbptrap.pdf Graphic file (type pdf)
+
+<use ../graphics/pbptrap.pdf>
+Package pdftex.def Info: ../graphics/pbptrap.pdf used on input line 786.
+(pdftex.def)             Requested size: 56.74298pt x 84.93564pt.
+
+<../graphics/para.pdf, id=249, 169.39491pt x 56.80273pt>
+File: ../graphics/para.pdf Graphic file (type pdf)
+
+<use ../graphics/para.pdf>
+Package pdftex.def Info: ../graphics/para.pdf used on input line 792.
+(pdftex.def)             Requested size: 169.39449pt x 56.80258pt.
+ [26 <../graphics/pbpdavinci.pdf> <../graphics/trap.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/trap.pdf): PDF inclusion: multiple p
+dfs with page group included in a single page
+> <../graphics/pbptrap.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/pbptrap.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>] <../graphics/para3.pdf, id=257, 169.39491pt x 56.80273pt>
+File: ../graphics/para3.pdf Graphic file (type pdf)
+
+<use ../graphics/para3.pdf>
+Package pdftex.def Info: ../graphics/para3.pdf used on input line 798.
+(pdftex.def)             Requested size: 169.39449pt x 56.80258pt.
+
+<../graphics/paragiorgio.pdf, id=258, 156.78882pt x 85.7016pt>
+File: ../graphics/paragiorgio.pdf Graphic file (type pdf)
+
+<use ../graphics/paragiorgio.pdf>
+Package pdftex.def Info: ../graphics/paragiorgio.pdf used on input line 805.
+(pdftex.def)             Requested size: 156.78842pt x 85.70139pt.
+
+<../graphics/pbpquadarea.pdf, id=259, 277.69092pt x 143.5263pt>
+File: ../graphics/pbpquadarea.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpquadarea.pdf>
+Package pdftex.def Info: ../graphics/pbpquadarea.pdf used on input line 819.
+(pdftex.def)             Requested size: 194.38231pt x 100.46773pt.
+
+Underfull \vbox (badness 3679) has occurred while \output is active []
+
+ [27 <../graphics/para.pdf> <../graphics/para3.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/para3.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <../graphics/paragiorgio.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/paragiorgio.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>] <../graphics/119hw5_2.pdf, id=267, 230.17769pt x 142.97087pt>
+File: ../graphics/119hw5_2.pdf Graphic file (type pdf)
+
+<use ../graphics/119hw5_2.pdf>
+Package pdftex.def Info: ../graphics/119hw5_2.pdf used on input line 827.
+(pdftex.def)             Requested size: 161.12326pt x 100.07892pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28 <../graphics/pbpquadarea.pdf> <../graphics/119hw5_2.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/119hw5_2.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+File: ../graphics/triparadox.pdf Graphic file (type pdf)
+ <use ../graphics/triparadox.pdf>
+Package pdftex.def Info: ../graphics/triparadox.pdf used on input line 838.
+(pdftex.def)             Requested size: 218.8755pt x 218.8755pt.
+
+<../graphics/triparadox2.pdf, id=274, 236.32619pt x 254.36635pt>
+File: ../graphics/triparadox2.pdf Graphic file (type pdf)
+
+<use ../graphics/triparadox2.pdf>
+Package pdftex.def Info: ../graphics/triparadox2.pdf used on input line 847.
+(pdftex.def)             Requested size: 189.0612pt x 203.49335pt.
+ [29 <../graphics/triparadox2.pdf>]
+<../graphics/pbpsqgeo.pdf, id=280, 122.52408pt x 126.11708pt>
+File: ../graphics/pbpsqgeo.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpsqgeo.pdf>
+Package pdftex.def Info: ../graphics/pbpsqgeo.pdf used on input line 858.
+(pdftex.def)             Requested size: 122.52376pt x 126.11676pt.
+
+<../graphics/pbpgengeo.pdf, id=281, 208.97202pt x 201.5093pt>
+File: ../graphics/pbpgengeo.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpgengeo.pdf>
+Package pdftex.def Info: ../graphics/pbpgengeo.pdf used on input line 865.
+(pdftex.def)             Requested size: 208.97148pt x 201.50879pt.
+File: ../graphics/pbptriangle.pdf Graphic file (type pdf)
+ <use ../graphics/pbptriangle.pdf>
+Package pdftex.def Info: ../graphics/pbptriangle.pdf used on input line 872.
+(pdftex.def)             Requested size: 114.60468pt x 99.32002pt.
+ [30 <../graphics/pbpsqgeo.pdf> <../graphics/pbpgengeo.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/pbpgengeo.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>]
+File: ../graphics/pbpcas.pdf Graphic file (type pdf)
+ <use ../graphics/pbpcas.pdf>
+Package pdftex.def Info: ../graphics/pbpcas.pdf used on input line 884.
+(pdftex.def)             Requested size: 186.87737pt x 97.77625pt.
+) (../chapters/compass.tex [31]
+Chapter 2.
+[32
+
+] <../graphics/eqtri.pdf, id=307, 187.70125pt x 119.44624pt>
+File: ../graphics/eqtri.pdf Graphic file (type pdf)
+
+<use ../graphics/eqtri.pdf>
+Package pdftex.def Info: ../graphics/eqtri.pdf used on input line 101.
+(pdftex.def)             Requested size: 187.70079pt x 119.44594pt.
+ [33]
+<../graphics/bisectseg.pdf, id=311, 181.67876pt x 123.46124pt>
+File: ../graphics/bisectseg.pdf Graphic file (type pdf)
+
+<use ../graphics/bisectseg.pdf>
+Package pdftex.def Info: ../graphics/bisectseg.pdf used on input line 151.
+(pdftex.def)             Requested size: 181.6783pt x 123.46092pt.
+ [34 <../graphics/eqtri.pdf>]
+<../graphics/perpfrompoint.pdf, id=317, 277.035pt x 211.79124pt>
+File: ../graphics/perpfrompoint.pdf Graphic file (type pdf)
+
+<use ../graphics/perpfrompoint.pdf>
+Package pdftex.def Info: ../graphics/perpfrompoint.pdf used on input line 165.
+(pdftex.def)             Requested size: 277.03432pt x 211.79073pt.
+
+<../graphics/bisectangle.pdf, id=318, 235.68504pt x 193.75465pt>
+File: ../graphics/bisectangle.pdf Graphic file (type pdf)
+
+<use ../graphics/bisectangle.pdf>
+Package pdftex.def Info: ../graphics/bisectangle.pdf used on input line 182.
+(pdftex.def)             Requested size: 235.68446pt x 193.75418pt.
+ [35 <../graphics/bisectseg.pdf> <../graphics/perpfrompoint.pdf>]
+<../graphics/copyangle.pdf, id=326, 143.53625pt x 113.42375pt>
+File: ../graphics/copyangle.pdf Graphic file (type pdf)
+
+<use ../graphics/copyangle.pdf>
+Package pdftex.def Info: ../graphics/copyangle.pdf used on input line 204.
+(pdftex.def)             Requested size: 143.53589pt x 113.42346pt.
+ [36 <../graphics/bisectangle.pdf> <../graphics/copyangle.pdf>] <../graphics/pa
+rallel.pdf, id=334, 228.855pt x 210.7875pt>
+File: ../graphics/parallel.pdf Graphic file (type pdf)
+
+<use ../graphics/parallel.pdf>
+Package pdftex.def Info: ../graphics/parallel.pdf used on input line 220.
+(pdftex.def)             Requested size: 228.85443pt x 210.78699pt.
+ [37 <../graphics/parallel.pdf>]
+<../graphics/5gonPiece.pdf, id=341, 289.08pt x 184.89986pt>
+File: ../graphics/5gonPiece.pdf Graphic file (type pdf)
+
+<use ../graphics/5gonPiece.pdf>
+Package pdftex.def Info: ../graphics/5gonPiece.pdf used on input line 257.
+(pdftex.def)             Requested size: 289.07928pt x 184.8994pt.
+ [38]
+<../graphics/7gonPiece.pdf, id=346, 156.80501pt x 170.4104pt>
+File: ../graphics/7gonPiece.pdf Graphic file (type pdf)
+
+<use ../graphics/7gonPiece.pdf>
+Package pdftex.def Info: ../graphics/7gonPiece.pdf used on input line 262.
+(pdftex.def)             Requested size: 156.80461pt x 170.40997pt.
+ [39 <../graphics/5gonPiece.pdf> <../graphics/7gonPiece.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/7gonPiece.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>] [40] <../graphics/circumcircle.pdf, id=371, 172.645pt x 139.52126pt>
+File: ../graphics/circumcircle.pdf Graphic file (type pdf)
+
+<use ../graphics/circumcircle.pdf>
+Package pdftex.def Info: ../graphics/circumcircle.pdf used on input line 406.
+(pdftex.def)             Requested size: 144.54pt x 116.80957pt.
+ [41]
+<../graphics/incircle.pdf, id=375, 172.645pt x 139.52126pt>
+File: ../graphics/incircle.pdf Graphic file (type pdf)
+
+<use ../graphics/incircle.pdf>
+Package pdftex.def Info: ../graphics/incircle.pdf used on input line 419.
+(pdftex.def)             Requested size: 144.54pt x 116.80957pt.
+ [42 <../graphics/circumcircle.pdf> <../graphics/incircle.pdf>] [43] [44]
+Overfull \hbox (15.12431pt too wide) in paragraph at lines 573--576
+[]\OT1/cmr/bx/n/10 Question []\OT1/cmr/m/n/10 (-20) Re-mem-ber ear-lier when we
+ asked about the con-verse to the Pythagorean
+ []
+
+[45] <../graphics/challenge1.pdf, id=393, 103.38625pt x 38.1425pt>
+File: ../graphics/challenge1.pdf Graphic file (type pdf)
+
+<use ../graphics/challenge1.pdf>
+Package pdftex.def Info: ../graphics/challenge1.pdf used on input line 632.
+(pdftex.def)             Requested size: 103.38599pt x 38.1424pt.
+ [46 <../graphics/challenge1.pdf>]
+<../graphics/challenge2.pdf, id=399, 116.435pt x 80.3pt>
+File: ../graphics/challenge2.pdf Graphic file (type pdf)
+
+<use ../graphics/challenge2.pdf>
+Package pdftex.def Info: ../graphics/challenge2.pdf used on input line 656.
+(pdftex.def)             Requested size: 116.43471pt x 80.29979pt.
+
+<../graphics/challenge3.pdf, id=400, 101.37875pt x 41.15375pt>
+File: ../graphics/challenge3.pdf Graphic file (type pdf)
+
+<use ../graphics/challenge3.pdf>
+Package pdftex.def Info: ../graphics/challenge3.pdf used on input line 677.
+(pdftex.def)             Requested size: 101.3785pt x 41.15364pt.
+ [47 <../graphics/challenge2.pdf> <../graphics/challenge3.pdf>]
+<../graphics/challenge4.pdf, id=408, 167.62625pt x 142.5325pt>
+File: ../graphics/challenge4.pdf Graphic file (type pdf)
+
+<use ../graphics/challenge4.pdf>
+Package pdftex.def Info: ../graphics/challenge4.pdf used on input line 720.
+(pdftex.def)             Requested size: 167.62582pt x 142.53214pt.
+ [48 <../graphics/challenge4.pdf>] [49]
+[50] [51] [52]) (../chapters/origami.tex [53]
+Chapter 3.
+[54
+
+] <../graphics/origamiBisect.pdf, id=433, 73.06497pt x 68.85712pt>
+File: ../graphics/origamiBisect.pdf Graphic file (type pdf)
+
+<use ../graphics/origamiBisect.pdf>
+Package pdftex.def Info: ../graphics/origamiBisect.pdf used on input line 89.
+(pdftex.def)             Requested size: 73.06479pt x 68.85695pt.
+ [55 <../graphics/origamiBisect.pdf>]
+<../graphics/origamiPerpPoint.pdf, id=440, 73.06497pt x 68.85712pt>
+File: ../graphics/origamiPerpPoint.pdf Graphic file (type pdf)
+
+<use ../graphics/origamiPerpPoint.pdf>
+Package pdftex.def Info: ../graphics/origamiPerpPoint.pdf used on input line 10
+8.
+(pdftex.def)             Requested size: 73.06479pt x 68.85695pt.
+
+<../graphics/origamiBangle.pdf, id=441, 73.06497pt x 68.85712pt>
+File: ../graphics/origamiBangle.pdf Graphic file (type pdf)
+
+<use ../graphics/origamiBangle.pdf>
+Package pdftex.def Info: ../graphics/origamiBangle.pdf used on input line 127.
+(pdftex.def)             Requested size: 73.06479pt x 68.85695pt.
+
+<../graphics/origamiParaPoint.pdf, id=442, 83.58253pt x 68.85712pt>
+File: ../graphics/origamiParaPoint.pdf Graphic file (type pdf)
+
+<use ../graphics/origamiParaPoint.pdf>
+Package pdftex.def Info: ../graphics/origamiParaPoint.pdf used on input line 14
+7.
+(pdftex.def)             Requested size: 83.58232pt x 68.85695pt.
+ [56 <../graphics/origamiPerpPoint.pdf> <../graphics/origamiBangle.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/origamiBangle.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>] <../graphics/origamiCircLine.pdf, id=449, 73.06497pt x 92.58188pt>
+File: ../graphics/origamiCircLine.pdf Graphic file (type pdf)
+
+<use ../graphics/origamiCircLine.pdf>
+Package pdftex.def Info: ../graphics/origamiCircLine.pdf used on input line 190
+.
+(pdftex.def)             Requested size: 73.06479pt x 92.58163pt.
+ [57 <../graphics/origamiParaPoint.pdf> <../graphics/origamiCircLine.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/origamiCircLine.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>] <../graphics/origamiTriangle.pdf, id=456, 59.7396pt x 68.85712pt>
+File: ../graphics/origamiTriangle.pdf Graphic file (type pdf)
+
+<use ../graphics/origamiTriangle.pdf>
+Package pdftex.def Info: ../graphics/origamiTriangle.pdf used on input line 213
+.
+(pdftex.def)             Requested size: 59.73943pt x 68.85695pt.
+
+<../graphics/parabolapointline.pdf, id=457, 301.125pt x 460.41208pt>
+File: ../graphics/parabolapointline.pdf Graphic file (type pdf)
+
+<use ../graphics/parabolapointline.pdf>
+Package pdftex.def Info: ../graphics/parabolapointline.pdf used on input line 2
+52.
+(pdftex.def)             Requested size: 301.12425pt x 460.41095pt.
+ [58 <../graphics/origamiTriangle.pdf>]
+<../graphics/envelope.pdf, id=463, 301.125pt x 248.36389pt>
+File: ../graphics/envelope.pdf Graphic file (type pdf)
+
+<use ../graphics/envelope.pdf>
+Package pdftex.def Info: ../graphics/envelope.pdf used on input line 259.
+(pdftex.def)             Requested size: 180.67638pt x 149.01947pt.
+ [59 <../graphics/parabolapointline.pdf> <../graphics/envelope.pdf>]
+<../graphics/origamiTrisection.pdf, id=471, 166.6225pt x 108.405pt>
+File: ../graphics/origamiTrisection.pdf Graphic file (type pdf)
+
+<use ../graphics/origamiTrisection.pdf>
+Package pdftex.def Info: ../graphics/origamiTrisection.pdf used on input line 3
+05.
+(pdftex.def)             Requested size: 166.62209pt x 108.40472pt.
+ [60 <../graphics/origamiTrisection.pdf>] <../graphics/morley.pdf, id=477, 169.
+63374pt x 114.4275pt>
+File: ../graphics/morley.pdf Graphic file (type pdf)
+
+<use ../graphics/morley.pdf>
+Package pdftex.def Info: ../graphics/morley.pdf used on input line 348.
+(pdftex.def)             Requested size: 84.81665pt x 57.21361pt.
+ [61] [62 <../graphics/morley.pdf>] [63]
+<../graphics/origamiPBPTri.pdf, id=490, 148.54698pt x 58.21349pt>
+File: ../graphics/origamiPBPTri.pdf Graphic file (type pdf)
+
+<use ../graphics/origamiPBPTri.pdf>
+Package pdftex.def Info: ../graphics/origamiPBPTri.pdf used on input line 493.
+(pdftex.def)             Requested size: 148.5466pt x 58.21333pt.
+ [64 <../graphics/origamiPBPTri.pdf>]
+[65] [66] <../graphics/split1.pdf, id=504, 144.48882pt x 102.91148pt>
+File: ../graphics/split1.pdf Graphic file (type pdf)
+
+<use ../graphics/split1.pdf>
+Package pdftex.def Info: ../graphics/split1.pdf used on input line 629.
+(pdftex.def)             Requested size: 144.48845pt x 102.91121pt.
+
+<../graphics/split2.pdf, id=505, 144.52394pt x 98.06938pt>
+File: ../graphics/split2.pdf Graphic file (type pdf)
+
+<use ../graphics/split2.pdf>
+Package pdftex.def Info: ../graphics/split2.pdf used on input line 650.
+(pdftex.def)             Requested size: 144.52357pt x 98.06914pt.
+
+<../graphics/split3.pdf, id=506, 144.54pt x 96.74162pt>
+File: ../graphics/split3.pdf Graphic file (type pdf)
+
+<use ../graphics/split3.pdf>
+Package pdftex.def Info: ../graphics/split3.pdf used on input line 650.
+(pdftex.def)             Requested size: 144.53963pt x 96.74138pt.
+ [67 <../graphics/split1.pdf>]
+<../graphics/split4.pdf, id=525, 144.57312pt x 103.3461pt>
+File: ../graphics/split4.pdf Graphic file (type pdf)
+
+<use ../graphics/split4.pdf>
+Package pdftex.def Info: ../graphics/split4.pdf used on input line 659.
+(pdftex.def)             Requested size: 144.57275pt x 103.34584pt.
+
+<../graphics/split5.pdf, id=526, 144.56007pt x 105.08058pt>
+File: ../graphics/split5.pdf Graphic file (type pdf)
+
+<use ../graphics/split5.pdf>
+Package pdftex.def Info: ../graphics/split5.pdf used on input line 659.
+(pdftex.def)             Requested size: 144.55971pt x 105.08032pt.
+ [68 <../graphics/split2.pdf> <../graphics/split3.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/split3.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <../graphics/split4.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/split4.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+> <../graphics/split5.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/split5.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>] [69]
+File: ../graphics/split1.pdf Graphic file (type pdf)
+ <use ../graphics/split1.pdf>
+Package pdftex.def Info: ../graphics/split1.pdf used on input line 753.
+(pdftex.def)             Requested size: 144.48845pt x 102.91121pt.
+ [70]
+File: ../graphics/split1.pdf Graphic file (type pdf)
+ <use ../graphics/split1.pdf>
+Package pdftex.def Info: ../graphics/split1.pdf used on input line 855.
+(pdftex.def)             Requested size: 144.48845pt x 102.91121pt.
+ [71]
+[72] [73] <../graphics/origamiSimQ.pdf, id=587, 145.33899pt x 73.06898pt>
+File: ../graphics/origamiSimQ.pdf Graphic file (type pdf)
+
+<use ../graphics/origamiSimQ.pdf>
+Package pdftex.def Info: ../graphics/origamiSimQ.pdf used on input line 967.
+(pdftex.def)             Requested size: 145.33861pt x 73.0688pt.
+ [74 <../graphics/origamiSimQ.pdf>] [75]
+<../graphics/pbpdilation.pdf, id=596, 217.54008pt x 130.8839pt>
+File: ../graphics/pbpdilation.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpdilation.pdf>
+Package pdftex.def Info: ../graphics/pbpdilation.pdf used on input line 1092.
+(pdftex.def)             Requested size: 217.53954pt x 130.88356pt.
+ [76]) (../chapters/coordinate.tex [77 <../graphics/pbpdilation.pdf>]
+Chapter 4.
+[78
+
+] [79] [80] [81] [82]
+File: ../graphics/parabolapointline.pdf Graphic file (type pdf)
+ <use ../graphics/parabolapointline.pdf>
+Package pdftex.def Info: ../graphics/parabolapointline.pdf used on input line 3
+38.
+(pdftex.def)             Requested size: 301.12425pt x 460.41095pt.
+ [83] [84]
+[85] [86] [87] [88]
+<../graphics/numberline.pdf, id=642, 215.1947pt x 16.75204pt>
+File: ../graphics/numberline.pdf Graphic file (type pdf)
+
+<use ../graphics/numberline.pdf>
+Package pdftex.def Info: ../graphics/numberline.pdf used on input line 538.
+(pdftex.def)             Requested size: 215.19417pt x 16.75198pt.
+ [89 <../graphics/numberline.pdf>]
+<../graphics/multiplication.pdf, id=654, 153.57375pt x 170.6375pt>
+File: ../graphics/multiplication.pdf Graphic file (type pdf)
+
+<use ../graphics/multiplication.pdf>
+Package pdftex.def Info: ../graphics/multiplication.pdf used on input line 616.
+
+(pdftex.def)             Requested size: 153.57336pt x 170.63707pt.
+ [90 <../graphics/multiplication.pdf>]
+<../graphics/division.pdf, id=661, 156.585pt x 146.5475pt>
+File: ../graphics/division.pdf Graphic file (type pdf)
+
+<use ../graphics/division.pdf>
+Package pdftex.def Info: ../graphics/division.pdf used on input line 631.
+(pdftex.def)             Requested size: 156.58461pt x 146.54712pt.
+ [91 <../graphics/division.pdf>]
+<../graphics/sqrt.pdf, id=668, 167.62625pt x 155.58125pt>
+File: ../graphics/sqrt.pdf Graphic file (type pdf)
+
+<use ../graphics/sqrt.pdf>
+Package pdftex.def Info: ../graphics/sqrt.pdf used on input line 723.
+(pdftex.def)             Requested size: 167.62582pt x 155.58086pt.
+ [92] [93 <../graphics/sqrt.pdf>] [94] [95] [96]
+[97] <../graphics/impostrisect.pdf, id=691, 157.58875pt x 44.165pt>
+File: ../graphics/impostrisect.pdf Graphic file (type pdf)
+
+<use ../graphics/impostrisect.pdf>
+Package pdftex.def Info: ../graphics/impostrisect.pdf used on input line 937.
+(pdftex.def)             Requested size: 157.58835pt x 44.16487pt.
+ [98 <../graphics/impostrisect.pdf>]
+<../graphics/origamiCube.pdf, id=697, 207.77625pt x 208.78pt>
+File: ../graphics/origamiCube.pdf Graphic file (type pdf)
+
+<use ../graphics/origamiCube.pdf>
+Package pdftex.def Info: ../graphics/origamiCube.pdf used on input line 969.
+(pdftex.def)             Requested size: 207.77573pt x 208.77946pt.
+ [99 <../graphics/origamiCube.pdf>])
+(../chapters/city.tex [100]
+Chapter 5.
+<../graphics/citygrid.pdf, id=706, 271.51447pt x 126.97661pt>
+File: ../graphics/citygrid.pdf Graphic file (type pdf)
+
+<use ../graphics/citygrid.pdf>
+Package pdftex.def Info: ../graphics/citygrid.pdf used on input line 46.
+(pdftex.def)             Requested size: 271.51378pt x 126.97629pt.
+ [101
+
+]
+<../graphics/citygrideg1.pdf, id=710, 271.51437pt x 126.9744pt>
+File: ../graphics/citygrideg1.pdf Graphic file (type pdf)
+
+<use ../graphics/citygrideg1.pdf>
+Package pdftex.def Info: ../graphics/citygrideg1.pdf used on input line 63.
+(pdftex.def)             Requested size: 271.51369pt x 126.97408pt.
+ [102 <../graphics/citygrid.pdf> <../graphics/citygrideg1.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/citygrideg1.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>] <../graphics/citytri.pdf, id=724, 271.51437pt x 126.9744pt>
+File: ../graphics/citytri.pdf Graphic file (type pdf)
+
+<use ../graphics/citytri.pdf>
+Package pdftex.def Info: ../graphics/citytri.pdf used on input line 110.
+(pdftex.def)             Requested size: 271.51369pt x 126.97408pt.
+ [103 <../graphics/citytri.pdf>]
+<../graphics/citycircle.pdf, id=731, 145.04187pt x 108.90704pt>
+File: ../graphics/citycircle.pdf Graphic file (type pdf)
+
+<use ../graphics/citycircle.pdf>
+Package pdftex.def Info: ../graphics/citycircle.pdf used on input line 133.
+(pdftex.def)             Requested size: 145.0415pt x 108.90675pt.
+ [104 <../graphics/citycircle.pdf>] [105]
+[106] [107] <../graphics/emidset.pdf, id=746, 104.2567pt x 93.73932pt>
+File: ../graphics/emidset.pdf Graphic file (type pdf)
+
+<use ../graphics/emidset.pdf>
+Package pdftex.def Info: ../graphics/emidset.pdf used on input line 290.
+(pdftex.def)             Requested size: 104.25644pt x 93.73907pt.
+
+<../graphics/cmidset.pdf, id=747, 235.37938pt x 235.37938pt>
+File: ../graphics/cmidset.pdf Graphic file (type pdf)
+
+<use ../graphics/cmidset.pdf>
+Package pdftex.def Info: ../graphics/cmidset.pdf used on input line 321.
+(pdftex.def)             Requested size: 235.3788pt x 235.3788pt.
+
+Underfull \vbox (badness 3407) has occurred while \output is active []
+
+ [108 <../graphics/emidset.pdf>]
+File: ../graphics/parabolapointline.pdf Graphic file (type pdf)
+ <use ../graphics/parabolapointline.pdf>
+Package pdftex.def Info: ../graphics/parabolapointline.pdf used on input line 3
+51.
+(pdftex.def)             Requested size: 301.12425pt x 460.41095pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [109 <../graphics/cmidset.pdf>]
+<../graphics/cparabola.pdf, id=773, 217.31187pt x 163.10938pt>
+File: ../graphics/cparabola.pdf Graphic file (type pdf)
+
+<use ../graphics/cparabola.pdf>
+Package pdftex.def Info: ../graphics/cparabola.pdf used on input line 361.
+(pdftex.def)             Requested size: 217.31133pt x 163.10896pt.
+ [110 <../graphics/cparabola.pdf>]
+<../graphics/root2para.pdf, id=786, 393.87149pt x 72.77188pt>
+File: ../graphics/root2para.pdf Graphic file (type pdf)
+
+<use ../graphics/root2para.pdf>
+Package pdftex.def Info: ../graphics/root2para.pdf used on input line 396.
+(pdftex.def)             Requested size: 289.07999pt x 53.41394pt.
+ [111 <../graphics/root2para.pdf>] [112]
+[113] <../graphics/citygrideg2.pdf, id=798, 271.51437pt x 126.9744pt>
+File: ../graphics/citygrideg2.pdf Graphic file (type pdf)
+
+<use ../graphics/citygrideg2.pdf>
+Package pdftex.def Info: ../graphics/citygrideg2.pdf used on input line 499.
+(pdftex.def)             Requested size: 271.51369pt x 126.97408pt.
+
+<../graphics/citygrideg3.pdf, id=799, 271.51437pt x 126.9784pt>
+File: ../graphics/citygrideg3.pdf Graphic file (type pdf)
+
+<use ../graphics/citygrideg3.pdf>
+Package pdftex.def Info: ../graphics/citygrideg3.pdf used on input line 533.
+(pdftex.def)             Requested size: 271.51369pt x 126.97807pt.
+ [114 <../graphics/citygrideg2.pdf>]
+<../graphics/citygrideg4.pdf, id=812, 271.51437pt x 126.9784pt>
+File: ../graphics/citygrideg4.pdf Graphic file (type pdf)
+
+<use ../graphics/citygrideg4.pdf>
+Package pdftex.def Info: ../graphics/citygrideg4.pdf used on input line 541.
+(pdftex.def)             Requested size: 271.51369pt x 126.97807pt.
+
+<../graphics/citygrideg6.pdf, id=813, 271.51437pt x 126.9784pt>
+File: ../graphics/citygrideg6.pdf Graphic file (type pdf)
+
+<use ../graphics/citygrideg6.pdf>
+Package pdftex.def Info: ../graphics/citygrideg6.pdf used on input line 572.
+(pdftex.def)             Requested size: 271.51369pt x 126.97807pt.
+ [115 <../graphics/citygrideg3.pdf> <../graphics/citygrideg4.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/citygrideg4.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>] <../graphics/citygrideg7.pdf, id=836, 271.51437pt x 126.9784pt>
+File: ../graphics/citygrideg7.pdf Graphic file (type pdf)
+
+<use ../graphics/citygrideg7.pdf>
+Package pdftex.def Info: ../graphics/citygrideg7.pdf used on input line 584.
+(pdftex.def)             Requested size: 271.51369pt x 126.97807pt.
+ [116 <../graphics/citygrideg6.pdf> <../graphics/citygrideg7.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/citygrideg7.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+File: ../graphics/citygrideg2.pdf Graphic file (type pdf)
+ <use ../graphics/citygrideg2.pdf>
+Package pdftex.def Info: ../graphics/citygrideg2.pdf used on input line 605.
+(pdftex.def)             Requested size: 271.51369pt x 126.97408pt.
+File: ../graphics/citygrideg3.pdf Graphic file (type pdf)
+ <use ../graphics/citygrideg3.pdf>
+Package pdftex.def Info: ../graphics/citygrideg3.pdf used on input line 613.
+(pdftex.def)             Requested size: 271.51369pt x 126.97807pt.
+File: ../graphics/citygrideg6.pdf Graphic file (type pdf)
+
+<use ../graphics/citygrideg6.pdf>
+Package pdftex.def Info: ../graphics/citygrideg6.pdf used on input line 621.
+(pdftex.def)             Requested size: 271.51369pt x 126.97807pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [117]
+<../graphics/cityST.pdf, id=860, 271.51437pt x 126.9744pt>
+File: ../graphics/cityST.pdf Graphic file (type pdf)
+
+<use ../graphics/cityST.pdf>
+Package pdftex.def Info: ../graphics/cityST.pdf used on input line 632.
+(pdftex.def)             Requested size: 271.51369pt x 126.97408pt.
+
+<../graphics/cityBH.pdf, id=861, 271.51437pt x 126.9744pt>
+File: ../graphics/cityBH.pdf Graphic file (type pdf)
+
+<use ../graphics/cityBH.pdf>
+Package pdftex.def Info: ../graphics/cityBH.pdf used on input line 640.
+(pdftex.def)             Requested size: 271.51369pt x 126.97408pt.
+ [118 <../graphics/cityST.pdf> <../graphics/cityBH.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/cityBH.pdf): PDF inclusion: multiple
+ pdfs with page group included in a single page
+>] <../graphics/cityPS.pdf, id=881, 271.0125pt x 127.47626pt>
+File: ../graphics/cityPS.pdf Graphic file (type pdf)
+
+<use ../graphics/cityPS.pdf>
+Package pdftex.def Info: ../graphics/cityPS.pdf used on input line 680.
+(pdftex.def)             Requested size: 271.01183pt x 127.47594pt.
+
+<../graphics/citygrideg10.pdf, id=882, 271.51437pt x 126.9784pt>
+File: ../graphics/citygrideg10.pdf Graphic file (type pdf)
+
+<use ../graphics/citygrideg10.pdf>
+Package pdftex.def Info: ../graphics/citygrideg10.pdf used on input line 701.
+(pdftex.def)             Requested size: 271.51369pt x 126.97807pt.
+
+Underfull \vbox (badness 3323) has occurred while \output is active []
+
+ [119 <../graphics/cityPS.pdf>]
+<../graphics/cityGrill.pdf, id=893, 271.51437pt x 126.9744pt>
+File: ../graphics/cityGrill.pdf Graphic file (type pdf)
+
+<use ../graphics/cityGrill.pdf>
+Package pdftex.def Info: ../graphics/cityGrill.pdf used on input line 710.
+(pdftex.def)             Requested size: 271.51369pt x 126.97408pt.
+
+<../graphics/cityHigh.pdf, id=894, 272.44388pt x 126.9744pt>
+File: ../graphics/cityHigh.pdf Graphic file (type pdf)
+
+<use ../graphics/cityHigh.pdf>
+Package pdftex.def Info: ../graphics/cityHigh.pdf used on input line 716.
+(pdftex.def)             Requested size: 272.4432pt x 126.97408pt.
+ [120 <../graphics/citygrideg10.pdf> <../graphics/cityGrill.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/cityGrill.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <../graphics/cityHigh.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/cityHigh.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>] <../graphics/cityZeb.pdf, id=923, 271.51437pt x 126.9744pt>
+File: ../graphics/cityZeb.pdf Graphic file (type pdf)
+
+<use ../graphics/cityZeb.pdf>
+Package pdftex.def Info: ../graphics/cityZeb.pdf used on input line 733.
+(pdftex.def)             Requested size: 271.51369pt x 126.97408pt.
+) (../chapters/isometries.tex [121 <../graphics/cityZeb.pdf>]
+Chapter 6.
+[122
+
+] <../graphics/transIdeaEg.pdf, id=941, 218.91568pt x 146.66695pt>
+File: ../graphics/transIdeaEg.pdf Graphic file (type pdf)
+
+<use ../graphics/transIdeaEg.pdf>
+Package pdftex.def Info: ../graphics/transIdeaEg.pdf used on input line 134.
+(pdftex.def)             Requested size: 218.91513pt x 146.66658pt.
+ [123]
+<../graphics/transEg1.pdf, id=945, 218.93695pt x 146.66695pt>
+File: ../graphics/transEg1.pdf Graphic file (type pdf)
+
+<use ../graphics/transEg1.pdf>
+Package pdftex.def Info: ../graphics/transEg1.pdf used on input line 160.
+(pdftex.def)             Requested size: 218.9364pt x 146.66658pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124 <../graphics/transIdeaEg.pdf> <../graphics/transEg1.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/transEg1.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>] <../graphics/refIdeaEg.pdf, id=952, 219.23485pt x 146.9406pt>
+File: ../graphics/refIdeaEg.pdf Graphic file (type pdf)
+
+<use ../graphics/refIdeaEg.pdf>
+Package pdftex.def Info: ../graphics/refIdeaEg.pdf used on input line 228.
+(pdftex.def)             Requested size: 219.2343pt x 146.94023pt.
+
+Underfull \vbox (badness 1320) has occurred while \output is active []
+
+ [125]
+<../graphics/refEg1.pdf, id=956, 218.91568pt x 146.66695pt>
+File: ../graphics/refEg1.pdf Graphic file (type pdf)
+
+<use ../graphics/refEg1.pdf>
+Package pdftex.def Info: ../graphics/refEg1.pdf used on input line 273.
+(pdftex.def)             Requested size: 218.91513pt x 146.66658pt.
+
+Underfull \vbox (badness 7667) has occurred while \output is active []
+
+ [126 <../graphics/refIdeaEg.pdf>] [127 <../graphics/refEg1.pdf>]
+<../graphics/rotIdeaEg.pdf, id=969, 218.91568pt x 146.66695pt>
+File: ../graphics/rotIdeaEg.pdf Graphic file (type pdf)
+
+<use ../graphics/rotIdeaEg.pdf>
+Package pdftex.def Info: ../graphics/rotIdeaEg.pdf used on input line 347.
+(pdftex.def)             Requested size: 218.91513pt x 146.66658pt.
+
+<../graphics/rotEg1.pdf, id=970, 218.91568pt x 162.53523pt>
+File: ../graphics/rotEg1.pdf Graphic file (type pdf)
+
+<use ../graphics/rotEg1.pdf>
+Package pdftex.def Info: ../graphics/rotEg1.pdf used on input line 385.
+(pdftex.def)             Requested size: 218.91513pt x 162.53482pt.
+
+Underfull \vbox (badness 4096) has occurred while \output is active []
+
+ [128 <../graphics/rotIdeaEg.pdf>] [129 <../graphics/rotEg1.pdf>]
+<../graphics/wiggle.pdf, id=981, 239.05206pt x 29.57854pt>
+File: ../graphics/wiggle.pdf Graphic file (type pdf)
+
+<use ../graphics/wiggle.pdf>
+Package pdftex.def Info: ../graphics/wiggle.pdf used on input line 457.
+(pdftex.def)             Requested size: 239.05147pt x 29.57846pt.
+ [130 <../graphics/wiggle.pdf>] [131] [132]
+[133] [134]
+Overfull \hbox (4.37404pt too wide) in paragraph at lines 813--813
+[] 
+ []
+
+[135] [136] [137] [138] [139] [140] [141]
+<../graphics/symTri.pdf, id=1040, 86.11191pt x 83.26663pt>
+File: ../graphics/symTri.pdf Graphic file (type pdf)
+
+<use ../graphics/symTri.pdf>
+Package pdftex.def Info: ../graphics/symTri.pdf used on input line 1291.
+(pdftex.def)             Requested size: 86.11168pt x 83.26642pt.
+ [142 <../graphics/symTri.pdf>]
+<../graphics/symTriRef.pdf, id=1046, 114.03864pt x 96.967pt>
+File: ../graphics/symTriRef.pdf Graphic file (type pdf)
+
+<use ../graphics/symTriRef.pdf>
+Package pdftex.def Info: ../graphics/symTriRef.pdf used on input line 1367.
+(pdftex.def)             Requested size: 114.03835pt x 96.96675pt.
+ [143 <../graphics/symTriRef.pdf>]
+<../graphics/symTriRef1.pdf, id=1052, 215.62927pt x 74.74855pt>
+File: ../graphics/symTriRef1.pdf Graphic file (type pdf)
+
+<use ../graphics/symTriRef1.pdf>
+Package pdftex.def Info: ../graphics/symTriRef1.pdf used on input line 1380.
+(pdftex.def)             Requested size: 215.62872pt x 74.74835pt.
+
+<../graphics/symTriComp1.pdf, id=1053, 340.9307pt x 74.66072pt>
+File: ../graphics/symTriComp1.pdf Graphic file (type pdf)
+
+<use ../graphics/symTriComp1.pdf>
+Package pdftex.def Info: ../graphics/symTriComp1.pdf used on input line 1420.
+(pdftex.def)             Requested size: 340.92984pt x 74.66054pt.
+ [144 <../graphics/symTriRef1.pdf> <../graphics/symTriComp1.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/symTriComp1.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+File: ../graphics/symTriRef.pdf Graphic file (type pdf)
+ <use ../graphics/symTriRef.pdf>
+Package pdftex.def Info: ../graphics/symTriRef.pdf used on input line 1438.
+(pdftex.def)             Requested size: 114.03835pt x 96.96675pt.
+ [145] [146]) [147]
+Appendix A.
+(../chapters/appendix/venn.tex [148
+
+]
+<../graphics/venn.pdf, id=1073, 226.34563pt x 186.79788pt>
+File: ../graphics/venn.pdf Graphic file (type pdf)
+
+<use ../graphics/venn.pdf>
+Package pdftex.def Info: ../graphics/venn.pdf used on input line 9.
+(pdftex.def)             Requested size: 226.34506pt x 186.79741pt.
+) (../chapters/appendix/sets.tex [149 <../graphics/venn.pdf>]) (../chapters/app
+endix/louieTri.tex [150]
+<../graphics/llama.pdf, id=1088, 100.51941pt x 125.06035pt>
+File: ../graphics/llama.pdf Graphic file (type pdf)
+
+<use ../graphics/llama.pdf>
+Package pdftex.def Info: ../graphics/llama.pdf used on input line 8.
+(pdftex.def)             Requested size: 58.08961pt x 72.26999pt.
+
+<../graphics/llamaLines.pdf, id=1089, 138.4372pt x 88.67038pt>
+File: ../graphics/llamaLines.pdf Graphic file (type pdf)
+
+<use ../graphics/llamaLines.pdf>
+Package pdftex.def Info: ../graphics/llamaLines.pdf used on input line 28.
+(pdftex.def)             Requested size: 138.43684pt x 88.67015pt.
+
+<../graphics/llamaCorner.pdf, id=1090, 84.62315pt x 74.77446pt>
+File: ../graphics/llamaCorner.pdf Graphic file (type pdf)
+
+<use ../graphics/llamaCorner.pdf>
+Package pdftex.def Info: ../graphics/llamaCorner.pdf used on input line 40.
+(pdftex.def)             Requested size: 84.62294pt x 74.77426pt.
+ [151 <../graphics/llama.pdf> <../graphics/llamaLines.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/llamaLines.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+> <../graphics/llamaCorner.pdf
+
+pdfTeX warning: pdflatex (file ../graphics/llamaCorner.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>] <../graphics/llamaSomer.pdf, id=1099, 197.07893pt x 74.77446pt>
+File: ../graphics/llamaSomer.pdf Graphic file (type pdf)
+
+<use ../graphics/llamaSomer.pdf>
+Package pdftex.def Info: ../graphics/llamaSomer.pdf used on input line 80.
+(pdftex.def)             Requested size: 197.07845pt x 74.77426pt.
+
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
+ [152 <../graphics/llamaSomer.pdf>]) (../chapters/appendix/funkyShapes.tex [153
+]
+<../graphics/funkyshape.pdf, id=1108, 193.44772pt x 108.48029pt>
+File: ../graphics/funkyshape.pdf Graphic file (type pdf)
+
+<use ../graphics/funkyshape.pdf>
+Package pdftex.def Info: ../graphics/funkyshape.pdf used on input line 10.
+(pdftex.def)             Requested size: 193.44724pt x 108.48001pt.
+
+Overfull \hbox (1.07469pt too wide) detected at line 19
+[]
+ []
+
+) (../chapters/appendix/coin.tex [154 <../graphics/funkyshape.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]\OT1/cmr/m/n/10 (+20) always
+ []
+
+
+Overfull \hbox (7.01959pt too wide) in paragraph at lines 69--69
+\OT1/cmr/m/n/10 (-20) bisectors
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+\OT1/cmr/m/n/10 (+20) containing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+\OT1/cmr/m/n/10 (+20) containing
+ []
+
+
+Overfull \hbox (16.88278pt too wide) detected at line 73
+[]
+ []
+
+[155]) (../chapters/appendix/lines.tex [156]) (../chapters/appendix/verify.tex
+[157] [158]) (../chapters/appendix/circThms.tex [159]
+<../graphics/pbpcircthm1.pdf, id=1138, 320.19624pt x 63.23625pt>
+File: ../graphics/pbpcircthm1.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpcircthm1.pdf>
+Package pdftex.def Info: ../graphics/pbpcircthm1.pdf used on input line 21.
+(pdftex.def)             Requested size: 320.19545pt x 63.23608pt.
+
+<../graphics/pbpcircthm2eg.pdf, id=1139, 131.49126pt x 122.4575pt>
+File: ../graphics/pbpcircthm2eg.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpcircthm2eg.pdf>
+Package pdftex.def Info: ../graphics/pbpcircthm2eg.pdf used on input line 36.
+(pdftex.def)             Requested size: 131.49092pt x 122.45718pt.
+ [160 <../graphics/pbpcircthm1.pdf> <../graphics/pbpcircthm2eg.pdf>]
+<../graphics/pbpcircthm2.pdf, id=1147, 320.19624pt x 60.225pt>
+File: ../graphics/pbpcircthm2.pdf Graphic file (type pdf)
+
+<use ../graphics/pbpcircthm2.pdf>
+Package pdftex.def Info: ../graphics/pbpcircthm2.pdf used on input line 51.
+(pdftex.def)             Requested size: 320.19545pt x 60.22484pt.
+) (../chapters/appendix/intoTri.tex [161 <../graphics/pbpcircthm2.pdf>]) (../ch
+apters/appendix/morley.tex [162])
+(../chapters/appendix/rational.tex [163]
+<../graphics/isorighttri.pdf, id=1160, 98.3675pt x 100.375pt>
+File: ../graphics/isorighttri.pdf Graphic file (type pdf)
+
+<use ../graphics/isorighttri.pdf>
+Package pdftex.def Info: ../graphics/isorighttri.pdf used on input line 7.
+(pdftex.def)             Requested size: 98.36723pt x 100.37474pt.
+
+<../graphics/foldisorighttri.pdf, id=1161, 97.36375pt x 95.35625pt>
+File: ../graphics/foldisorighttri.pdf Graphic file (type pdf)
+
+<use ../graphics/foldisorighttri.pdf>
+Package pdftex.def Info: ../graphics/foldisorighttri.pdf used on input line 28.
+
+(pdftex.def)             Requested size: 97.3635pt x 95.356pt.
+)
+(../chapters/appendix/readingInfoFromAGraph.tex [164 <../graphics/isorighttri.p
+df> <../graphics/foldisorighttri.pdf>] [165]
+<../graphics/graphicDetails.pdf, id=1172, 508.90125pt x 725.71124pt>
+File: ../graphics/graphicDetails.pdf Graphic file (type pdf)
+
+<use ../graphics/graphicDetails.pdf>
+Package pdftex.def Info: ../graphics/graphicDetails.pdf used on input line 45.
+(pdftex.def)             Requested size: 381.675pt x 544.2821pt.
+
+Overfull \hbox (36.675pt too wide) detected at line 46
+[]
+ []
+
+
+Overfull \vbox (10.2821pt too high) has occurred while \output is active []
+
+
+[166 <../graphics/graphicDetails.pdf>]) (../chapters/appendix/parabola.tex
+File: ../graphics/parabolapointline.pdf Graphic file (type pdf)
+
+<use ../graphics/parabolapointline.pdf>
+Package pdftex.def Info: ../graphics/parabolapointline.pdf used on input line 8
+.
+(pdftex.def)             Requested size: 301.12425pt x 460.41095pt.
+) (../chapters/appendix/binomPaths.tex
+[167] [168] <../graphics/complexPlane.pdf, id=1185, 305.86803pt x 305.86803pt>
+File: ../graphics/complexPlane.pdf Graphic file (type pdf)
+
+<use ../graphics/complexPlane.pdf>
+Package pdftex.def Info: ../graphics/complexPlane.pdf used on input line 15.
+(pdftex.def)             Requested size: 305.86728pt x 305.86728pt.
+) (../chapters/appendix/midsets.tex [169 <../graphics/complexPlane.pdf>]
+File: ../graphics/complexPlane.pdf Graphic file (type pdf)
+ <use ../graphics/complexPlane.pdf>
+Package pdftex.def Info: ../graphics/complexPlane.pdf used on input line 26.
+(pdftex.def)             Requested size: 305.86728pt x 305.86728pt.
+File: ../graphics/complexPlane.pdf Graphic file (type pdf)
+
+<use ../graphics/complexPlane.pdf>
+Package pdftex.def Info: ../graphics/complexPlane.pdf used on input line 34.
+(pdftex.def)             Requested size: 305.86728pt x 305.86728pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [170])
+(../chapters/appendix/cityPara.tex [171]
+File: ../graphics/complexPlane.pdf Graphic file (type pdf)
+ <use ../graphics/complexPlane.pdf>
+Package pdftex.def Info: ../graphics/complexPlane.pdf used on input line 22.
+(pdftex.def)             Requested size: 305.86728pt x 305.86728pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [172]
+File: ../graphics/complexPlane.pdf Graphic file (type pdf)
+
+<use ../graphics/complexPlane.pdf>
+Package pdftex.def Info: ../graphics/complexPlane.pdf used on input line 32.
+(pdftex.def)             Requested size: 305.86728pt x 305.86728pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [173]
+File: ../graphics/complexPlane.pdf Graphic file (type pdf)
+
+<use ../graphics/complexPlane.pdf>
+Package pdftex.def Info: ../graphics/complexPlane.pdf used on input line 42.
+(pdftex.def)             Requested size: 305.86728pt x 305.86728pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [174]
+File: ../graphics/complexPlane.pdf Graphic file (type pdf)
+
+<use ../graphics/complexPlane.pdf>
+Package pdftex.def Info: ../graphics/complexPlane.pdf used on input line 52.
+(pdftex.def)             Requested size: 305.86728pt x 305.86728pt.
+) (../chapters/appendix/inverseMapping.tex
+[175] <../graphics/sticky.pdf, id=1211, 25.10881pt x 10.54372pt>
+File: ../graphics/sticky.pdf Graphic file (type pdf)
+
+<use ../graphics/sticky.pdf>
+Package pdftex.def Info: ../graphics/sticky.pdf used on input line 45.
+(pdftex.def)             Requested size: 289.07999pt x 121.46297pt.
+) (../chapters/appendix/linesAndParallel.tex
+[176 <../graphics/sticky.pdf>]
+File: ../graphics/complexPlane.pdf Graphic file (type pdf)
+ <use ../graphics/complexPlane.pdf>
+Package pdftex.def Info: ../graphics/complexPlane.pdf used on input line 25.
+(pdftex.def)             Requested size: 305.86728pt x 305.86728pt.
+ [177])
+(../chapters/appendix/center.tex [178]) (../chapters/back.tex [179] [180
+
+]
+(./ParallelsInGeometry.ind [181]
+Overfull \hbox (0.25352pt too wide) in paragraph at lines 55--57
+[]\OT1/cmr/m/n/10 (-20) constructions, \OT1/cmr/m/it/10 (-20) see \OT1/cmr/m/n/
+10 (-20) com-pass and straight-
+ []
+
+[182
+
+]
+
+LaTeX Warning: Command \O invalid in math mode on input line 161.
+
+[183] [184
+
+])) (./ParallelsInGeometry.aux) ) 
+Here is how much of TeX's memory you used:
+ 5530 strings out of 493488
+ 86824 string characters out of 3146893
+ 168980 words of memory out of 3000000
+ 8275 multiletter control sequences out of 15000+200000
+ 30794 words of font info for 202 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 42i,15n,43p,477b,458s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.p
+fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on ParallelsInGeometry.pdf (190 pages, 1137338 bytes).
+PDF statistics:
+ 1318 PDF objects out of 1440 (max. 8388607)
+ 881 compressed objects within 9 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 32917 words of extra memory for PDF output out of 35830 (max. 10000000)
+

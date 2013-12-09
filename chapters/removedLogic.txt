@@ -1,0 +1,273 @@
+\section{Logic}
+
+Logic is a great tool to have around. It turns out that we can solve lots of logical problems using simple tables. Moreover, one can often look at logic using the ideas of Set Theory that we learned in the previous section.
+
+When working with logic, there are certain \textit{buzz words} you need to be on the watch for:
+\[
+\text{not---},\quad \text{---and---}, \quad \text{---or---}, \quad \text{if---, then---},\quad \text{---if and only if---}.
+\]
+Any time you see the above \textit{buzz words} you need to stop and think. We will address each of these words in turn. 
+
+\index{truth|see{beauty}}
+\index{beauty|see{truth}}
+The first buzz word above is \textbf{not}. Suppose you have a statement:
+\[
+P = \text{I love math!}
+\]
+We use symbol $\neg$ to mean \textbf{not}\index{logical symbols!not@$\neg$}. To negate the above statement, you just put the $\neg$ in front of the $P$:
+\[
+\neg P = \text{It is not the case that I love math.}
+\]
+When is $\neg P$ true? Well, only when $P$ is false.  
+We can display  this with a \textbf{truth-table}\index{truth-table}\index{tables!truth}:
+\begin{center}
+\begin{tabular}{|c | c|}\hline
+$P$ & $\neg P$ \\
+\hline
+T & F \\
+F & T \\
+\hline
+\end{tabular}
+\end{center}
+When you apply $\textbf{not}$ to a statement, it simply swaps \textit{true} for \textit{false} in the truth-tables:
+
+Now consider the statement:
+\[
+\underbrace{\text{I'm strong}}_P \underbrace{\text{ \textbf{and} }}_\a \underbrace{\text{I'm cool.}}_Q
+\]
+and let $P =$ I'm strong, while $Q =$ I'm cool. When is the above statement true? Well it is only true when both $P$ and $Q$ are true. We can display this with a \textbf{truth-table}\index{truth-table}\index{tables!truth}. Note that we use the symbol $\wedge$ to mean \textbf{and}:\index{and}\index{logical symbols!and@$\a$}
+\begin{center}
+\begin{tabular}{|c | c | c|}\hline
+$P$ & $Q$ & $P \a Q$ \\
+\hline
+T & T & T\\
+T & F & F\\
+F & T & F\\
+F & F & F\\
+\hline
+\end{tabular}
+\end{center}
+Now what if we want to look at the statement:
+\[
+\underbrace{\text{I eat ice cream}}_P \underbrace{\text{ \textbf{or} }}_\v \underbrace{\text{I eat cookies.}}_Q
+\]
+When is the above statement true? It is true when either $P$ or $Q$ are true. In fact it is true even when they are \textit{both} true. We can display this with a truth-table. Note that we use the symbol $\vee$ to mean \textbf{or}:\index{or}\index{logical symbols!or@$\v$}
+\begin{center}
+\begin{tabular}{|c| c | c|}\hline
+$P$ & $Q$ & $P \v Q$ \\
+\hline
+T & T & T\\
+T & F & T\\
+F & T & T\\
+F & F & F\\
+\hline
+\end{tabular}
+\end{center}
+If you look at the truth-tables for both $\textbf{and}$ and $\textbf{or}$ you see a sort of symmetry. This can best explained by the use of $\textbf{not}$\index{not}. 
+
+\begin{war} Applying \textbf{not} changes an \textbf{and} to an \textbf{or} and vice versa. 
+\end{war}
+So if we have the statement: 
+\[
+\underbrace{\text{I'm strong}}_P \underbrace{\text{ \textbf{and} }}_\a \underbrace{\text{I'm cool.}}_Q
+\]
+Then 
+\begin{align*}
+\neg(P\wedge Q) &= (\neg P) \vee (\neg Q) \\
+&= \underbrace{\text{I'm not strong}}_{\neg P} \underbrace{\text{ \textbf{or} }}_\v \underbrace{\text{I'm not cool.}}_{\neg Q}
+\end{align*}
+We can see this best using a truth-table:
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|}\hline
+$P$ & $Q$ & $P \a Q$ & $\neg (P \a Q)$ & $\neg P$ & $\neg Q$ & $(\neg P)\v (\neg Q)$ \\
+\hline
+T & T & T & F & F & F & F \\
+T & F & F & T & F & T & T \\
+F & T & F & T & T & F & T \\
+F & F & F & T & T & T & T  \\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{ques} What does the truth-table for $\neg (P \v Q)$ and $(\neg P)\a (\neg Q)$ look like?
+\end{ques}
+\QM
+
+
+While \textbf{and}, \textbf{or}, and \textbf{not}  really aren't all that bad, \textbf{if-then} is much trickier.\index{if-then} Allow me to demonstrate how tricky \textbf{if-then} can be. I will do this with the \textit{Wason selection task}:\index{Wason selection task} Suppose I had a set of cards each with a number on one side and a letter on the other side, and I laid four of them on a table in front of you:
+\[
+\includegraphics{../graphics/cards.eps}
+\]
+Consider the statement:
+\begin{quote} 
+If one side of the card shows an even number, then the other side of the card shows a vowel.
+\end{quote}
+\begin{ques}
+Exactly which card(s) above do you need to flip over to see whether my statement is true?
+\end{ques}
+\QM
+
+Now suppose you are a police officer at a local bar that has four tables. At the first table nobody is drinking alcohol, at the second table every customer looks quite old, at the third table there are many pitchers of beer, and at the fourth table everybody looks quite young:
+\[
+\includegraphics{../graphics/beer.eps}\index{beer}
+\]
+Consider the law:
+\begin{quote} 
+If you are under 21, then you cannot drink alcohol.
+\end{quote}
+\begin{ques} Exactly which table(s) do you need to check to see if the law is being upheld?
+\end{ques}
+\QM
+
+
+\begin{ques} Are the two questions above different?
+\end{ques}
+\QM
+
+\begin{ques} Of the two questions above, which one was easier?
+\end{ques}
+\QM
+
+I think that the two situations above involving \textbf{if-then} statements show that we need to be careful when dealing with them, especially when the situation is somewhat abstract. Let's look at the truth-tables for \textbf{if-then}.  Note that we use the symbol $\Rightarrow$ to mean \textbf{if-then}:\index{if-then}\index{logical symbols!if-then@$\Rightarrow$}
+
+\begin{center}
+\begin{tabular}{|c | c | c|}\hline
+$P$ & $Q$ & $P \Rightarrow Q$ \\
+\hline
+T & T & T\\
+T & F & F\\
+F & T & T\\
+F & F & T\\
+\hline
+\end{tabular}
+\end{center}
+To make $P\Rightarrow Q$ easier to read it is sometimes helpful to read it $P$ \textbf{implies} $Q$.
+
+A curious fact is that often the easiest way to negate an \textbf{if-then} statement is to rewrite it in terms of \textbf{or} and \textbf{not}:
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}\hline
+$P$ & $Q$ & $\neg P$ & $ \neg P \v Q$ & $P \Rightarrow Q$  \\
+\hline
+T & T & F & T & T \\
+T & F & F & F & F \\
+F & T & T & T & T \\
+F & F & T & T & T \\
+\hline
+\end{tabular}
+\end{center}
+From the truth-table we see that 
+\[
+P\Rightarrow Q = \neg P \v Q.
+\]
+Now we can negate this easily:
+\[
+\neg(P\Rightarrow Q) = \neg(\neg P \v Q) = P\a (\neg Q).
+\]
+Finally if you see \textbf{if-and-only-if},\index{if-and-only-if}\index{iff}\index{logical symbols!if-and-only-if@$\Leftrightarrow$} denoted by the symbol $\Leftrightarrow$, this is nothing more than:
+\[
+P\Leftrightarrow Q = (P\Rightarrow Q)\a(Q\Rightarrow P).
+\]
+
+\begin{ques} Can you connect the ideas in this section to ideas in Set Theory? Specifically, let a statement be a set. The ``points'' that make it true are what are inside the set. What do 
+\[
+\text{not---},\quad \text{---and---}, \quad \text{---or---}, \quad \text{if---, then---},\quad \text{---if and only if---},
+\]
+look like?
+\end{ques}
+\QM
+
+\subsection{Variations on a Theme}
+
+Given your favorite \textbf{if-then} statement, we can create several
+new versions by changing the order and adding \textbf{not}.
+\begin{itemize}
+\item The statement: $P \Rightarrow Q$
+\item The converse: $Q\Rightarrow P$ \index{converse}
+\item The inverse: $\neg P \Rightarrow \neg Q$\index{inverse}
+\item The contrapositive: $\neg Q \Rightarrow \neg P$\index{contrapositive}
+\end{itemize}
+
+\begin{ques} Fine, but can you please put these in a real context?
+\end{ques}
+\QM
+
+\begin{ques} What do truth-tables look like for the converse, inverse, and contrapositive?
+\end{ques}
+\QM
+
+\newpage
+
+\subsection*{Problems for Section~\thesection}\hrule\vspace{1ex}
+\begin{enumerate}
+\item Knowing that $P\Leftrightarrow Q = (P\Rightarrow Q) \a
+  (Q\Rightarrow P)$, write a truth-table for $P\Leftrightarrow Q$.
+\item Use a truth-table to show that $\neg(P\v Q) = (\neg P) \a (\neg Q)$.
+\item Use a truth-table to show that $(P\Rightarrow Q) \ne (Q \Rightarrow P)$.
+\item Explain why $P\Rightarrow Q$ is not the same as $Q \Rightarrow P$ by giving a real-world sentence for $P$ and a real world sentence for $Q$ and analyzing what  $P\Rightarrow Q$ and $Q \Rightarrow P$ mean.
+\item Use a truth-table to show that $P\Rightarrow Q = (\neg Q) \Rightarrow (\neg P)$.
+\item Explain why $P\Rightarrow Q$ is the same as $(\neg Q) \Rightarrow (\neg P)$ by giving a real-world sentence for $P$ and a real world sentence for $Q$ and analyzing what  $P\Rightarrow Q$ and $(\neg Q) \Rightarrow (\neg P)$ mean.
+\item Go out and find some friends. Set up the card example as explained above. See how many of them can get it right. Then set up the example of the tables at a bar as explained above. How many get it right now?
+\item Suppose I give you the statement:
+\begin{quote}
+If your name is Agatha, then you like to eat tomatoes.
+\end{quote}
+Which of the following don't contradict the above statement:
+\begin{enumerate}
+\item Your name is Agatha and you like to eat tomatoes.
+\item Your name is Agatha and you don't like to eat tomatoes.
+\item Your name is Joe and you like to eat tomatoes.
+\item Your name is Joe and you don't like to eat tomatoes.
+\end{enumerate}
+\item Suppose I give you the statement:
+\begin{quote}
+If your name is Jen, then you have a cat named Hypie.
+\end{quote}
+Which of the following don't contradict the above statement:
+\begin{enumerate}
+\item Your have a cat named Hypie and your name is Jen.
+\item Your have a cat named Hypie and your name is Joe.
+\item Your have no cats and your name is Jen.
+\item Your have no cats and your name is Joe.
+\end{enumerate}
+\item Give an \textbf{if-then} statement involving traffic laws and use it in an example to explain why $(\text{false} \Rightarrow \text{true})$ is a true statement. Explain your answer.
+\item Give an \textbf{if-then} statement involving traffic laws and use it in an example to explain why $(\text{false} \Rightarrow \text{false})$ is a true statement. Explain your answer.
+\item Let $P$ and $Q$ be true statements, and let $X$ and $Y$ be false statements. Determine the truth value of the following statements:
+\begin{enumerate}
+\item $P\a Y$.
+\item $X \v Q$.
+\item $P \Rightarrow Q$.
+\item $X \Rightarrow Y$.
+\item $Y \Rightarrow Q$.
+\item $P \Rightarrow Y$.
+\item $P \Rightarrow (X \v Y)$.
+\item $\neg P \Rightarrow P$.
+\item $(X \a Q) \Rightarrow Y$.
+\item $(P \v Y) \Rightarrow Q$.
+\item $\neg(P \a (\neg P))$.
+\item $\neg(X \v (\neg X))$.
+\end{enumerate}
+\item Here is the truth-table for \textbf{neither-nor}, denoted by the symbol $\times$:
+\begin{center}
+\begin{tabular}{|c | c | c|}\hline
+$P$ & $Q$ & $P \times Q$ \\
+\hline
+T & T & F\\
+T & F & F\\
+F & T & F\\
+F & F & T\\
+\hline
+\end{tabular}
+\end{center}
+\begin{enumerate}
+\item Make a truth-table for $P \times P$.
+\item Make a truth-table for $(P\times Q) \times (P\times Q)$.
+\item Make a truth-table for $(P\times P) \times (Q\times Q)$.
+\item Make a truth-table for  $((P\times P)\times Q) \times ((P\times P)\times Q)$.
+\end{enumerate}
+Use your work above to express \textbf{not}, \textbf{and}, \textbf{or}, and \textbf{if-then} purely in terms of \textbf{neither-nor}.
+\item Draw pictures showing the connection between intersection and \textbf{and}, and union and \textbf{or}. What does \textbf{not} look like? What does \textbf{if-then} look like? What does \textbf{if-and-only-if} look like?
+\end{enumerate}
+
+\newpage
+
+

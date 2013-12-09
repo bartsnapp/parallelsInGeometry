@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5a -->
+
+<!-- CreationDate: Tue Dec 14 15:55:25 2010 -->
+
+<!-- Magnification: 1.000 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="3.8in"
+   height="3.8in"
+   viewBox="2088 2988 4524 4524"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="triparadox.fig">
+  <metadata
+     id="metadata116">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs114">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 171 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="342 : 171 : 1"
+       inkscape:persp3d-origin="171 : 114 : 1"
+       id="perspective118" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="487"
+     id="namedview112"
+     showgrid="false"
+     inkscape:zoom="0.69005848"
+     inkscape:cx="171"
+     inkscape:cy="171"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <g
+     style="stroke-width:.025in; fill:none"
+     id="g4">
+    <!-- Line: box -->
+    <rect
+       x="2100"
+       y="3000"
+       width="4500"
+       height="2100"
+       rx="0"
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="rect6" />
+    <!-- Line -->
+    <polyline
+       points="2400,3000 2400,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline8" />
+    <!-- Line -->
+    <polyline
+       points="2700,3000 2700,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline10" />
+    <!-- Line -->
+    <polyline
+       points="3000,3000 3000,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline12" />
+    <!-- Line -->
+    <polyline
+       points="3300,3000 3300,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline14" />
+    <!-- Line -->
+    <polyline
+       points="3600,3000 3600,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline16" />
+    <!-- Line -->
+    <polyline
+       points="3900,3000 3900,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline18" />
+    <!-- Line -->
+    <polyline
+       points="4200,3000 4200,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline20" />
+    <!-- Line -->
+    <polyline
+       points="4500,3000 4500,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline22" />
+    <!-- Line -->
+    <polyline
+       points="5100,3000 5100,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline24" />
+    <!-- Line -->
+    <polyline
+       points="4800,3000 4800,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline26" />
+    <!-- Line -->
+    <polyline
+       points="5400,3000 5400,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline28" />
+    <!-- Line -->
+    <polyline
+       points="5700,3000 5700,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline30" />
+    <!-- Line -->
+    <polyline
+       points="6000,3000 6000,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline32" />
+    <!-- Line -->
+    <polyline
+       points="6300,3000 6300,5100 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline34" />
+    <!-- Line -->
+    <polyline
+       points="2100,4800 6600,4800 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline36" />
+    <!-- Line -->
+    <polyline
+       points="2100,4500 6600,4500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline38" />
+    <!-- Line -->
+    <polyline
+       points="2100,4200 6600,4200 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline40" />
+    <!-- Line -->
+    <polyline
+       points="2100,3900 6600,3900 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline42" />
+    <!-- Line -->
+    <polyline
+       points="2100,3600 6600,3600 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline44" />
+    <!-- Line -->
+    <polyline
+       points="2100,3300 6600,3300 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline46" />
+    <!-- Line: box -->
+    <rect
+       x="2100"
+       y="5400"
+       width="4500"
+       height="2100"
+       rx="0"
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="rect48" />
+    <!-- Line -->
+    <polyline
+       points="2400,5400 2400,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline50" />
+    <!-- Line -->
+    <polyline
+       points="2700,5400 2700,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline52" />
+    <!-- Line -->
+    <polyline
+       points="3000,5400 3000,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline54" />
+    <!-- Line -->
+    <polyline
+       points="3300,5400 3300,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline56" />
+    <!-- Line -->
+    <polyline
+       points="3600,5400 3600,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline58" />
+    <!-- Line -->
+    <polyline
+       points="3900,5400 3900,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline60" />
+    <!-- Line -->
+    <polyline
+       points="4200,5400 4200,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline62" />
+    <!-- Line -->
+    <polyline
+       points="4500,5400 4500,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline64" />
+    <!-- Line -->
+    <polyline
+       points="5100,5400 5100,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline66" />
+    <!-- Line -->
+    <polyline
+       points="4800,5400 4800,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline68" />
+    <!-- Line -->
+    <polyline
+       points="5400,5400 5400,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline70" />
+    <!-- Line -->
+    <polyline
+       points="5700,5400 5700,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline72" />
+    <!-- Line -->
+    <polyline
+       points="6000,5400 6000,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline74" />
+    <!-- Line -->
+    <polyline
+       points="6300,5400 6300,7500 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline76" />
+    <!-- Line -->
+    <polyline
+       points="2100,7200 6600,7200 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline78" />
+    <!-- Line -->
+    <polyline
+       points="2100,6900 6600,6900 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline80" />
+    <!-- Line -->
+    <polyline
+       points="2100,6600 6600,6600 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline82" />
+    <!-- Line -->
+    <polyline
+       points="2100,6300 6600,6300 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline84" />
+    <!-- Line -->
+    <polyline
+       points="2100,6000 6600,6000 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline86" />
+    <!-- Line -->
+    <polyline
+       points="2100,5700 6600,5700 "
+       style="stroke:#ff8080;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline88" />
+    <!-- Line -->
+    <polyline
+       points="3900,7200 6000,7200 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; "
+       id="polyline90" />
+    <!-- Line -->
+    <polyline
+       points="4500,6900 4800,7200 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="polyline92" />
+    <!-- Line -->
+    <polyline
+       points="4800,6900 4500,7200 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="polyline94" />
+    <!-- Line -->
+    <polyline
+       points="3900,7200 3900,6600 5400,6600 5400,6900 4500,6900 4500,7200 3900,7200 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#00ff00; "
+       id="polyline96" />
+    <!-- Line -->
+    <polyline
+       points="4800,4500 4800,3900 6300,3900 6300,4200 5400,4200 5400,4500 4800,4500 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#00ff00; "
+       id="polyline98" />
+    <!-- Line -->
+    <polyline
+       points="4800,4800 6300,4800 6300,4200 5400,4200 5400,4500 4800,4500 4800,4800 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#b46100; "
+       id="polyline100" />
+    <!-- Line -->
+    <polyline
+       points="4800,7200 6300,7200 6300,6600 5400,6600 5400,6900 4800,6900 4800,7200 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#b46100; "
+       id="polyline102" />
+    <!-- Line -->
+    <polyline
+       points="2400,4800 4800,4800 4800,3900 2400,4800 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#ffe0e0; "
+       id="polyline104" />
+    <!-- Line -->
+    <polyline
+       points="3900,6600 6300,6600 6300,5700 3900,6600 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#ffe0e0; "
+       id="polyline106" />
+    <!-- Line -->
+    <polyline
+       points="4800,3900 6300,3900 6300,3300 4800,3900 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#ffbfbf; "
+       id="polyline108" />
+    <!-- Line -->
+    <polyline
+       points="2400,7200 3900,7200 3900,6600 2400,7200 "
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:miter; stroke-linecap:butt; fill:#ffbfbf; "
+       id="polyline110" />
+  </g>
+</svg>

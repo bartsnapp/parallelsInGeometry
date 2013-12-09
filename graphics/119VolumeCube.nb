@@ -1,0 +1,132 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      3826,        123]
+NotebookOptionsPosition[      3119,         97]
+NotebookOutlinePosition[      3735,        118]
+CellTagsIndexPosition[      3692,        115]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"big", "=", 
+   RowBox[{"Graphics3D", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"FaceForm", "[", 
+        RowBox[{"{", 
+         RowBox[{"GrayLevel", "[", "1", "]"}], "}"}], "]"}], ",", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"Cuboid", "[", 
+          RowBox[{"{", 
+           RowBox[{"t", ",", "r", ",", "s"}], "}"}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"t", ",", "0", ",", "1"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"s", ",", "0", ",", "1"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"r", ",", "0", ",", "1"}], "}"}]}], "]"}]}], "}"}], ",", 
+     RowBox[{"Lighting", " ", "\[Rule]", " ", 
+      RowBox[{"{", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Ambient\>\"", ",", "White"}], "}"}], "}"}]}], ",", 
+     RowBox[{"Boxed", "\[Rule]", "False"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"small", "=", 
+   RowBox[{"Graphics3D", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"FaceForm", "[", 
+        RowBox[{"{", 
+         RowBox[{"GrayLevel", "[", ".5", "]"}], "}"}], "]"}], ",", 
+       RowBox[{"Cuboid", "[", 
+        RowBox[{"{", 
+         RowBox[{"1", ",", "0", ",", "1"}], "}"}], "]"}]}], "}"}], ",", 
+     RowBox[{"Lighting", " ", "\[Rule]", " ", 
+      RowBox[{"{", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Ambient\>\"", ",", "White"}], "}"}], "}"}]}], ",", 
+     RowBox[{"Boxed", "\[Rule]", "False"}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Final", "=", 
+  RowBox[{"Show", "[", 
+   RowBox[{"big", ",", "small"}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.501432697563137*^9, 3.501432736912786*^9}, {
+  3.501432800281543*^9, 3.501432945693178*^9}}],
+
+Cell[BoxData[
+ Graphics3DBox[{
+   {FaceForm[GrayLevel[
+    1]], {{CuboidBox[{0, 0, 0}], CuboidBox[{0, 1, 0}]}, {CuboidBox[{0, 0, 1}],
+       CuboidBox[{0, 1, 1}]}}, {{CuboidBox[{1, 0, 0}], 
+      CuboidBox[{1, 1, 0}]}, {CuboidBox[{1, 0, 1}], CuboidBox[{1, 1, 1}]}}}, 
+   {FaceForm[GrayLevel[0.5]], CuboidBox[{1, 0, 1}]}},
+  Boxed->False,
+  Lighting->{{"Ambient", 
+     GrayLevel[1]}}]], "Output",
+ CellChangeTimes->{{3.501432934728816*^9, 3.5014329462365522`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Export", "[", 
+  RowBox[{"\"\<119VolumeCube.pdf\>\"", ",", "Final"}], "]"}]], "Input",
+ CellChangeTimes->{{3.501432954240354*^9, 3.5014329826369743`*^9}}],
+
+Cell[BoxData["\<\"119VolumeCube.pdf\"\>"], "Output",
+ CellChangeTimes->{3.501432985663487*^9}]
+}, Open  ]]
+},
+WindowSize->{809, 785},
+WindowMargins->{{Automatic, -913}, {47, Automatic}},
+PrintingPageRange->{Automatic, Automatic},
+PrintingOptions->{"Magnification"->1,
+"PaperOrientation"->"Portrait",
+"PaperSize"->{612, 792},
+"PostScriptOutputFile":>FrontEnd`FileName[{$RootDirectory, "home", "22", 
+   "snapp"}, "Untitled-1.ps", CharacterEncoding -> "iso8859-1"]},
+FrontEndVersion->"7.0 for Linux x86 (64-bit) (October 28, 2009)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 1757, 49, 165, "Input"],
+Cell[2327, 73, 464, 10, 406, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2828, 88, 178, 3, 32, "Input"],
+Cell[3009, 93, 94, 1, 31, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

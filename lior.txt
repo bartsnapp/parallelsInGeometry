@@ -1,0 +1,28 @@
+NEW RULES
+1) Given a point, a new point can be placed by marking through folded,
+or multiple sheets of, paper.
+
+2) Given points p,q, one can mark a line containing p and q. Hence
+given a line, a new line can be placed by tracing through folded, or
+two sheets of, paper.
+
+3) Given two intersecting lines, one can mark a point on the intersection.
+
+4) Given two intersecting lines l,m and two points p, q, one can fold
+a line placing p onto l and q onto m.
+
+5) Given points p,q, one can fold a line placing p onto q.
+
+
+
+
+NEW QUES
+1) simply decide if a given line intersects a given parabola
+
+2) find the intersection of a horizontal line with a parabola x^2. 
+Basically, you start with any old directrix and focus and call that 
+curve y=x^2. A horizontal line is y=c for some c. I guess figuring out c 
+is part of the problem. One should compare the coordinate definition of 
+a parabola with the focus-directrix definition. Then it's a matter of 
+constructing the square root of c. That is easy enough with compass and 
+straight edge. I think it's also easy with origami.

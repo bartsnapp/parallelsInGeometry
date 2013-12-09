@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5a -->
+
+<!-- CreationDate: Tue Dec 14 14:43:59 2010 -->
+
+<!-- Magnification: 1.000 -->
+
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1.6in"
+   height="1.7in"
+   viewBox="5009 2867 1972 2062"
+   id="svg4468"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="ink_ext_XXXXXX.svg2ZFFNV">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="968"
+     id="namedview4490"
+     showgrid="false"
+     inkscape:zoom="4.9131432"
+     inkscape:cx="72.292089"
+     inkscape:cy="78.197769"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4470" />
+  <metadata
+     id="metadata4494">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4492">
+    <inkscape:perspective
+       id="perspective4496"
+       inkscape:persp3d-origin="72 : 51 : 1"
+       inkscape:vp_z="144 : 76.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 76.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <g
+     id="g4470"
+     style="stroke-width:.025in; fill:none">
+    <!-- Line -->
+    <polygon
+       id="polygon4472"
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:bevel; stroke-linecap:butt; "
+       points="6599,4724 6969,3583 5998,2879 5029,3584 5400,4725 6599,4724 " />
+    <!-- Line -->
+    <polyline
+       id="polyline4474"
+       style="stroke:#000000;stroke-width:7; stroke-linejoin:bevel; stroke-linecap:butt; "
+       points="5399,4724 6001,2879 6599,4724 " />
+    <!-- Text -->
+    <text
+       id="text4476"
+       text-anchor="start"
+       font-size="108"
+       font-weight="normal"
+       font-style="normal"
+       font-family="Times"
+       fill="#000000"
+       y="4274"
+       x="5024"
+       xml:space="preserve">1</text>
+    <!-- Text -->
+    <text
+       id="text4478"
+       text-anchor="start"
+       font-size="108"
+       font-weight="normal"
+       font-style="normal"
+       font-family="Times"
+       fill="#000000"
+       y="4274"
+       x="6824"
+       xml:space="preserve">1</text>
+    <!-- Text -->
+    <text
+       id="text4480"
+       text-anchor="start"
+       font-size="108"
+       font-weight="normal"
+       font-style="normal"
+       font-family="Times"
+       fill="#000000"
+       y="4874"
+       x="5924"
+       xml:space="preserve">1</text>
+    <!-- Text -->
+    <!-- Text -->
+    <text
+       id="text4484"
+       text-anchor="start"
+       font-size="108"
+       font-weight="normal"
+       font-style="normal"
+       font-family="Times"
+       fill="#000000"
+       y="3149"
+       x="6449"
+       xml:space="preserve">1</text>
+    <!-- Text -->
+    <text
+       id="text4486"
+       text-anchor="start"
+       font-size="108"
+       font-weight="normal"
+       font-style="normal"
+       font-family="Times"
+       fill="#000000"
+       y="3149"
+       x="5414"
+       xml:space="preserve">1</text>
+    <!-- Text -->
+    <g
+       id="g5043"
+       ns0:preamble=""
+       ns0:text="$\\phi$"
+       transform="matrix(16,0,0,16,2779.5881,1666.3174)">
+      <defs
+         id="defs5045">
+        <g
+           id="g5047">
+          <symbol
+             id="textext-6dca9e35-0"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path5050"
+               d=""
+               style="stroke:none" />
+          </symbol>
+          <symbol
+             id="textext-6dca9e35-1"
+             overflow="visible"
+             style="overflow:visible">
+            <path
+               id="path5053"
+               d="m 4.359375,-6.671875 c 0,-0.03125 0.03125,-0.140625 0.03125,-0.140625 0,-0.015625 0,-0.109375 -0.125,-0.109375 -0.09375,0 -0.109375,0.03125 -0.15625,0.203125 L 3.53125,-4.421875 c -1.578125,0.0625 -3.046875,1.375 -3.046875,2.734375 0,0.953125 0.703125,1.734375 1.921875,1.8125 C 2.328125,0.421875 2.25,0.75 2.171875,1.0625 c -0.125,0.46875 -0.21875,0.84375 -0.21875,0.875 0,0.09375 0.078125,0.109375 0.125,0.109375 C 2.125,2.046875 2.140625,2.03125 2.171875,2 2.1875,1.984375 2.25,1.75 2.28125,1.609375 L 2.65625,0.125 c 1.609375,-0.0625 3.0625,-1.40625 3.0625,-2.734375 0,-0.796875 -0.53125,-1.703125 -1.921875,-1.8125 l 0.5625,-2.25 z m -1.90625,6.578125 c -0.59375,-0.03125 -1.3125,-0.390625 -1.3125,-1.375 0,-1.203125 0.859375,-2.59375 2.34375,-2.734375 l -1.03125,4.109375 z m 1.28125,-4.109375 c 0.765625,0.046875 1.328125,0.5 1.328125,1.375 0,1.1875 -0.859375,2.609375 -2.34375,2.734375 l 1.015625,-4.109375 z m 0,0"
+               style="stroke:none" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-6dca9e35-2">
+        <g
+           id="g5056"
+           style="fill:#000000;fill-opacity:1">
+          <use
+             id="use5058"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-6dca9e35-1"
+             width="1972"
+             height="2062" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(16,0,0,16,1971.2687,1683.0413)"
+       ns0:text="$\\phi$"
+       ns0:preamble=""
+       id="g5083">
+      <defs
+         id="defs5085">
+        <g
+           id="g5087">
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="symbol5089">
+            <path
+               style="stroke:none"
+               d=""
+               id="path5091" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             overflow="visible"
+             id="symbol5093">
+            <path
+               style="stroke:none"
+               d="m 4.359375,-6.671875 c 0,-0.03125 0.03125,-0.140625 0.03125,-0.140625 0,-0.015625 0,-0.109375 -0.125,-0.109375 -0.09375,0 -0.109375,0.03125 -0.15625,0.203125 L 3.53125,-4.421875 c -1.578125,0.0625 -3.046875,1.375 -3.046875,2.734375 0,0.953125 0.703125,1.734375 1.921875,1.8125 C 2.328125,0.421875 2.25,0.75 2.171875,1.0625 c -0.125,0.46875 -0.21875,0.84375 -0.21875,0.875 0,0.09375 0.078125,0.109375 0.125,0.109375 C 2.125,2.046875 2.140625,2.03125 2.171875,2 2.1875,1.984375 2.25,1.75 2.28125,1.609375 L 2.65625,0.125 c 1.609375,-0.0625 3.0625,-1.40625 3.0625,-2.734375 0,-0.796875 -0.53125,-1.703125 -1.921875,-1.8125 l 0.5625,-2.25 z m -1.90625,6.578125 c -0.59375,-0.03125 -1.3125,-0.390625 -1.3125,-1.375 0,-1.203125 0.859375,-2.59375 2.34375,-2.734375 l -1.03125,4.109375 z m 1.28125,-4.109375 c 0.765625,0.046875 1.328125,0.5 1.328125,1.375 0,1.1875 -0.859375,2.609375 -2.34375,2.734375 l 1.015625,-4.109375 z m 0,0"
+               id="path5095" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="g5097">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g5099">
+          <use
+             height="2062"
+             width="1972"
+             xlink:href="#textext-6dca9e35-1"
+             x="223.43201"
+             y="134.765"
+             id="use5101" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

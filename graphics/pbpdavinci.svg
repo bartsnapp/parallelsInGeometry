@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5a -->
+
+<!-- CreationDate: Tue Dec 14 14:43:17 2010 -->
+
+<!-- Magnification: 1.050 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2.2in"
+   height="2.6in"
+   viewBox="-1666 3766 2623 3096"
+   id="svg3668"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="pbpdavinci.fig">
+  <metadata
+     id="metadata3692">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3690">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 116.99999 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="198 : 116.99999 : 1"
+       inkscape:persp3d-origin="99 : 77.999995 : 1"
+       id="perspective3694" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="487"
+     id="namedview3688"
+     showgrid="false"
+     inkscape:zoom="1.0085471"
+     inkscape:cx="99"
+     inkscape:cy="116.99999"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3668" />
+  <g
+     style="stroke-width:.025in; fill:none"
+     id="g3670">
+    <!-- Line -->
+    <polyline
+       points="-944,4960 -236,3779 944,4488 236,5669 -944,4960 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="polyline3672" />
+    <!-- Line -->
+    <polyline
+       points="-1653,5669 -944,6850 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="polyline3674" />
+    <!-- Line -->
+    <polyline
+       points="-944,4960 -944,5669 236,5669 -944,4960 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; fill:#ffbfbf; "
+       id="polyline3676" />
+    <!-- Line: box -->
+    <rect
+       x="-1653"
+       y="4960"
+       width="708"
+       height="708"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3678" />
+    <!-- Line: box -->
+    <rect
+       x="-944"
+       y="5669"
+       width="1181"
+       height="1181"
+       rx="0"
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="rect3680" />
+    <!-- Line -->
+    <polyline
+       points="-236,3779 944,3779 944,4488 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; "
+       id="polyline3682" />
+    <!-- Line -->
+    <polyline
+       points="-1653,4960 236,6850 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; stroke-dasharray:41 41;"
+       id="polyline3684" />
+    <!-- Line -->
+    <polyline
+       points="-944,5669 944,3779 "
+       style="stroke:#000000;stroke-width:8; stroke-linejoin:bevel; stroke-linecap:butt; stroke-dasharray:41 41;"
+       id="polyline3686" />
+  </g>
+</svg>
