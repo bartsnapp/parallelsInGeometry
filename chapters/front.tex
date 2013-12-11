@@ -1,19 +1,13 @@
-\pagenumbering{gobble}
 
 
-\title{
-\textbf{\textsf{
-\Huge Parallels in Geometry \\
-\Large Math 1166: Spring 2013
-}}}
-\author{}
-\date{}
-\maketitle
+\newpage
 
-
-
-\begin{abstract}
-Copyright \copyright~2012 Bart Snapp.
+\begin{fullwidth}
+~\vfill
+\thispagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{\baselineskip}
+Copyright \copyright~2013 Bart Snapp, Victor Ferdinand, and Bradford Findell
 
 \vspace{.5cm}
 
@@ -27,15 +21,14 @@ To view a copy of this license, visit
 \texttt{http://creativecommons.org/licenses/by-nc-sa/3.0/}
 \]
 
+
 \vspace{.5cm}
-
 \noindent This document was typeset on \today.
-
-\end{abstract}
-
+\end{fullwidth}
 
 
 \chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
 
 
 These notes are designed with future middle grades mathematics
@@ -50,7 +43,7 @@ are:
 \begin{itemize}
 \item To enrich the reader's understanding of both numbers and algebra. 
 From the basic algorithms of arithmetic---all of which have algebraic
-underpinnings, to the existence of irrational numbers, we hope to show
+underpinnings---to the existence of irrational numbers, we hope to show
 the reader that numbers and algebra are deeply connected.
 \item To place an emphasis on problem solving. The reader will be exposed 
 to problems that ``fight-back.'' Worthy minds such as yours deserve
@@ -66,12 +59,12 @@ well.
 \end{itemize}
 In summary---you, the reader, must become a doer of mathematics.  To
 this end, many questions are asked in the text that follows. Sometimes
-these questions are answered, other times the questions are left for
+these questions are answered; other times the questions are left for
 the reader to ponder. To let the reader know which questions are left
 for cogitation, a large question mark is displayed:
 \QM
 The instructor of the course will address some of these questions. If
-a question is not discussed to the reader's satisfaction, then I
+a question is not discussed to the reader's satisfaction, then we
 encourage the reader to put on a thinking-cap and think, think, think!
 If the question is still unresolved, go to the World Wide Web and
 search, search, search!
@@ -79,13 +72,17 @@ search, search, search!
 This document is open-source. It is licensed under the Creative
 Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)
 License. Loosely speaking, this means that this document is available
-for free. Anyone can get a free copy of this document (source or PDF)
-from the following site:
+for free. Anyone can get a free copy of this document 
+from the following sites:
 \[
-\texttt{http://www.math.osu.edu/\~{}snapp/109/}
+\texttt{http://www.math.osu.edu/\~{}snapp/1165/}
+\]
+\[
+\texttt{http://www.math.osu.edu/\~{}findell.2}
 \]
 Please report corrections, suggestions, gripes, complaints, and
-criticisms to Bart Snapp at: \texttt{snapp@math.osu.edu}
+criticisms to Bart Snapp at \texttt{snapp@math.osu.edu} or Brad Findell
+at \texttt{findell.2@osu.edu}
 
 
 \section*{Thanks and Acknowledgments}
@@ -93,16 +90,16 @@ criticisms to Bart Snapp at: \texttt{snapp@math.osu.edu}
 This document has a somewhat lengthy history. In the Fall of 2005 and
 Spring of 2006, Bart Snapp gave a set of lectures at the University of
 Illinois at Urbana-Champaign. His lecture notes were typed and made
-available as an open-source textbook. Each semester since, those notes
-have been revised and modified under the supervision of Alison Ahlgren and
-Bart Snapp. A growing number of people have made contributions,
+available as an open-source textbook. During subsequent semesters, those notes
+were revised and modified under the supervision of Alison Ahlgren and
+Bart Snapp. Many people have made contributions,
 including Tom Cooney, Melissa Dennison, and Jesse Miller. A number of
 students also contributed to that document by either typing original
 hand-written notes or suggesting problems. They are: Camille Brooks,
 Michelle Bruno, Marissa Colatosti, Katie Colby, Anthony `Tino'
 Forneris, Amanda Genovise, Melissa Peterson, Nicole Petschenko, Jason
 Reczek, Christina Reincke, David Seo, Adam Shalzi, Allice Son, Katie
-Strle, Beth Vaughn.
+Strle, and Beth Vaughn.
 
 In 2009, Greg Williams, a Master of Arts in Teaching student at
 Coastal Carolina University, worked with Bart Snapp to produce an
@@ -111,22 +108,15 @@ early draft of the chapter on isometries.
 In the Winter of 2010 and 2011, Bart Snapp gave a new set of lectures
 at the Ohio State University. In this course the previous lecture
 notes were heavily modified, resulting in a new text \textit{Parallels
-in Geometry}.
+in Geometry}.  In 2012 and 2013,
+Bart Snapp and Brad Findell worked on major revisions, incorporating
+ ideas from Brad's previous courses. 
 
+\makeatletter %% adds space so that the numbers of the toc don't bump
+\renewcommand{\l@section}{\@dottedtocline{1}{5em}{5em}}
+\renewcommand{\l@subsection}{\@dottedtocline{2}{5em}{5em}}
+\renewcommand{\l@subsubsection}{\@dottedtocline{3}{5em}{5em}}
+\makeatother
 
-
-
+\setcounter{tocdepth}{1}
 \tableofcontents
-
-
-
-
-
-
-
-
-
-
-
-
-

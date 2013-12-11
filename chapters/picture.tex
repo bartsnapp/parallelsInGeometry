@@ -12,15 +12,15 @@ A picture is worth a thousand words.
 The word \textit{set} has more definitions in the dictionary than any
 other word. In our case we'll use the following definition:
 
-\begin{dfn}\index{set} 
+\begin{definition}\index{set} 
 A \textbf{set} is any collection of elements for which we can always
 tell whether an element is in the set or not.
-\end{dfn}
+\end{definition}
 
-\begin{ques} 
+\begin{question} 
 What are some examples of sets? What are some examples of things that
 are not sets?
-\end{ques}
+\end{question}
 \QM
 
 If we have a set $X$ and the element $x$ is inside of $X$, we write:
@@ -33,36 +33,36 @@ as:
 \includegraphics{../graphics/set1.pdf}
 \]
 
-\begin{dfn} 
+\begin{definition} 
 A \textbf{subset}\index{subset} $Y$ of a set $X$ is a set $Y$ such
 that every element of $Y$ is also an element of $X$. We denote this
 by:
 \[
 Y\subset X\index{set theory symbols!subset@$\subset$}
 \] 
-\end{dfn}
+\end{definition}
 
 If $Y$ is contained in $X$, we will sometimes loosely say that $X$ is
 \textit{bigger} than $Y$.
 
-\begin{ques} 
+\begin{question} 
 Can you think of a set $X$ and a subset $Y$ where saying $X$ is bigger
 than $Y$ is a bit misleading?
-\end{ques}
+\end{question}
 \QM
 
-\begin{ques} 
+\begin{question} 
 How is the meaning of the symbol $\in$ different from the meaning of
 the symbol $\subset$?
-\end{ques}
+\end{question}
 \QM
 
 
 \subsection{Union}
 
 
-\begin{dfn}\index{union}\index{u@$\cup$}\index{set theory symbols!union@$\cup$} Given two sets $X$ and $Y$, $X$ \textbf{union} $Y$ is the set of all the elements in $X$ or $Y$. We denote this by $X\cup Y$.
-\end{dfn}
+\begin{definition}\index{union}\index{u@$\cup$}\index{set theory symbols!union@$\cup$} Given two sets $X$ and $Y$, $X$ \textbf{union} $Y$ is the set of all the elements in $X$ or $Y$. We denote this by $X\cup Y$.
+\end{definition}
 
 Pictorially, we can imagine this as:
 
@@ -74,21 +74,21 @@ Pictorially, we can imagine this as:
 
 \subsection{Intersection}
 
-\begin{dfn}\index{intersection}\index{set theory symbols!intersection@$\cap$} Given two sets $X$ and $Y$, 
+\begin{definition}\index{intersection}\index{set theory symbols!intersection@$\cap$} Given two sets $X$ and $Y$, 
 $X$ \textbf{intersect} $Y$ is the set of all the elements that are simultaneously in $X$ and in $Y$. We denote this by $X\cap Y$. 
-\end{dfn}
+\end{definition}
 
 Pictorially, we can imagine this as:
 \[
 \includegraphics{../graphics/set3.pdf}
 \]
 
-\begin{ques} Consider the sets $X$ and $Y$ below:
+\begin{question} Consider the sets $X$ and $Y$ below:
 \[
 \includegraphics{../graphics/set4.pdf}
 \]
 What is $X\cap Y$?
-\end{ques}
+\end{question}
 
 I'll take this one: Nothing! We have a special notation for the set with no elements, it is called the \index{empty set}\textbf{empty set}. We denote the empty set by the symbol $\emptyset$.\index{set theory symbols!emptyset@$\emptyset$}
 
@@ -97,21 +97,21 @@ I'll take this one: Nothing! We have a special notation for the set with no elem
 
 \subsection{Complement}
 
-\begin{dfn}\index{complement}\index{set theory symbols!complement@$-$} Given two sets $X$ and $Y$, 
+\begin{definition}\index{complement}\index{set theory symbols!complement@$-$} Given two sets $X$ and $Y$, 
 $X$ \textbf{complement} $Y$ is the set of all the elements that are in $X$ and are not in $Y$. We denote this by $X-Y$.
-\end{dfn}
+\end{definition}
 
 Pictorially, we can imagine this as:
 \[
 \includegraphics{../graphics/set5.pdf}
 \]
 
-\begin{ques} Check out the two sets below:
+\begin{question} Check out the two sets below:
 \[
 \includegraphics{../graphics/set4.pdf}
 \]
 What is $X-Y$? What is $Y-X$?
-\end{ques}
+\end{question}
 \QM
 
 
@@ -119,11 +119,11 @@ What is $X-Y$? What is $Y-X$?
 
 OK, let's try something more complex:
 
-\begin{ques} Prove that:
+\begin{question} Prove that:
 \[
 X\cup (Y \cap Z) = (X \cup Y)\cap (X \cup Z)
 \]
-\end{ques}
+\end{question}
 
 \begin{proof} 
 Look at the left-hand side of the equation first. We can represent the
@@ -156,9 +156,8 @@ of the equation, we see that the same regions are shaded, and so we
 are done.
 \end{proof}
 
-\newpage
+\begin{problems}
 
-\subsection*{Problems for Section~\thesection}\hrule\vspace{1ex}
 \begin{enumerate}
 \item Given two sets $X$ and $Y$, explain what is meant by $X\cup Y$.
 \item Given two sets $X$ and $Y$, explain what is meant by $X\cap Y$.
@@ -235,6 +234,8 @@ X - (Y \cup Z) = (X -Y)\cap (X -Z)
 \item If $X-Y =\emptyset$, what can we say about the relationship between the sets $X$ and $Y$? Explain your reasoning.
 \item If $Y-X =\emptyset$, what can we say about the relationship between the sets $X$ and $Y$? Explain your reasoning.
 \end{enumerate}
+\end{problems}
+
 
 \newpage
 
@@ -248,10 +249,10 @@ sure to include the word ``tessellation'' OK? Back already? Very
 good. Sometimes Escher worked with tessellations. What's a
 tessellation? I'm glad you asked:
 
-\begin{dfn}\index{tessellation} A \textbf{tessellation} is a pattern of 
+\begin{definition}\index{tessellation} A \textbf{tessellation} is a pattern of 
 polygons fitted together to cover the entire plane without
 overlapping.  
-\end{dfn}
+\end{definition}
 While it is impossible to actually cover the entire plane with shapes,
 if we give you enough of a tessellation, you should be able to continue
 it's pattern indefinitely.  Here are pieces of tessellations:
@@ -261,28 +262,28 @@ it's pattern indefinitely.  Here are pieces of tessellations:
 On the left we have a tessellation of a square and an octagon. On the
 right we have a ``brick-like'' tessellation.
 
-\begin{dfn}\index{tessellation!regular}\index{regular!tessellation}
+\begin{definition}\index{tessellation!regular}\index{regular!tessellation}
 A tessellation is called a \textbf{regular tessellation} if it is
 composed of copies of a single regular polygon and these polygons meet
 vertex to vertex.\index{regular!polygon}
-\end{dfn}
+\end{definition}
 
 
-\begin{eg} Here are some examples of regular tessellations:
+\begin{example} Here are some examples of regular tessellations:
 \[
 \includegraphics{../graphics/regtess.pdf}
 \]
-\end{eg}
+\end{example}
 
 Johannes Kepler\index{Kepler, Johannes}, who lived from 1571--1630,
 was one of the first people to study tessellations. He certainly knew
 the next theorem:
 
-\begin{thm} There are only $3$ regular tessellations.
-\end{thm}
+\begin{theorem} There are only $3$ regular tessellations.
+\end{theorem}
 
-\begin{ques} Why is the theorem above true?
-\end{ques}
+\begin{question} Why is the theorem above true?
+\end{question}
 \QM
 
 Since one can prove that there are only three regular tessellations,
@@ -311,13 +312,13 @@ Tessellate them randomly in the plane to get this lightning-like picture:
 \[
 \includegraphics{../graphics/lightningtess.pdf}
 \]
-\begin{ques} 
+\begin{question} 
 What sort of picture do you get if you tessellate these decorated
 squares randomly in a plane?
 \[
 \includegraphics{../graphics/watersquares.pdf}
 \]
-\end{ques}
+\end{question}
 \QM
 
 Another way to go is to start with your favorite tessellation:
@@ -329,19 +330,19 @@ Then you modify it a bunch to get something different:
 \includegraphics{../graphics/birdstess.pdf}
 \]
 
-\begin{ques} What kind of art can you make with tessellations?
-\end{ques}
+\begin{question} What kind of art can you make with tessellations?
+\end{question}
 \QM
 
 
 I'm not a very good artist, but I am a mathematician. So let's use a
 tessellation to give a proof! Let me ask you something:
 
-\begin{ques} What is the most famous theorem in mathematics? 
-\end{ques}
+\begin{question} What is the most famous theorem in mathematics? 
+\end{question}
 Probably the Pythagorean Theorem comes to mind. Let's recall the statement of the Pythagorean Theorem:
 
-\begin{thm}[Pythagorean Theorem]\index{Pythagorean Theorem} Given a right triangle, the sum of the squares of the 
+\begin{theorem}[Pythagorean Theorem]\index{Pythagorean Theorem} Given a right triangle, the sum of the squares of the 
 lengths of the two legs equals the square of the length of 
 the hypotenuse.  Symbolically, if $a$ and $b$ represent the 
 lengths of the legs and $c$ is the length of the hypotenuse, 
@@ -352,15 +353,15 @@ then
 \[
 a^2 + b^2 = c^2.
 \]
-\end{thm}
+\end{theorem}
 
 
 Let's give a proof! Check out this tessellation involving $2$ squares:
 \[
 \includegraphics{../graphics/pbppyth2.pdf}
 \]
-\begin{ques} How does the picture above ``prove'' the Pythagorean Theorem?
-\end{ques}
+\begin{question} How does the picture above ``prove'' the Pythagorean Theorem?
+\end{question}
 \begin{proof}[Solution]  
 The white triangle is our right triangle. The area of the middle
 overlaid square is $c^2$, the area of the small dark squares is $a^2$,
@@ -383,20 +384,14 @@ Since we can always put two squares together in this pattern, this
 proof will work for any right triangle.
 \end{proof}
 
-\begin{ques} Can you use the above tessellation to give a dissection proof of the Pythagorean Theorem?
-\end{ques}
+\begin{question} Can you use the above tessellation to give a dissection proof of the Pythagorean Theorem?
+\end{question}
 \QM
 
 
 
+\begin{problems}
 
-
-
-
-
-\newpage
-
-\problems
 \begin{enumerate}
 \item Show two different ways of tessellating the plane with a given scalene triangle. Label your picture as necessary.
 \item Show how to tessellate the plane with a given quadrilateral. Label your picture.
@@ -455,22 +450,15 @@ Hint: A regular $n$-gon has interior angles of $180(n-2)/n$ degrees.
 \includegraphics{../graphics/pbppyth2.pdf}
 \]
 \end{enumerate}
-
-
-
-
-
-
-
+\end{problems}
 
 
 \newpage
 
 
 
-\symbolfootnote[0]{Most of the \textit{pictures} from this section are adapted from the wonderful source books: \cite{nelsen} and \cite{nelsen1}.}
 \section{Proof by Picture}
-
+\marginnote{Most of the \textit{pictures} from this section are adapted from the wonderful source books: \cite{nelsen} and \cite{nelsen1}.}  
 
 Pictures generally do not constitute a proof on their own. However, a
 good picture can show insight and communicate concepts better than
@@ -483,21 +471,21 @@ argument.
 
 Let's start with something easy:
 
-\begin{ques} Explain how the following picture ``proves'' that
+\begin{question} Explain how the following picture ``proves'' that
   the area of a right triangle is half the base times the height.
 \[
 \includegraphics{../graphics/pbpAreaRight.pdf}
 \]
-\end{ques}
+\end{question}
 \QM 
 
 That wasn't so bad was it? Now for a game of \textit{whose-who}:
 
-\begin{ques} What is the most famous theorem in mathematics? 
-\end{ques}
+\begin{question} What is the most famous theorem in mathematics? 
+\end{question}
 Probably the Pythagorean Theorem comes to mind. Let's recall the statement of the Pythagorean Theorem:
 
-\begin{thm}[Pythagorean Theorem]\index{Pythagorean Theorem} Given a right triangle, the sum of the squares of the 
+\begin{theorem}[Pythagorean Theorem]\index{Pythagorean Theorem} Given a right triangle, the sum of the squares of the 
 lengths of the two legs equals the square of the length of 
 the hypotenuse.  Symbolically, if $a$ and $b$ represent the 
 lengths of the legs and $c$ is the length of the hypotenuse, 
@@ -508,16 +496,16 @@ then
 \[
 a^2 + b^2 = c^2.
 \]
-\end{thm}
-\begin{ques} What is the converse to the Pythagorean Theorem? Is it true? How do you prove it?
-\end{ques}
+\end{theorem}
+\begin{question} What is the converse to the Pythagorean Theorem? Is it true? How do you prove it?
+\end{question}
 \QM
 
 While everyone may know the Pythagorean Theorem, not as many know how to prove it. Euclid's proof goes kind of like this: 
 
 Consider the following picture:
 \[
-\includegraphics{../graphics/pbppythsqr.pdf}
+\includegraphics[scale=0.8]{../graphics/pbppythsqr.pdf}
 \]
 Now, cut up the squares $a^2$ and $b^2$ in such a way that they fit into $c^2$ perfectly. When you give a proof that involves cutting up the shapes and putting them back together, it is called a \textbf{dissection proof}.\index{dissection proof} The trick to ensure that this is actually a proof is in making sure
 that your dissection will work no matter what right triangle you are
@@ -528,8 +516,8 @@ Is there an easier proof?  Sure, look at:
 \[
 \includegraphics{../graphics/pbppyth1.pdf}
 \]
-\begin{ques} How does the picture above ``prove'' the Pythagorean Theorem?
-\end{ques}
+\begin{question} How does the picture above ``prove'' the Pythagorean Theorem?
+\end{question}
 
 
 \begin{proof}[Solution] Both of the large squares above are the same size. Moreover both the unshaded regions above must have the same area. The large white square on the left has an area of $c^2$ and the two white squares on the right have a combined area of $a^2 + b^2$. Thus we see that:
@@ -541,22 +529,24 @@ c^2 = a^2 + b^2
 
 Now a paradox:
 
-\begin{para}\index{paradox!triangle dissection} What is wrong with this picture?
+\begin{paradox}\index{paradox!triangle dissection} What is wrong with this picture?
 \[
-\includegraphics{../graphics/triparadox.pdf}
+\includegraphics[scale=0.8]{../graphics/triparadox.pdf}
 \]
-\end{para}
+\end{paradox}
 
-\begin{ques} How does this happen\footnote{See \cite{gardner2} Chapter 8, for a wonderful discussion of puzzling pictures like this one.}?
-\end{ques}
+\begin{question} 
+How does this happen?   (See CITATION ERROR % \cite{gardner2} 
+Chapter 8, for a wonderful discussion of puzzling pictures like this one.)
+\end{question}
 \QM
 
 \subsection{Proofs Involving Boxy Things}
 
 Consider the problem of \textit{Doubling the Cube}.\index{doubling the cube} If a mathematician asks us to double a cube, he or she is asking us to double the \textbf{volume} of a given cube. One may be tempted to merely double each side, but this doesn't double the volume! 
 
-\begin{ques} Why doesn't doubling each side of the cube double the volume of the cube? 
-\end{ques}
+\begin{question} Why doesn't doubling each side of the cube double the volume of the cube? 
+\end{question}
 \QM
 
 Well, let's answer an easier question first. How do you double the area of a square? Does taking each side and doubling it work? 
@@ -570,11 +560,11 @@ What about for the cube? Can you double the volume of a cube merely by doubling 
 \]
 Ah, so the answer is again no. If you double each side of a cube you have $8$ times the volume.
 
-\begin{ques}
+\begin{question}
 What happens to the area of a square if you multiply the sides by an
 arbitrary integer? What about the volume of a cube? Can you explain
 what is happening here?
-\end{ques} 
+\end{question} 
 \QM
 
 
@@ -583,9 +573,9 @@ what is happening here?
 
 As is our style, we will start off with a question:
 
-\begin{ques} Can you add up an infinite number of terms and still get a 
+\begin{question} Can you add up an infinite number of terms and still get a 
 finite number?
-\end{ques}
+\end{question}
 
 
 Consider $1/3$.  Actually, consider the decimal notation for $1/3$:
@@ -602,11 +592,11 @@ bet! Check out this picture:
 \[
 \includegraphics{../graphics/pbptriangle.pdf}
 \]
-\begin{ques} Explain how the picture above ``proves'' that:
+\begin{question} Explain how the picture above ``proves'' that:
 \[
 \frac{1}{4} + \left(\frac{1}{4}\right)^2 +  \left(\frac{1}{4}\right)^3 +  \left(\frac{1}{4}\right)^4 +  \left(\frac{1}{4}\right)^5 + \cdots = \frac{1}{3}
 \]
-\end{ques}
+\end{question}
 
 \begin{proof}[Solution] Let's take it in steps.  If the big triangle has area 
 $1$, the area of the shaded region below is $1/4$. 
@@ -637,32 +627,29 @@ area of $1/3$.
 
 A \textit{calisson}\index{calisson} is a French candy that sort of looks like two equilateral triangles stuck together. They usually come in a hexagon-shaped box. 
 
-\begin{ques} How do the calissons fit into their hexagon-shaped box?
-\end{ques}
+\begin{question} How do the calissons fit into their hexagon-shaped box?
+\end{question}
 
 If you start to put the calissons into a box, you quickly see that they can be placed in there with exactly three different orientations:
 \[
 \includegraphics{../graphics/pbporicas.pdf}
 \]
-\begin{thm}\label{T:cal} In any packing, the number of calissons with a given orientation is exactly one-third the total number of calissons in the box.
-\end{thm}
+\begin{theorem}\label{T:cal} In any packing, the number of calissons with a given orientation is exactly one-third the total number of calissons in the box.
+\end{theorem}
 
 Look at this picture:
 \[
 \includegraphics{../graphics/pbpcas.pdf}
 \]
 
-\begin{ques} How does the picture above ``prove'' Theorem~\ref{T:cal}? Hint: Think outside the box!
-\end{ques}
+\begin{question} How does the picture above ``prove'' Theorem~\ref{T:cal}? Hint: Think outside the box!
+\end{question}
 \QM
 
 
 
 
-
-\newpage
-
-\subsection*{Problems for Section~\thesection}\hrule\vspace{1ex}
+\begin{problems}
 \begin{enumerate}
 \item Explain the rule
 \[
@@ -884,3 +871,4 @@ mathematical expression above.
 \includegraphics{../graphics/pbpcas.pdf}
 \]
 \end{enumerate}
+\end{problems}

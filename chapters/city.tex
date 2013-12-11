@@ -13,9 +13,7 @@ I always like a good math solution to any love problem.
 
 
 
-\symbolfootnote[0]{The approach taken in this section was adapted from \cite{krause}.}
-
-\section{Welcome to the City}
+\section{Welcome to the City}\marginnote{The approach taken in this section was adapted from \cite{krause}.}
 
 
 One day I was walking through the city---that's right, New York City. I
@@ -34,8 +32,8 @@ Regardless, I was lost. My buddy Joe came to my rescue. He pointed out that the 
 ``Huh?''
 
 
-\begin{ques} What the heck was I talking about?
-\end{ques}
+\begin{question} What the heck was I talking about?
+\end{question}
 
 Let me tell you: \textit{Euclidean geometry}\index{geometry!Euclidean}
 is regular old plane (not plain!) geometry. It is the geometry that
@@ -50,15 +48,15 @@ can't cut through the blocks. This means that we don't measure
 distance as the crow flies. Instead we use the \textit{taxicab
   distance}:
 
-\begin{dfn}\index{taxicab distance}\index{d@$d$!taxicab}\index{distance!taxicab}Given two points $A = (a_x,a_y)$ and $B = (b_x,b_y)$, we define the
+\begin{definition}\index{taxicab distance}\index{d@$d$!taxicab}\index{distance!taxicab}Given two points $A = (a_x,a_y)$ and $B = (b_x,b_y)$, we define the
 \textbf{taxicab distance} as:
 \[
 d_T(A,B) = |a_x - b_x| + |a_y - b_y|
 \]
-\end{dfn}
+\end{definition}
 
 
-\begin{eg} Consider the following points:
+\begin{example} Consider the following points:
 \[
 \includegraphics{../graphics/citygrideg1.pdf}
 \]
@@ -70,20 +68,20 @@ d_T(A,B) &= |0 - 7| + |0-4|\\
 \end{align*}
 Of course in real life, you would want to add in the appropriate units
 to your final answer.
-\end{eg}
+\end{example}
 
-\begin{ques} How do you compute the distance between $A$ and $B$ as the crow flies?
-\end{ques}
+\begin{question} How do you compute the distance between $A$ and $B$ as the crow flies?
+\end{question}
 \QM
 
-\begin{dfn}\index{city geometry}\index{geometry!city}
+\begin{definition}\index{city geometry}\index{geometry!city}
 The geometry where points and lines are those from Euclidean geometry
 but distance is measured via taxicab distance is called \textbf{city
   geometry}.
-\end{dfn}
+\end{definition}
 
-\begin{ques} Compare and contrast the notion of a line in Euclidean geometry and in city geometry. In either geometry is a line the unique shortest path between any two points?
-\end{ques}
+\begin{question} Compare and contrast the notion of a line in Euclidean geometry and in city geometry. In either geometry is a line the unique shortest path between any two points?
+\end{question}
 \QM
 
 
@@ -99,8 +97,8 @@ If we think back to Euclidean geometry, we
 may recall some lengthy discussions on triangles. Yet so far, we have
 not really discussed triangles in city geometry.
 
-\begin{ques} What does a triangle look like in city geometry and how do you measure its angles? \index{city geometry!triangle}\index{triangle!city geometry}
-\end{ques}
+\begin{question} What does a triangle look like in city geometry and how do you measure its angles? \index{city geometry!triangle}\index{triangle!city geometry}
+\end{question}
 
 I'll take this one. Triangles look the same in city geometry as they
 do in Euclidean geometry. Also, you measure angles in exactly the same
@@ -109,10 +107,10 @@ in city geometry:
 \[
 \includegraphics{../graphics/citytri.pdf}
 \]
-\begin{ques} 
+\begin{question} 
 What are the lengths of the sides of each of these triangles? Why is
 this odd?
-\end{ques}
+\end{question}
 \QM 
 
 Hence we see that triangles are a bit funny in city geometry.
@@ -123,8 +121,8 @@ Circles are also discussed in many geometry courses and this course is
 no different. However, in city geometry the circles are a little less
 round. The first question we must answer is the following:
 
-\begin{ques} What is a circle?
-\end{ques}
+\begin{question} What is a circle?
+\end{question}
 
 Well, a circle is the collection of all points equidistant from a
 given point. So in city geometry, we must conclude that a circle of
@@ -133,22 +131,19 @@ radius $2$ would look like:
 \includegraphics{../graphics/citycircle.pdf}
 \]
 \index{circle!city geometry}\index{city geometry!circle}
-\begin{ques} What sort of shape should a city geometry compass draw?
-\end{ques}
+\begin{question} What sort of shape should a city geometry compass draw?
+\end{question}
 \QM
 
-\begin{ques} 
+\begin{question} 
 How many points are there at the intersection of two circles in
 Euclidean geometry? How many points are there at the intersection of
 two circles in city geometry?
-\end{ques}
+\end{question}
 \QM
 
 
-
-\newpage
-
-\subsection*{Problems for Section~\thesection}\hrule\vspace{1ex}
+\begin{problems}
 \begin{enumerate}
 \item Given two points $A$ and $B$ in city geometry, does $d_T(A,B) =
   d_T(B,A)$? Explain your reasoning.
@@ -202,14 +197,9 @@ enough to determine all of the familiar properties of the plane.
   compass and straightedge construction for a parallel through a point
   using a city geometry compass.
 \end{enumerate}
+\end{problems}
 
 \newpage
-
-
-
-
-
-
 
 
 \section{Anatomy of Figures and the City}
@@ -219,20 +209,20 @@ discover the points that can be obtained given a set of rules. With
 city geometry, the major rule involved is the taxicab distance. Let's
 answer these questions!
 
-\begin{ques} 
+\begin{question} 
 In regards to city geometry, what is a \textit{point}?
-\end{ques}
+\end{question}
 \QM
 
-\begin{ques}
+\begin{question}
 In regards to city geometry, what is a \textit{line}?
-\end{ques}
+\end{question}
 \QM
 
 
-\begin{ques}
+\begin{question}
 In regards to city geometry, what is a \textit{circle}?
-\end{ques}
+\end{question}
 \QM
 
 
@@ -240,36 +230,36 @@ Now I'm going to quiz you about them (I know we've already gone over
 this \textit{twice}, but it is fundamental so just smile and answer
 the questions):
 
-\begin{ques} 
+\begin{question} 
 Place two points randomly in the plane. Do you expect to be able to
 draw a single line that connects them?
-\end{ques}
+\end{question}
 \QM
 
-\begin{ques} 
+\begin{question} 
 Place three points randomly in the plane. Do you expect to be able to
 draw a single line that connects them?
-\end{ques}
+\end{question}
 \QM
 
-\begin{ques} 
+\begin{question} 
 Place two lines randomly in the plane. How many points do you expect
 them to share?
-\end{ques}
+\end{question}
 \QM
 
 
-\begin{ques} 
+\begin{question} 
 Place three lines randomly in the plane. How many points do you expect
 all three lines to share?
-\end{ques}
+\end{question}
 \QM
 
-\begin{ques} 
+\begin{question} 
 Place three points randomly in the plane. Will you (almost!) always be
 able to draw a city geometry circle containing these points? If no,
 why not? If yes, how do you know?
-\end{ques}
+\end{question}
 \QM
 
 
@@ -279,12 +269,12 @@ why not? If yes, how do you know?
 
 
 \index{city geometry!midset}\index{midset!city geometry}
-\begin{dfn}
+\begin{definition}
 Given two points $A$ and $B$, their \textbf{midset} is the set of points that are an equal distance away from both $A$ and $B$.
-\end{dfn}
-\begin{ques}
+\end{definition}
+\begin{question}
 How do we find the midset of two points in Euclidean geometry? How do we find the midset of two points in city geometry?
-\end{ques}
+\end{question}
 In Euclidean geometry, we just take the the following line:
 \[
 \includegraphics{../graphics/emidset.pdf}
@@ -307,7 +297,7 @@ picture is indeed the midset.
 
 How do we do it in city geometry? We do it basically the same way.
 
-\begin{eg} Suppose you wished to find the midset of two points in city geometry.
+\begin{example} Suppose you wished to find the midset of two points in city geometry.
 
 We start by fixing coordinate axes. Considering the diagram below, if
 $A=(0,0)$, then $B=(5,3)$. We now use the same idea as in Euclidean
@@ -329,11 +319,11 @@ segment between $(1,3)$ and $(4,0)$. Unlike Euclidean circles,
 distinct city geometry circles can intersect in more than two points and
 city geometry midsets can be more complicated than their Euclidean
 counterparts. 
-\end{eg}
+\end{example}
 
-\begin{ques}How do you draw the city geometry midset of $A$ and
+\begin{question}How do you draw the city geometry midset of $A$ and
 $B$? What could the midsets look like?
-\end{ques}
+\end{question}
 \QM
 
 
@@ -372,8 +362,8 @@ Euclidean distance from $F$ to the parabola to keep increasing at the
 same rate as the distance to the line $D$, the Euclidean parabola has
 to keep spreading to the sides.
 
-\begin{ques}How do you draw city geometry parabolas? What do different parabolas look like?
-\end{ques}
+\begin{question}How do you draw city geometry parabolas? What do different parabolas look like?
+\end{question}
 \QM
 
 
@@ -382,14 +372,14 @@ to keep spreading to the sides.
 
 To be completely clear on what a paradox is, here is the definition we
 will be using:
-\begin{dfn}\index{paradox} A \textbf{paradox}\index{paradox} is a statement that seems to be contradictory. This means it seems both true and false at the same time. 
-\end{dfn}
+\begin{definition}\index{paradox} A \textbf{paradox}\index{paradox} is a statement that seems to be contradictory. This means it seems both true and false at the same time. 
+\end{definition}
 
 There are many paradoxes in mathematics. By studying them we gain
 insight---and also practice tying our brain into knots! Here is a paradox:
 
-\begin{para} $\sqrt{2} = 2$.\index{paradox!$\sqrt{2}=2$}\index{sqrt2@$\sqrt{2}$}
-\end{para}
+\begin{paradox} $\sqrt{2} = 2$.\index{paradox!$\sqrt{2}=2$}\index{sqrt2@$\sqrt{2}$}
+\end{paradox}
 
 \begin{proof}[False-Proof] Consider the following sequence of diagrams:
 \[
@@ -407,15 +397,14 @@ converges, we see that the hypotenuse of the right-triangle will have
 length $2$. Thus $\sqrt{2} = 2$.
 \end{proof}
 
-\begin{ques} What is wrong with the proof above? 
-\end{ques}
+\begin{question} What is wrong with the proof above? 
+\end{question}
 \QM
 
 
 
-\newpage
 
-\subsection*{Problems for Section~\thesection}\hrule\vspace{1ex}
+\begin{problems}
 \begin{enumerate}
 \item Suppose that you have two triangles $\triangle ABC$ and $\triangle DEF$ in  city geometry such that
 \begin{enumerate}
@@ -477,7 +466,7 @@ the line $y=x$.
 
 
 \end{enumerate}
-
+\end{problems}
 
 \newpage
 
@@ -488,7 +477,7 @@ If you are interested in \textit{real-world} types of problems, then
 maybe city geometry is the geometry for you. The concepts that arise
 in city geometry are directly applicable to everyday life.
 
-\begin{ques}
+\begin{question}
 Will just bought himself a brand new gorilla suit.\index{gorilla suit}
 He wants to show it off at three parties this Saturday night. The
 parties are being held at his friends' houses: the
@@ -498,7 +487,7 @@ does he travel this Saturday night?
 \[
 \includegraphics{../graphics/citygrideg2.pdf}
 \]
-\end{ques} 
+\end{question} 
 \begin{proof}[Solution] We need to compute
 \[
 d_T(A,H)+d_T(H,W)
@@ -524,7 +513,7 @@ Will must trudge $7+15 = 22$ blocks in his gorilla suit.
 Okay, that's enough monkey business---I feel like pizza and a movie.
 
 
-\begin{ques}
+\begin{question}
 Brad and Melissa are going to downtown Champaign, Illinois. Brad wants
 to go to \textit{Jupiter's} for pizza $(J)$ while Melissa goes to
 \textit{Boardman's Art Theater} $(B)$ to watch a movie. Where should
@@ -532,7 +521,7 @@ they park to minimize the total distance walked by both?
 \[
 \includegraphics{../graphics/citygrideg3.pdf}
 \]
-\end{ques}
+\end{question}
 
 \begin{proof}[Solution]
 Again, let's set up a coordinate system so that we can say what points
@@ -557,21 +546,21 @@ than $9$ blocks. Any path from $B$ to $J$ going through $D$ goes a
 block too far west and then has to backtrack a block to the east
 making it longer than $9$ blocks.
 \end{proof}
-\begin{ques}
+\begin{question}
 If we consider the same question in Euclidean geometry, what is the
 answer?
-\end{ques}
+\end{question}
 \QM
 
 
-\begin{ques}
+\begin{question}
 Tom is looking for an apartment that is close to Altgeld Hall $(H)$
 but is also close to his favorite restaurant, \textit{Crane
   Alley}\index{Crane Alley} $(C)$. Where should Tom live?
 \[
 \includegraphics{../graphics/citygrideg6.pdf}
 \]
-\end{ques}
+\end{question}
 \begin{proof}[Solution]
 If we fix a coordinate system with its origin at Altgeld Hall, $H$,
 then $C$ is at $(8,2)$. We see that $d_T(H,C)=10$. If Tom wants to
@@ -588,12 +577,7 @@ We now see that Tom should check out the apartments near $(5,0), (4,1)$, and $(3
 
 
 
-
-\newpage
-
-
-
-\subsection*{Problems for Section~\thesection}\hrule\vspace{1ex}
+\begin{problems}
 \begin{enumerate}
 \item Will just bought himself a brand new gorilla suit. He wants to
   show it off at three parties this Saturday night. The parties are
@@ -641,7 +625,7 @@ We now see that Tom should check out the apartments near $(5,0), (4,1)$, and $(3
 \]
 
 %\item A group of hooligans think it would be hilarious to place a
-%  bucket on the Alma Mater's\footnote{The Alma Mater is a statue of a
+%  bucket on the Alma Mater's\marginnote{The Alma Mater is a statue of a
 %    ``Loving Mother'' at the University of Illinois.} head, point
 %  $A$. Moreover, these hooligans are currently at point $S$ and wish
 %  to celebrate their accomplishment at \textit{Murphy's Pub}, point
@@ -669,7 +653,7 @@ We now see that Tom should check out the apartments near $(5,0), (4,1)$, and $(3
 %%PICT
 
 \item Tom and Ben have devised a ingenious\index{puzzle-stroll}
-  \textit{Puzzle-Stroll}.\footnote{A.K.A.\ a \textit{scavenger-hunt}.}
+  \textit{Puzzle-Stroll} (aka a \textit{scavenger-hunt}).
   Here is one of the puzzles:
 \begin{quote}
 To find what you seek, you must be one with the city---using it's
@@ -733,4 +717,4 @@ Where's the treasure? Explain your reasoning.
 \includegraphics{../graphics/cityZeb.pdf}
 \]
 \end{enumerate}
-
+\end{problems}

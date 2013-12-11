@@ -1,96 +1,100 @@
-\contentsline {chapter}{\numberline {1}Proof by Picture}{1}
-\contentsline {section}{\numberline {1.1}Basic Set Theory}{1}
-\contentsline {subsection}{\numberline {1.1.1}Union}{2}
-\contentsline {subsection}{\numberline {1.1.2}Intersection}{2}
-\contentsline {subsection}{\numberline {1.1.3}Complement}{3}
-\contentsline {subsection}{\numberline {1.1.4}Putting Things Together}{4}
-\contentsline {section}{\numberline {1.2}Tessellations}{9}
-\contentsline {subsection}{\numberline {1.2.1}Tessellations and Art}{10}
-\contentsline {section}{\numberline {1.3}Proof by Picture}{16}
-\contentsline {subsection}{\numberline {1.3.1}Proofs Involving Right Triangles}{16}
-\contentsline {subsection}{\numberline {1.3.2}Proofs Involving Boxy Things}{19}
-\contentsline {subsection}{\numberline {1.3.3}Proofs Involving Infinite Sums}{20}
-\contentsline {subsection}{\numberline {1.3.4}Thinking Outside the Box}{21}
-\contentsline {chapter}{\numberline {2}Compass and Straightedge Constructions}{32}
-\contentsline {section}{\numberline {2.1}Constructions}{32}
-\contentsline {paragraph}{Compass and straightedge constructions are \textbf {independent of units}.}{33}
-\contentsline {paragraph}{Compass and straightedge constructions are \textbf {theoretically correct}.}{33}
-\contentsline {paragraph}{Combined, the compass and straightedge seem like \textbf {powerful tools}.}{33}
-\contentsline {section}{\numberline {2.2}Anatomy of Figures}{40}
-\contentsline {subsection}{\numberline {2.2.1}Lines Related to Triangles}{41}
-\contentsline {subsection}{\numberline {2.2.2}Circles Related to Triangles}{41}
-\contentsline {section}{\numberline {2.3}Trickier Constructions}{45}
-\contentsline {subsection}{\numberline {2.3.1}Challenge Constructions}{46}
-\contentsline {subsection}{\numberline {2.3.2}Problem Solving Strategies}{49}
-\contentsline {paragraph}{Construct what you can.}{49}
-\contentsline {paragraph}{Sketch what you are trying to find.}{49}
-\contentsline {chapter}{\numberline {3}Folding and Tracing Constructions}{54}
-\contentsline {section}{\numberline {3.1}Constructions}{54}
-\contentsline {section}{\numberline {3.2}Anatomy of Figures Redux}{63}
-\contentsline {section}{\numberline {3.3}Similar Triangles}{66}
-\contentsline {subsection}{\numberline {3.3.1}Theorems for Similar Triangles}{67}
-\contentsline {subsubsection}{The Converse}{70}
-\contentsline {subsubsection}{SAS-Similarity Theorem}{71}
-\contentsline {subsection}{\numberline {3.3.2}A Meaning of Multiplication}{72}
-\contentsline {chapter}{\numberline {4}Coordinate Constructions}{78}
-\contentsline {section}{\numberline {4.1}Constructions}{78}
-\contentsline {section}{\numberline {4.2}Brave New Anatomy of Figures}{83}
-\contentsline {subsection}{\numberline {4.2.1}Parabolas}{84}
-\contentsline {paragraph}{Step 1}{84}
-\contentsline {paragraph}{Step 2}{84}
-\contentsline {section}{\numberline {4.3}Constructible Numbers}{89}
-\contentsline {section}{\numberline {4.4}Impossibilities}{97}
-\contentsline {subsection}{\numberline {4.4.1}Doubling the Cube}{97}
-\contentsline {subsection}{\numberline {4.4.2}Squaring the Circle}{97}
-\contentsline {subsection}{\numberline {4.4.3}Trisecting the Angle}{98}
-\contentsline {subsection}{\numberline {4.4.4}Folding and Tracing's Time to Shine}{98}
-\contentsline {chapter}{\numberline {5}City Geometry}{101}
-\contentsline {section}{\numberline {5.1}Welcome to the City}{101}
-\contentsline {subsection}{\numberline {5.1.1}(Un)Common Structures}{103}
-\contentsline {subsubsection}{Triangles}{103}
-\contentsline {subsubsection}{Circles}{104}
-\contentsline {section}{\numberline {5.2}Anatomy of Figures and the City}{107}
-\contentsline {subsubsection}{Midsets}{108}
-\contentsline {subsubsection}{Parabolas}{110}
-\contentsline {subsubsection}{A Paradox}{111}
-\contentsline {section}{\numberline {5.3}Getting Work Done}{114}
-\contentsline {chapter}{\numberline {6}Isometries}{122}
-\contentsline {section}{\numberline {6.1}Matrices as Functions}{122}
-\contentsline {subsection}{\numberline {6.1.1}Translations}{123}
-\contentsline {subsection}{\numberline {6.1.2}Reflections}{125}
-\contentsline {subsubsection}{A Collection of Reflections}{126}
-\contentsline {subsection}{\numberline {6.1.3}Rotations}{127}
-\contentsline {section}{\numberline {6.2}The Algebra of Matrices}{135}
-\contentsline {subsection}{\numberline {6.2.1}Matrix Multiplication}{135}
-\contentsline {subsection}{\numberline {6.2.2}Compositions of Matrices}{136}
-\contentsline {subsubsection}{Compositions of Translations}{137}
-\contentsline {subsubsection}{Compositions of Reflections}{137}
-\contentsline {subsubsection}{Compositions of Rotations}{138}
-\contentsline {subsection}{\numberline {6.2.3}Mixing and Matching}{138}
-\contentsline {section}{\numberline {6.3}The Theory of Groups}{142}
-\contentsline {subsection}{\numberline {6.3.1}Groups of Rotations}{142}
-\contentsline {subsection}{\numberline {6.3.2}Groups of Reflections}{143}
-\contentsline {subsection}{\numberline {6.3.3}Symmetry Groups}{144}
-\contentsline {chapter}{\numberline {A}Activities}{148}
-\setcounter {tocdepth}{0}
-\contentsline {section}{\numberline {A.1}It's What the Book Says}{149}
-\contentsline {section}{\numberline {A.2}Forget Something?}{150}
-\contentsline {section}{\numberline {A.3}Louie Llama and the Triangle}{151}
-\contentsline {section}{\numberline {A.4}Angles in a Funky Shape}{154}
-\contentsline {section}{\numberline {A.5}Centers, Circles, and Lines Oh My!}{155}
-\contentsline {section}{\numberline {A.6}The Euler Line}{157}
-\contentsline {section}{\numberline {A.7}Verifying our Constructions}{158}
-\contentsline {section}{\numberline {A.8}Of Angles and Circles}{160}
-\contentsline {section}{\numberline {A.9}I'm Into Triangles}{162}
-\contentsline {section}{\numberline {A.10}Morley's Miracle}{163}
-\contentsline {section}{\numberline {A.11}Please be Rational}{164}
-\contentsline {section}{\numberline {A.12}Reading Information From a Graph}{165}
-\contentsline {section}{\numberline {A.13}Bola, Para Bola}{167}
-\contentsline {section}{\numberline {A.14}The Path Not Taken}{169}
-\contentsline {section}{\numberline {A.15}Midsets Abound}{170}
-\contentsline {section}{\numberline {A.16}Tenacity Paracity}{172}
-\contentsline {section}{\numberline {A.17}Who Mapped the What Where?}{176}
-\contentsline {section}{\numberline {A.18}How Strange Could It Be?}{177}
-\contentsline {section}{\numberline {A.19}Subs at Sea}{179}
-\contentsline {chapter}{References and Further Reading}{179}
-\contentsline {chapter}{Index}{181}
+\contentsline {chapter}{Preface}{3}{chapter*.1}
+\contentsline {chapter}{\numberline {1}Proof by Picture}{9}{chapter.1}
+\contentsline {section}{\numberline {1.1}Basic Set Theory}{9}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Union}{10}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Intersection}{11}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Complement}{12}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Putting Things Together}{13}{subsection.1.1.4}
+\contentsline {section}{\numberline {1.2}Tessellations}{18}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Tessellations and Art}{20}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}Proof by Picture}{26}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Proofs Involving Right Triangles}{26}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Proofs Involving Boxy Things}{30}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Proofs Involving Infinite Sums}{31}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Thinking Outside the Box}{33}{subsection.1.3.4}
+\contentsline {chapter}{\numberline {2}Compass and Straightedge Constructions}{40}{chapter.2}
+\contentsline {section}{\numberline {2.1}Constructions}{40}{section.2.1}
+\contentsline {paragraph}{Compass and straightedge constructions are \textbf {independent of units}.}{41}{paragraph*.3}
+\contentsline {paragraph}{Compass and straightedge constructions are \textbf {theoretically correct}.}{41}{paragraph*.4}
+\contentsline {paragraph}{Combined, the compass and straightedge seem like \textbf {powerful tools}.}{41}{paragraph*.5}
+\contentsline {paragraph}{*}{41}{paragraph*.6}
+\contentsline {section}{\numberline {2.2}Anatomy of Figures}{50}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Lines Related to Triangles}{51}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Circles Related to Triangles}{53}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Trickier Constructions}{56}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Challenge Constructions}{58}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Problem Solving Strategies}{62}{subsection.2.3.2}
+\contentsline {paragraph}{Construct what you can.}{62}{paragraph*.7}
+\contentsline {paragraph}{Sketch what you are trying to find.}{63}{paragraph*.8}
+\contentsline {chapter}{\numberline {3}Folding and Tracing Constructions}{66}{chapter.3}
+\contentsline {section}{\numberline {3.1}Constructions}{66}{section.3.1}
+\contentsline {paragraph}{*}{66}{paragraph*.9}
+\contentsline {section}{\numberline {3.2}Anatomy of Figures Redux}{77}{section.3.2}
+\contentsline {section}{\numberline {3.3}Similar Triangles}{80}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Theorems for Similar Triangles}{82}{subsection.3.3.1}
+\contentsline {paragraph}{The Converse}{86}{paragraph*.10}
+\contentsline {paragraph}{SAS-Similarity Theorem}{89}{paragraph*.11}
+\contentsline {subsection}{\numberline {3.3.2}A Meaning of Multiplication}{90}{subsection.3.3.2}
+\contentsline {chapter}{\numberline {4}Coordinate Constructions}{94}{chapter.4}
+\contentsline {section}{\numberline {4.1}Constructions}{94}{section.4.1}
+\contentsline {paragraph}{*}{94}{paragraph*.12}
+\contentsline {section}{\numberline {4.2}Brave New Anatomy of Figures}{101}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Parabolas}{102}{subsection.4.2.1}
+\contentsline {paragraph}{Step 1}{104}{paragraph*.13}
+\contentsline {paragraph}{Step 2}{104}{paragraph*.14}
+\contentsline {section}{\numberline {4.3}Constructible Numbers}{107}{section.4.3}
+\contentsline {section}{\numberline {4.4}Impossibilities}{117}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Doubling the Cube}{117}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Squaring the Circle}{117}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Trisecting the Angle}{118}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Folding and Tracing's Time to Shine}{119}{subsection.4.4.4}
+\contentsline {chapter}{\numberline {5}City Geometry}{122}{chapter.5}
+\contentsline {section}{\numberline {5.1}Welcome to the City}{122}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}(Un)Common Structures}{124}{subsection.5.1.1}
+\contentsline {paragraph}{Triangles}{124}{paragraph*.15}
+\contentsline {paragraph}{Circles}{125}{paragraph*.16}
+\contentsline {section}{\numberline {5.2}Anatomy of Figures and the City}{128}{section.5.2}
+\contentsline {paragraph}{Midsets}{129}{paragraph*.17}
+\contentsline {paragraph}{Parabolas}{132}{paragraph*.18}
+\contentsline {paragraph}{A Paradox}{133}{paragraph*.19}
+\contentsline {section}{\numberline {5.3}Getting Work Done}{136}{section.5.3}
+\contentsline {chapter}{\numberline {6}Isometries}{143}{chapter.6}
+\contentsline {section}{\numberline {6.1}Matrices as Functions}{143}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Translations}{145}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Reflections}{147}{subsection.6.1.2}
+\contentsline {paragraph}{A Collection of Reflections}{148}{paragraph*.20}
+\contentsline {subsection}{\numberline {6.1.3}Rotations}{150}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}The Algebra of Matrices}{156}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Matrix Multiplication}{156}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Compositions of Matrices}{158}{subsection.6.2.2}
+\contentsline {paragraph}{Compositions of Translations}{158}{paragraph*.21}
+\contentsline {paragraph}{Compositions of Reflections}{159}{paragraph*.22}
+\contentsline {paragraph}{Compositions of Rotations}{160}{paragraph*.23}
+\contentsline {subsection}{\numberline {6.2.3}Mixing and Matching}{161}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}The Theory of Groups}{164}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Groups of Rotations}{164}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Groups of Reflections}{166}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Symmetry Groups}{167}{subsection.6.3.3}
+\contentsline {chapter}{\numberline {A}Activities}{171}{appendix.A}
+\contentsline {section}{\numberline {A.1}It's What the Book Says}{172}{section.A.1}
+\contentsline {section}{\numberline {A.2}Forget Something?}{173}{section.A.2}
+\contentsline {section}{\numberline {A.3}Louie Llama and the Triangle}{174}{section.A.3}
+\contentsline {section}{\numberline {A.4}Angles in a Funky Shape}{178}{section.A.4}
+\contentsline {section}{\numberline {A.5}Centers, Circles, and Lines Oh My!}{179}{section.A.5}
+\contentsline {section}{\numberline {A.6}The Euler Line}{181}{section.A.6}
+\contentsline {section}{\numberline {A.7}Verifying our Constructions}{182}{section.A.7}
+\contentsline {section}{\numberline {A.8}Of Angles and Circles}{184}{section.A.8}
+\contentsline {section}{\numberline {A.9}I'm Into Triangles}{187}{section.A.9}
+\contentsline {section}{\numberline {A.10}Morley's Miracle}{188}{section.A.10}
+\contentsline {section}{\numberline {A.11}Please be Rational}{189}{section.A.11}
+\contentsline {section}{\numberline {A.12}Reading Information From a Graph}{191}{section.A.12}
+\contentsline {section}{\numberline {A.13}Bola, Para Bola}{193}{section.A.13}
+\contentsline {section}{\numberline {A.14}The Path Not Taken}{195}{section.A.14}
+\contentsline {section}{\numberline {A.15}Midsets Abound}{197}{section.A.15}
+\contentsline {section}{\numberline {A.16}Tenacity Paracity}{200}{section.A.16}
+\contentsline {section}{\numberline {A.17}Who Mapped the What Where?}{204}{section.A.17}
+\contentsline {section}{\numberline {A.18}How Strange Could It Be?}{206}{section.A.18}
+\contentsline {section}{\numberline {A.19}Subs at Sea}{208}{section.A.19}
+\contentsline {chapter}{\numberline {B}References and Further Reading}{209}{appendix.B}
+\contentsline {chapter}{\numberline {C}Index}{211}{appendix.C}
+\contentsfinish 

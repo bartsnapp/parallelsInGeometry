@@ -1,0 +1,844 @@
+\NeedsTeXFormat{LaTeX2e}% LaTeX 2.09 can't be used (nor non-LaTeX)
+[1994/12/01]% LaTeX date must be December 1994 or later
+\ProvidesPackage{teacherEd}[2013/05/12 v0.76]
+\ProcessOptions\relax
+
+
+%\RequirePackage{float}
+%\RequirePackage{tabu} % allows for table with thick lines
+\RequirePackage{marvosym}
+\RequirePackage[framemethod=TikZ]{mdframed}
+\RequirePackage{environ}
+%\RequirePackage{xkeyval}
+\RequirePackage{tikz}
+%\RequirePackage{amssymb}
+%\RequirePackage{amsmath}
+\RequirePackage{mathtools} %% trying to get cases to work in caption
+\RequirePackage{ntheorem}
+\RequirePackage{thmtools}
+\RequirePackage{microtype}
+\RequirePackage{enumerate}
+\RequirePackage{makeidx} %%% gives us our groovy index
+
+\makeindex
+
+\RequirePackage{pifont}
+\RequirePackage{bigstrut}
+\RequirePackage[all,cmtip]{xy}
+
+%% packages for the symbols activity:
+%\usepackage{phaistos}
+\usepackage{protosem}
+
+
+
+
+
+%\RequirePackage{pgfplots}
+
+
+
+
+\RequirePackage{morefloats}
+
+\usetikzlibrary{shadows}
+\usetikzlibrary{shapes}
+\usetikzlibrary{decorations}
+\tikzset{>=stealth} %% makes all arrows the same
+
+
+%% Font
+\RequirePackage[T1]{fontenc}
+
+%% New Centuary Schoolbook
+%\RequirePackage{fouriernc}
+
+
+%% Bookman
+\let\iint\undefined 
+\let\iiint\undefined 
+%\RequirePackage{MnSymbol}
+\RequirePackage{kmath,kerkis} % The order of the packages matters; kmath changes the default text font
+
+
+%%% Header and Footer Options
+\renewcommand{\headrulewidth}{0.0pt} %%% this takes out the line 
+%%%
+%\rhead[]{\textsl{\leftmark}}  %%%
+%\rfoot[]{\thepage}            %%% Options for 2 sided documents
+%\lhead[\textsl{\rightmark}]{} %%%
+%\lfoot[\thepage]{}            %%%
+%%%
+\lhead[\textsl{\rightmark}]{\textsl{\leftmark}} %%% Options for 1 sided documents
+\cfoot[]{}                      %%% With typing on the *left* page
+\rhead[]{}                                      %%% 
+%%%
+\cfoot[\thepage]{\thepage} %%% needed for both types of documents
+%%% End Header and Footer Options
+
+
+
+
+
+
+\usepackage{array}
+\setlength{\extrarowheight}{-.2cm}
+\newdimen\digitwidth
+\settowidth\digitwidth{9}
+\def~{\hspace{\digitwidth}}
+\def\divrule#1#2{
+\noalign{\moveright#1\digitwidth
+\vbox{\hrule width#2\digitwidth}}}
+
+
+%%% This set of code gives us the unnumbered footnotes
+\long\def\symbolfootnote[#1]#2{\begingroup\def\thefootnote{\fnsymbol{footnote}}
+\footnote[#1]{#2}\endgroup}
+
+
+
+%%% This set of code is all of our user defined commands
+\newcommand{\bysame}{\mbox{\rule{3em}{.4pt}}\,}
+\newcommand{\N}{\mathbb N}
+\renewcommand{\C}{\mathbb C}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\A}{\mathbb A}
+\newcommand{\D}{\mathcal D}
+\newcommand{\F}{\mathcal F}
+\newcommand{\ph}{\varphi}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\aph}{\alpha}
+\newcommand{\QM}{\begin{center}{\huge\textbf{?}}\end{center}}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+\renewcommand{\a}{\wedge}
+\renewcommand{\v}{\vee}
+\renewcommand{\l}{\ell}
+\newcommand{\mat}{\mathsf}
+\renewcommand{\vec}{\mathbf}
+\renewcommand{\subset}{\subseteq}
+\renewcommand{\supset}{\supseteq}
+\renewcommand{\emptyset}{\varnothing}
+\newcommand{\xto}{\xrightarrow}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\renewcommand{\bibname}{References and Further Reading}
+\renewcommand{\bar}{\protect\overline}
+\renewcommand{\hat}{\protect\widehat}
+\renewcommand{\tilde}{\widetilde}
+\newcommand{\tri}{\triangle}
+\newcommand{\minipad}{\vspace{1ex}}
+\newcommand{\leftexp}[2]{{\vphantom{#2}}^{#1}{#2}}
+
+%% The following is a quick fix for \subsubsection, which is not available in the Tufte style
+%%
+\renewcommand{\subsubsection}[1]{\paragraph{#1}}
+
+
+
+
+%% Colors
+
+\colorlet{background}{white} % Color of the page
+\colorlet{textColor}{black} % Color of the text
+
+\colorlet{penColor}{blue!50!black} % Color of a curve in a plot
+\colorlet{penColor2}{red!50!black} % Color of a curve in a plot
+\colorlet{penColor3}{red!50!blue} % Color of a curve in a plot
+\colorlet{penColor4}{green!50!black} % Color of a curve in a plot
+\colorlet{penColor5}{orange!80!black} % Color of a curve in a plot
+\colorlet{fill1}{blue!50!black!20} % Color of fill in a plot
+\colorlet{fill2}{blue!10} % Color of fill in a plot
+\colorlet{fillp}{fill1} % Color of positive area
+\colorlet{filln}{red!50!black!20} % Color of negative area
+\newcommand{\surfaceColor}{violet}
+\newcommand{\surfaceColorTwo}{redyellow}
+\newcommand{\sliceColor}{greenyellow}
+\colorlet{gridColor}{gray!50} % Color of grid in a plot
+\colorlet{definitionBackground}{black!8!background} % Color of the background of
+                                          % a definition
+\colorlet{theoremBackground}{blue!50!black!8!background} % Color of the background of a theorem
+\colorlet{mainTheoremBorder}{blue!50!black} % Color of the border of a main theorem
+\colorlet{mainOtherBorder}{black} % Color of the border of a main theorem
+\colorlet{cowLight}{background} % the light colors of the cow --
+                                % usually the same as the background
+\colorlet{cowDark}{textColor} % the dark colors of the cow -- usually
+                              % the same as the text
+\colorlet{hyperColor}{green!30!penColor} % Color of a link
+
+\hypersetup{ 
+    colorlinks = true, 
+    linkcolor = hyperColor,
+    anchorcolor = hyperColor,
+    citecolor = hyperColor,
+    filecolor = hyperColor,
+    pagecolor = hyperColor,
+    urlcolor = hyperColor
+} 
+
+%% Table colors
+\newenvironment{tchart}{\rowcolors{2}{}{background!95!textColor}\array}{\endarray}
+
+
+
+
+
+
+
+
+
+\pagecolor{background}
+\color{textColor} 
+
+
+
+%% User defined commands
+\renewcommand{\epsilon}{\varepsilon}
+\renewcommand{\theta}{\vartheta} %% only for kmath
+\renewcommand{\l}{\ell}
+\renewcommand{\d}{\, d}
+\newcommand{\ddx}{\frac{d}{dx}}
+\newcommand{\dydx}{\frac{dy}{dx}}
+
+\renewcommand{\footnote}[1]{~(#1)}
+
+%%% This set of code gives us the unnumbered footnotes
+\long\def\symbolfootnote[#1]#2{\begingroup\def\thefootnote{\fnsymbol{footnote}}
+\footnote[#1]{#2}\endgroup}
+
+%\newenvironment{activitynote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Note:}{\end{bfseries}\end{itshape}\end{framed}}
+
+\NewEnviron{activitynote}{\marginnote{\BODY}}
+
+
+
+
+
+%\newcommand{\dd}[1]{\frac{d}{d #1}}
+\def\dd{\@ifnextchar[{\@with}{\@without}}
+\def\@with[#1]#2{\frac{d #1}{d #2}}
+\def\@without#1{\frac{d}{d #1}}
+
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccsc}{arccsc}
+\DeclareMathOperator{\sech}{sech}
+\DeclareMathOperator{\csch}{csch}
+\DeclareMathOperator{\arcsinh}{arcsinh}
+\DeclareMathOperator{\arcsech}{arcsech}
+\DeclareMathOperator{\arccosh}{arccosh}
+
+%\DeclareMathOperator*\plim{lim}
+%\renewcommand{\lim}{\displaystyle\plim} if we really want all limits display style
+\everymath{\displaystyle}
+
+
+
+
+
+\geometry{landscape, 
+  left=1in,
+  top=1in,
+  textheight=6.5in,
+  textwidth=5in,
+  marginparsep=0.5in,
+  marginparwidth=2.5in}
+
+
+\declaretheoremstyle[ headfont=\normalfont\bfseries,
+  notefont=\mdseries, notebraces={(}{)}, bodyfont=\normalfont\slshape,
+  postheadspace=0.5em,
+  preheadhook={\begin{mdframed}[hidealllines=true,roundcorner=10pt,leftmargin=40,%
+rightmargin=40,backgroundcolor=theoremBackground,fontcolor=textColor,%%
+innertopmargin=6pt,%
+splittopskip=\topskip,skipbelow=\baselineskip,%
+skipabove=\baselineskip]},
+  postfoothook=\end{mdframed} ]{thmStyle}%
+\declaretheorem[style=thmStyle,name=Theorem,numberwithin=section]{theorem}
+
+
+\declaretheoremstyle[ headfont=\normalfont\bfseries,
+  notefont=\mdseries, notebraces={(}{)}, bodyfont=\normalfont\slshape,
+  postheadspace=0.5em,
+  preheadhook={\begin{mdframed}[hidealllines=true,roundcorner=10pt,leftmargin=40,%
+rightmargin=40,backgroundcolor=theoremBackground,fontcolor=textColor,%%
+innertopmargin=6pt,%
+splittopskip=\topskip,skipbelow=\baselineskip,%
+skipabove=\baselineskip]},
+  postfoothook=\end{mdframed} ]{thmStyle}%
+\declaretheorem[style=thmStyle,name=Lemma,numberwithin=section]{lemma}
+
+
+
+\declaretheoremstyle[
+  headfont=\normalfont\bfseries,
+  bodyfont=\normalfont\upshape,  %% changed from \slshape
+  postheadspace=0.5em,
+  headpunct=),
+  headformat={\NUMBER}]
+{probStyle}% 
+\declaretheorem[style=probStyle,numberwithin=section]{prob}
+
+
+
+
+
+
+\declaretheoremstyle[ headfont=\normalfont\bfseries,
+  notefont=\mdseries, notebraces={(}{)}, bodyfont=\normalfont\upshape,
+  postheadspace=0.5em,
+  preheadhook={\begin{mdframed}[outerlinewidth=2,topline=false, bottomline=false, leftline=true, rightline=false, leftmargin=40,%
+rightmargin=40,
+outerlinecolor=textColor,fontcolor=textColor,backgroundcolor=background,%%
+skipbelow=\baselineskip,skipabove=\baselineskip,innertopmargin=0pt, innerbottommargin=0pt]},
+postfoothook=\end{mdframed}]{egStyle}
+\declaretheorem[style=egStyle,name=Example,numberlike=theorem]{example}
+
+
+\theoremstyle{nonumberplain} %% All styles beyond this point are unnumbered.
+\theoremheaderfont{\normalfont\itshape\bfseries}
+\theorembodyfont{\itshape}
+\theoremseparator{}
+\newmdtheoremenv[outerlinewidth=2,topline=false, bottomline=false, leftline=true, rightline=false, 
+leftmargin=40,innertopmargin=0pt,innerbottommargin=0pt,skipbelow=\baselineskip,
+outerlinecolor=textColor,fontcolor=textColor,backgroundcolor=background]{solution}%
+{Solution}
+
+
+\theoremheaderfont{\normalfont\itshape\bfseries}
+\theorembodyfont{\itshape}
+\theoremseparator{}
+\newmdtheoremenv[outerlinewidth=2,topline=false, bottomline=true, leftline=false, rightline=true, 
+leftmargin=40,outerlinecolor=textColor,fontcolor=textColor,backgroundcolor=background,
+skipbelow=\baselineskip]{proof}%
+{Proof}
+
+\declaretheoremstyle[ headfont=\normalfont\bfseries,
+  notefont=\mdseries, notebraces={(}{)}, bodyfont=\normalfont,
+  postheadspace=0.5em,
+  preheadhook={\begin{mdframed}[hidealllines=true,roundcorner=10pt,leftmargin=40,%
+rightmargin=40,backgroundcolor=definitionBackground,fontcolor=textColor,%%
+innertopmargin=6pt,%
+splittopskip=\topskip,skipbelow=\baselineskip,%
+skipabove=\baselineskip]},
+  postfoothook=\end{mdframed} ]{thmStyle}%
+\declaretheorem[style=thmStyle,name=Template,numberlike=theorem]{template}
+
+
+\theoremheaderfont{\normalfont\bfseries}
+\theorembodyfont{\upshape}
+\newmdtheoremenv[hidealllines=true,roundcorner=10pt,leftmargin=40,%
+rightmargin=40,backgroundcolor=definitionBackground,fontcolor=textColor,%%
+innertopmargin=6pt,%\topskip,%
+splittopskip=\topskip,skipbelow=\baselineskip,skipabove=\baselineskip,
+font=\upshape
+]{definition}%
+{Definition}
+
+%% 
+%% For want of a better solution, the following styles for Construction, Paradox, Conjecture, and Corollary 
+%%  are the same as that of Definition
+%%
+
+\theoremheaderfont{\normalfont\bfseries}
+\theorembodyfont{\upshape}
+\newmdtheoremenv[hidealllines=true,roundcorner=10pt,leftmargin=40,%
+rightmargin=40,backgroundcolor=definitionBackground,fontcolor=textColor,%%
+innertopmargin=6pt,%\topskip,%
+splittopskip=\topskip,skipbelow=\baselineskip,skipabove=\baselineskip,
+font=\upshape
+]{construction}%
+{Construction}
+
+\theoremheaderfont{\normalfont\bfseries}
+\theorembodyfont{\upshape}
+\newmdtheoremenv[hidealllines=true,roundcorner=10pt,leftmargin=40,%
+rightmargin=40,backgroundcolor=definitionBackground,fontcolor=textColor,%%
+innertopmargin=6pt,%\topskip,%
+splittopskip=\topskip,skipbelow=\baselineskip,skipabove=\baselineskip,
+font=\upshape
+]{paradox}%
+{Paradox}
+
+\theoremheaderfont{\normalfont\bfseries}
+\theorembodyfont{\upshape}
+\newmdtheoremenv[hidealllines=true,roundcorner=10pt,leftmargin=40,%
+rightmargin=40,backgroundcolor=definitionBackground,fontcolor=textColor,%%
+innertopmargin=6pt,%\topskip,%
+splittopskip=\topskip,skipbelow=\baselineskip,skipabove=\baselineskip,
+font=\upshape
+]{conjecture}%
+{Conjecture}
+
+\theoremheaderfont{\normalfont\bfseries}
+\theorembodyfont{\upshape}
+\newmdtheoremenv[hidealllines=true,roundcorner=10pt,leftmargin=40,%
+rightmargin=40,backgroundcolor=definitionBackground,fontcolor=textColor,%%
+innertopmargin=6pt,%\topskip,%
+splittopskip=\topskip,skipbelow=\baselineskip,skipabove=\baselineskip,
+font=\upshape
+]{corollary}%
+{Corollary}
+
+
+\newmdtheoremenv[hidealllines=true,leftmargin=40,roundcorner=10pt%
+rightmargin=40,backgroundcolor=blue!5!background,%
+innertopmargin=6pt,%
+splittopskip=\topskip,skipbelow=\baselineskip,%
+skipabove=\baselineskip]{question}%
+{Question}
+
+
+\newmdtheoremenv[hidealllines=true,leftmargin=40,roundcorner=10pt%
+rightmargin=40,backgroundcolor=red!5!background,%
+innertopmargin=6pt,%
+splittopskip=\topskip,skipbelow=\baselineskip,%
+skipabove=\baselineskip]{warning}%
+{Warning}
+
+
+
+\usepackage{multicol} % Use letters for lists
+\renewcommand{\theenumi}{$(\mathrm{\alph{enumi}})$}
+\renewcommand{\labelenumi}{\theenumi}
+\setlength{\columnsep}{3em}
+
+\NewEnviron{problems}{%
+  \newpage
+  \subsection*{Problems for Section \arabic{chapter}.\arabic{section}}
+  \begin{fullwidth}
+    \vspace{-15pt}
+    \rule{8in}{2pt}
+    \begin{multicols}{2}
+      \small
+      \BODY
+    \end{multicols}
+  \end{fullwidth}
+  \normalsize
+  \newpage
+}%
+{}
+
+%%\newcounter{exercise}
+%% \newenvironment{exercise}{
+%%   \begin{enumerate}[(1)]
+%%     \setcounter{enumi}{\value{exercise}}
+%%   \item \addtocounter{exercise}{1}\hypertarget{e:\arabic{chapter}.\arabic{section}.\arabic{exercise}}{} 
+%% }
+%%            {\ignorespaces\hyperlink{a:\arabic{chapter}.\arabic{section}.\arabic{exercise}}{\linkArrow} %% for adding a link to exercises
+%%            \end{enumerate}}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CCSS Tufte Mods
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+\renewcommand{\maketitlepage}[0]{%
+  %\cleardoublepage%
+  {%
+  \sffamily%
+  \begin{fullwidth}%
+    %\vfill
+
+    \vspace*{1.75in}
+
+
+
+  \fontsize{56}{60}\selectfont\par\noindent\textcolor{textColor}{\bfseries\allcaps{\thanklesstitle}}%
+  \vfill%
+  \fontsize{18}{20}\selectfont\par\noindent\textcolor{textColor}{\allcaps{\thanklessauthor}}%
+  %\vspace{11.5pc}%
+  \fontsize{14}{16}\selectfont\par\noindent\allcaps{\thanklesspublisher}%
+  \end{fullwidth}%
+  }
+  \thispagestyle{empty}%
+  %\clearpage%
+}
+
+
+
+
+\RequirePackage{titlesec}
+\titleformat{\chapter}%
+  [block]% shape
+  {\relax\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\begin{fullwidth}}{}}% format applied to label+text
+  {\huge\scshape\sffamily\bfseries\textcolor{textColor}\thechapter}% label
+  {1em}% horizontal separation between label and title body
+  {\huge\scshape\sffamily\bfseries\textcolor{textColor}}% before the title body
+  [\ifthenelse{\NOT\boolean{@tufte@symmetric}}{\end{fullwidth}}{}]% after the title body
+
+\titleformat{\section}%
+  [hang]% shape
+  {\normalfont\Large\sffamily\bfseries}% format applied to label+text
+  {\thesection}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+\titleformat{\subsection}%
+  [hang]% shape
+  {\normalfont\large\sffamily\bfseries}% format applied to label+text
+  {\thesubsection}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+\titleformat{\paragraph}%
+  [runin]% shape
+  {\normalfont\sffamily}% format applied to label+text
+  {\theparagraph}% label
+  {1em}% horizontal separation between label and title body
+  {}% before the title body
+  []% after the title body
+
+
+
+\ifthenelse{\boolean{@tufte@toc}}{%
+  \titlecontents{part}% FIXME
+    [0em] % distance from left margin
+    {\vspace{1.5\baselineskip}\begin{fullwidth}\LARGE\sffamily} % above (global formatting of entry)
+    {\contentslabel{2em}} % before w/label (label = ``II'')
+    {} % before w/o label
+    {\sffamily\qquad\thecontentspage} % filler + page (leaders and page num)
+    [\end{fullwidth}] % after
+  \titlecontents{chapter}%
+    [0em] % distance from left margin
+    {\vspace{1.5\baselineskip}\begin{fullwidth}\LARGE\sffamily} % above (global formatting of entry)
+    {\hspace*{0em}\contentslabel{2em}} % before w/label (label = ``2'')
+    {\hspace*{0em}} % before w/o label
+    {\sffamily\hfill\qquad\thecontentspage} % filler + page (leaders and page num)
+    [\end{fullwidth}] % after
+  \titlecontents{section}% FIXME
+    [0em] % distance from left margin
+    {\vspace{0\baselineskip}\begin{fullwidth}\Large\sffamily} % above (global formatting of entry)
+    {\hspace*{2em}\contentslabel{2em}} % before w/label (label = ``2.6'')
+    {\hspace*{2em}} % before w/o label
+    {\sffamily\qquad\thecontentspage} % filler + page (leaders and page num)
+    [\end{fullwidth}] % after
+  \titlecontents{subsection}% FIXME
+    [0em] % distance from left margin
+    {\vspace{0\baselineskip}\begin{fullwidth}\large\sffamily} % above (global formatting of entry)
+    {\hspace*{4em}\contentslabel{4em}} % before w/label (label = ``2.6.1'')
+    {\hspace*{4em}} % before w/o label
+    {\sffamily\qquad\thecontentspage} % filler + page (leaders and page num)
+    [\end{fullwidth}] % after
+  \titlecontents{paragraph}% FIXME
+    [0em] % distance from left margin
+    {\vspace{0\baselineskip}\begin{fullwidth}\normalsize\sffamily} % above (global formatting of entry)
+    {\hspace*{6em}\contentslabel{2em}} % before w/label (label = ``2.6.0.0.1'')
+    {\hspace*{6em}} % before w/o label
+    {\sffamily\qquad\thecontentspage} % filler + page (leaders and page num)
+    [\end{fullwidth}] % after
+}{}
+
+
+
+
+
+
+
+
+%% Header mods
+%
+% The main matter in Tufte's /Beautiful Evidence/ doesn't restart the page
+% numbering---it continues where it left off in the front matter.
+\renewcommand\mainmatter{%
+  %\cleardoublepage%
+  \@mainmattertrue%
+  \fancyhf{}%
+  \ifthenelse{\boolean{@tufte@twoside}}%
+    {% two-side
+      \renewcommand{\chaptermark}[1]{\markboth{##1}{}}%
+      \fancyhead[LE]{\thepage\quad\smallcaps{\newlinetospace{\plaintitle}}}% book title
+      \fancyhead[RO]{\smallcaps{\newlinetospace{\leftmark}}\quad\thepage}% chapter title
+    }%
+    {% one-side
+      \fancyhead[RE,RO]{\smallcaps{\newlinetospace{\plaintitle}}\quad\thepage}% book title
+    }%
+}
+
+
+
+% Remove \FloatBarrier from marginfigure definition
+% to prevent unwanted spaces.
+\makeatletter% so we can use @ commands
+\renewenvironment{@tufte@margin@float}[2][-1.2ex]{%
+  %\FloatBarrier% removed because it adds unwanted white space
+  \begin{lrbox}{\@tufte@margin@floatbox}%
+  \begin{minipage}{\marginparwidth}%
+    \@tufte@caption@font
+    \def\@captype{#2}%
+    \hbox{}\vspace*{#1}%
+    \@tufte@caption@justification
+    \@tufte@margin@par
+    \noindent
+}{%
+  \end{minipage}%
+  \end{lrbox}%
+  \marginpar{\usebox{\@tufte@margin@floatbox}}%
+}
+\makeatother% restore meaning of @
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CCSS Macros
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% \usepackage{amsmath}
+%% \usepackage{amssymb}
+%% \usepackage{graphicx}
+%% \usepackage{color}
+%% \usepackage{pifont}
+%%\usepackage{mathabx}
+%% \usepackage{colortbl}
+
+\usepackage{threeparttable}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{url}
+
+
+
+\newenvironment{tablelist}{
+\begin{list}
+{$\bullet$}
+{
+\setlength\leftmargin{10pt}
+\setlength\topsep{6pt}
+}}
+{
+\end{list}}
+
+\newenvironment{tablelistii}{
+\begin{list}
+{$\circ$}
+{
+\setlength\topsep{0pt}
+\setlength\leftmargin{10pt}
+}}
+{
+\end{list}}
+
+% \usepackage{palatino}
+% \settypeblocksize{*}{4.22in}{2} %for Palatino
+% \setmarginnotes{0.5in}{2.65in}{0.1in} %for Palatino
+
+%% \settypeblocksize{*}{4.0in}{2} %for Kurier
+%% \setmarginnotes{0.5in}{3in}{0.1in} %for Kurier
+%% \setlrmargins{0.5in}{*}{*}
+%% \checkandfixthelayout
+%% \setlength{\intextsep}{0.5\intextsep}
+%% \makeevenfoot{plain}{}{\thepage}{\textit{Draft, 8/12/2011, comment at \url{commoncoretools.wordpress.com}}} 
+%% \makeoddfoot{plain}{\textit{Draft, 8/12/2011, comment at \url{commoncoretools.wordpress.com}.}}{}{\thepage} 
+%% \makeevenfoot{headings}{}{}{\textit{Draft, 8/12/2011, 
+%%     comments at \url{http://commoncoretools.wordpress.com}.}} 
+%% \makeoddfoot{headings}{\textit{Draft, 8/12/2011,
+%%    comment at \url{commoncoretools.wordpress.com}.}}{}{}
+
+\renewcommand{\thetable}{\arabic{table}}
+\def\billcomment#1{\footnote{#1}}
+\def\marginformat{\centering\footnotesize\sffamily}
+\let\realcite\cite
+\def\cite#1{}
+\def\hyperlink#1#2{#2}
+\def\standardid#1{}
+\def\sectionid#1{}
+\def\anchor#1{}
+\def\theme#1{}
+\def\domain#1{}
+\def\domainid#1{\def\thedomainid{#1}}
+\def\grade#1{\def\thegradeid{#1}}
+\def\cluster#1{}
+\def\standardnumber#1{\def\thestandardnumber{#1}}
+\def\letter#1{}
+\def\adv#1{}
+\def\mod#1{}
+%\def\text#1{\def\thetext{#1}} %clobbered text - hence moved
+
+
+
+
+\definecolor{light}{gray}{.75} 
+\definecolor{mcgray}{gray}{0.9}
+\definecolor{magenta}{rgb}{.451,.137,.11}
+
+
+\def\standard#1{\textsuperscript{\color{black}\footnotesize{#1}}%
+\marginnote{\def\text##1{\def\thetext{##1}}\input{../../../CCSS/Standards/#1.tex}\noindent Standard #1: \thetext}}
+
+\def\standardhs#1{\textsuperscript{\color{black}\footnotesize{#1}}%
+\marginnote{\def\text##1{\def\thetext{##1}}\input{../../../CCSS/Standards/9-12.#1.tex}\noindent Standard #1: \thetext}}
+
+\def\clarification#1{}
+%\def\clarification#1{\emph{#1}}
+
+
+%\def\document#1{} %% Needed to add standards
+
+
+%% \def\standardmark#1{\textsuperscript{\footnotesize #1}}
+
+%% \def\manualstandard#1#2#3{\textsuperscript{\footnotesize{#1}}%
+%% \marginpar{
+%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{\footnotesize\textbf{#2}}%
+%% \footnotesize\sffamily#3\normalfont}}%
+%% \box1}}
+
+%% \def\standard#1{\textsuperscript{\color{black}\footnotesize{#1}}%
+%% \marginpar{\input{../../../CCSS/Standards/#1.tex}%
+%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{\footnotesize\textbf{#1}}%
+%% \footnotesize%
+%% \sffamily%
+%% \thetext\normalfont}}%
+%% \box1}}
+
+%% \def\standardnomark#1{\marginpar{\input{Standards/#1.tex}%
+%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{\footnotesize\textbf{#1}}%
+%% \footnotesize%
+%% \sffamily%
+%% \thetext\normalfont}}%
+%% \box1}}
+
+%% \def\standardcustommark#1#2{\marginpar{\input{Standards/#2.tex}%
+%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{\footnotesize\textbf{#1}}%
+%% \footnotesize%
+%% \sffamily%
+%% \thetext\normalfont}}%
+%% \box1}}
+
+%% \def\letterstandard#1#2{{\textsuperscript{\color{black}\footnotesize{#1#2}}\marginpar{\input{Standards/#1.tex}
+%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{{\footnotesize\textbf{#1#2}}}
+%% \footnotesize%
+%% \sffamily%
+%% %{\color{black}#1#2.} 
+%% \thetext\input{Standards/#1#2.tex}
+%%       \begin{itemize}
+%%       \item[#2] \thetext
+%%       \end{itemize}}}\box1
+%% }}\normalfont}
+
+%% \def\letterstandardnomark#1#2{\marginpar{\input{Standards/#1.tex}
+%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{{\footnotesize\textbf{#1#2}}}
+%% \footnotesize%
+%% \sffamily%
+%% %{\color{black}#1#2.} 
+%% \thetext\input{Standards/#1#2.tex}
+%%       \begin{itemize}
+%%       \item[#2] \thetext
+%%       \end{itemize}}}\box1
+%% }\normalfont}
+
+%% \def\letteronlystandard#1#2{{\textsuperscript{\color{black}\footnotesize{#1#2}}\marginpar{\input{Standards/#1.tex}
+%% \footnotesize%
+%% \sffamily%
+%% %{\color{black}#1#2.} 
+%% \input{Standards/#1#2.tex}
+%%       \begin{itemize}
+%%       \item[#2] \thetext
+%%       \end{itemize}
+%% }}\normalfont}
+
+%% \def\letteronlystandardnomark#1#2{{\marginpar{\input{Standards/#1.tex}
+%% \footnotesize%
+%% \sffamily%
+%% %{\color{black}#1#2.} 
+%% \input{Standards/#1#2.tex}
+%%       \begin{itemize}
+%%       \item[#2] \thetext
+%%       \end{itemize}
+%% }}\normalfont}
+
+%% \def\practice#1#2{%
+%% %$^{\mbox{\footnotesize\color{blue}\ding{171}}}$
+%% \textsuperscript{{\footnotesize#1}}
+%% \marginpar{%
+%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{{\footnotesize#1}}
+%% \sffamily 
+%% %{\color{blue} \ding{171}} 
+%% \footnotesize #2 \normalfont}}\box1
+%% }%
+%% }
+
+\def\marginfigure#1{$^{\mbox{\footnotesize\color{red}\textbullet}}$\marginpar{
+\setbox1=\hbox{
+{\footnotesize\color{red}\textbullet}
+\setbox0=\hbox{#1}\lower0.5\ht0\hbox{#1}
+}
+\box1
+}}
+
+%% \def\marginfigurenodot#1{\marginpar{
+%% \setbox1=\hbox{
+%%   {\footnotesize\color{red}\textbullet}
+%%   \setbox0=\hbox{#1}\lower0.5\ht0\hbox{#1}
+%%   }
+%% \box1
+%% }}
+
+%% \def\marginhead#1{\centering{\textbf{#1}}\includegraphics[width=0cm]{Figures/null}\\
+%% \smallskip}
+\def\margincomment#1{$^{\mbox{\footnotesize\color{red}\textbullet}}$%
+\marginpar{%
+\setbox1=\hbox{\parbox{3in}{\footnotesize {\color{red}\textbullet} \sffamily #1}}\hbox{\box1}
+}%
+}
+
+%% \def\margincommentnodotintext#1{\marginpar{%
+%% \setbox1=\hbox{\parbox{3in}{\footnotesize {\color{red}\textbullet} \sffamily #1}}\box1
+%% }%
+%% }
+
+%% \def\reddot{$^{\mbox{\footnotesize\color{red}\textbullet}}$}
+
+%% \def\margincommentnodot#1{\marginpar{%
+%% \setbox1=\hbox{\parbox{3in}{\footnotesize  \sffamily #1}}\colorbox[gray]{0.9}{\box1}
+%% }%
+%% }
+
+%% %% \def\figure#1{
+%% %% \begin{figure*}[h]\centering#1\end{figure*}
+%% %% }
+
+%% % Findell Additions
+
+%% \def\adv#1{\def\theadv{#1}}
+%% \def\mod#1{\def\themod{#1}}
+
+%% \def\standardhs#1{\textsuperscript{\color{black}\footnotesize{#1}}%
+%% \marginpar{\input{Standards/9-12.#1.tex}%
+%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{\footnotesize\textbf{#1}}%
+%% \footnotesize%
+%% \sffamily%
+%% \ifcat\theadv1{(+) }\fi%
+%% \thetext
+%% \ifcat\themod1{$\star$}\fi%
+%% \normalfont}}%
+%% \box1}}
+
+%% \def\note#1{{\color{red}#1}}
+
+
+
+\endinput
