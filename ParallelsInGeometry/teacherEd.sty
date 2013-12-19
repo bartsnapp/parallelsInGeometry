@@ -31,11 +31,9 @@
 \usepackage{protosem}
 
 
-
-
+\usepackage{pgfplots}\pgfplotsset{compat=1.7}  % Needed for ecclipseTheEllipse
 
 %\RequirePackage{pgfplots}
-
 
 
 
@@ -156,9 +154,15 @@
 \newcommand{\surfaceColorTwo}{redyellow}
 \newcommand{\sliceColor}{greenyellow}
 \colorlet{gridColor}{gray!50} % Color of grid in a plot
-\colorlet{definitionBackground}{black!8!background} % Color of the background of
-                                          % a definition
+
+\colorlet{definitionBackground}{black!8!background} 
 \colorlet{theoremBackground}{blue!50!black!8!background} % Color of the background of a theorem
+
+% For photocopying the notes, white may be a better background color
+%
+%\colorlet{definitionBackground}{white} 
+%\colorlet{theoremBackground}{white} 
+
 \colorlet{mainTheoremBorder}{blue!50!black} % Color of the border of a main theorem
 \colorlet{mainOtherBorder}{black} % Color of the border of a main theorem
 \colorlet{cowLight}{background} % the light colors of the cow --

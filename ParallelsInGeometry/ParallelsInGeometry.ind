@@ -1,143 +1,143 @@
 \begin{theindex}
 
-  \item altitude, \hyperpage{52}
-  \item associative, \hyperpage{112}
+  \item altitude, \hyperpage{51}
+  \item associative, \hyperpage{111}
 
   \indexspace
 
-  \item Battle Royale, \hyperpage{141}
+  \item Battle Royale, \hyperpage{140}
   \item bees, \hyperpage{25}
   \item boat
-    \subitem lost at night, \hyperpage{62}
-  \item brain juices, \hyperpage{63}
+    \subitem lost at night, \hyperpage{61}
+  \item brain juices, \hyperpage{62}
 
   \indexspace
 
-  \item $\C$, \hyperpage{107}
+  \item $\C$, \hyperpage{106}
   \item calisson, \hyperpage{33}
   \item Cavalieri's Principle, \hyperpage{36}
-  \item centroid, \hyperpage{52}, \hyperpage{55}, \hyperpage{79}, 
-		\hyperpage{106}
-  \item circle, \hyperpage{70}
-    \subitem city geometry, \hyperpage{126}
-    \subitem Coordinate   Geometry, \hyperpage{94}
-  \item circumcenter, \hyperpage{53}, \hyperpage{55}, \hyperpage{79}, 
-		\hyperpage{106}
-  \item circumcircle, \hyperpage{53}, \hyperpage{55}
-  \item city geometry, \hyperpage{122}, \hyperpage{124}
-    \subitem circle, \hyperpage{126}
-    \subitem midset, \hyperpage{129}
-    \subitem parabola, \hyperpage{132}
-    \subitem triangle, \hyperpage{125}
-  \item closed, \hyperpage{111}
+  \item centroid, \hyperpage{51}, \hyperpage{54}, \hyperpage{78}, 
+		\hyperpage{105}
+  \item circle, \hyperpage{69}
+    \subitem city geometry, \hyperpage{125}
+    \subitem Coordinate   Geometry, \hyperpage{93}
+  \item circumcenter, \hyperpage{52}, \hyperpage{54}, \hyperpage{78}, 
+		\hyperpage{105}
+  \item circumcircle, \hyperpage{52}, \hyperpage{54}
+  \item city geometry, \hyperpage{121}, \hyperpage{123}
+    \subitem circle, \hyperpage{125}
+    \subitem midset, \hyperpage{128}
+    \subitem parabola, \hyperpage{131}
+    \subitem triangle, \hyperpage{124}
+  \item closed, \hyperpage{110}
   \item collapsing compass, \hyperpage{43}
-  \item commutative, \hyperpage{112}
+  \item commutative, \hyperpage{111}
   \item compass
     \subitem collapsing, \hyperpage{43}
   \item compass and straightedge
     \subitem bisecting a segment, \hyperpage{43}
     \subitem bisecting an angle, \hyperpage{45}
-    \subitem copying an angle, \hyperpage{46}
-    \subitem division, \hyperpage{110}
+    \subitem copying an angle, \hyperpage{45}
+    \subitem division, \hyperpage{109}
     \subitem equilateral triangle, \hyperpage{42}
-    \subitem impossible problems, \hyperpage{117}
-    \subitem multiplication, \hyperpage{109}
-    \subitem parallel to a line through a point, \hyperpage{47}
+    \subitem impossible problems, \hyperpage{116}
+    \subitem multiplication, \hyperpage{108}
+    \subitem parallel to a line through a point, \hyperpage{46}
     \subitem perpendicular to a line through a point, \hyperpage{44}
-    \subitem SAA triangle, \hyperpage{57}
-    \subitem SAS triangle, \hyperpage{56}
-    \subitem SSS triangle, \hyperpage{56}
+    \subitem SAA triangle, \hyperpage{56}
+    \subitem SAS triangle, \hyperpage{55}
+    \subitem SSS triangle, \hyperpage{55}
     \subitem transferring a segment, \hyperpage{42}
   \item complement, \hyperpage{12}
   \item congruent
-    \subitem angles, \hyperpage{80}
-    \subitem segments, \hyperpage{80}
-    \subitem triangles, \hyperpage{80}
-  \item constructible numbers, \hyperpage{107}
+    \subitem angles, \hyperpage{79}
+    \subitem segments, \hyperpage{79}
+    \subitem triangles, \hyperpage{79}
+  \item constructible numbers, \hyperpage{106}
   \item constructions, 
 		\hyperindexformat{\see{compass and straightedge \textit{or}     origami}}{41}
   \item coordinate geometry
-    \subitem bisecting a segment, \hyperpage{95}
-    \subitem bisecting an angle, \hyperpage{98}
-    \subitem equilateral triangle, \hyperpage{99}
-    \subitem intersection of a line and a circle, \hyperpage{97}
-    \subitem intersection of two circles, \hyperpage{98}
-    \subitem line between two points, \hyperpage{96}
-    \subitem parallel through a point, \hyperpage{95}
-    \subitem perpendicular through a point, \hyperpage{96}
-  \item Crane Alley, \hyperpage{139, 140}
+    \subitem bisecting a segment, \hyperpage{94}
+    \subitem bisecting an angle, \hyperpage{97}
+    \subitem equilateral triangle, \hyperpage{98}
+    \subitem intersection of a line and a circle, \hyperpage{96}
+    \subitem intersection of two circles, \hyperpage{97}
+    \subitem line between two points, \hyperpage{95}
+    \subitem parallel through a point, \hyperpage{94}
+    \subitem perpendicular through a point, \hyperpage{95}
+  \item Crane Alley, \hyperpage{138, 139}
   \item cubic equations
-    \subitem folding and tracing, \hyperpage{119}
+    \subitem folding and tracing, \hyperpage{118}
 
   \indexspace
 
-  \item $\D$, \hyperpage{107}
+  \item $\D$, \hyperpage{106}
   \item $d$
-    \subitem Euclidean, \hyperpage{95}
-    \subitem taxicab, \hyperpage{123}
-  \item Descartes numbers, \hyperpage{107}
-  \item diagonal reflection, \hyperpage{148}
-  \item directrix, \hyperpage{103}, \hyperpage{193}
+    \subitem Euclidean, \hyperpage{94}
+    \subitem taxicab, \hyperpage{122}
+  \item Descartes numbers, \hyperpage{106}
+  \item diagonal reflection, \hyperpage{147}
+  \item directrix, \hyperpage{102}, \hyperpage{190}
   \item dissection proof, \hyperpage{28}
   \item distance
-    \subitem Euclidean, \hyperpage{95}
-    \subitem taxicab, \hyperpage{123}
-  \item doubling the cube, \hyperpage{30}, \hyperpage{117}
+    \subitem Euclidean, \hyperpage{94}
+    \subitem taxicab, \hyperpage{122}
+  \item doubling the cube, \hyperpage{30}, \hyperpage{116}
 
   \indexspace
 
-  \item $\in$, \hyperpage{9}, \hyperpage{108}
+  \item $\in$, \hyperpage{9}, \hyperpage{107}
   \item empty set, \hyperpage{12}
-  \item envelope of tangents, \hyperpage{73}
-  \item equilateral triangle, \hyperpage{76}
+  \item envelope of tangents, \hyperpage{72}
+  \item equilateral triangle, \hyperpage{75}
   \item Escher, M.C., \hyperpage{18}
   \item Euclid, \hyperpage{40}
 
   \indexspace
 
-  \item $\F$, \hyperpage{107}
-  \item field, \hyperpage{111}
-  \item focus, \hyperpage{193}
-  \item focus of a   parabola, \hyperpage{103}
+  \item $\F$, \hyperpage{106}
+  \item field, \hyperpage{110}
+  \item focus, \hyperpage{190}
+  \item focus of a   parabola, \hyperpage{102}
   \item folding and tracing
-    \subitem bisecting a segment, \hyperpage{68}
-    \subitem bisecting an angle, \hyperpage{69}
-    \subitem copying an angle, \hyperpage{67}
-    \subitem equilateral triangle, \hyperpage{71}
-    \subitem intersection of a line and a circle, \hyperpage{71}
-    \subitem intersection of two circles, \hyperpage{72}
-    \subitem parabola, \hyperpage{73}
-    \subitem parallel through a point, \hyperpage{70}
-    \subitem perpendicular through a point, \hyperpage{68}
-    \subitem solving cubic equations, \hyperpage{119}
-    \subitem transferring a segment, \hyperpage{67}
-    \subitem trisecting the angle, \hyperpage{74}
-  \item folding and tracing numbers, \hyperpage{107}
+    \subitem bisecting a segment, \hyperpage{67}
+    \subitem bisecting an angle, \hyperpage{68}
+    \subitem copying an angle, \hyperpage{66}
+    \subitem equilateral triangle, \hyperpage{70}
+    \subitem intersection of a line and a circle, \hyperpage{70}
+    \subitem intersection of two circles, \hyperpage{71}
+    \subitem parabola, \hyperpage{72}
+    \subitem parallel through a point, \hyperpage{69}
+    \subitem perpendicular through a point, \hyperpage{67}
+    \subitem solving cubic equations, \hyperpage{118}
+    \subitem transferring a segment, \hyperpage{66}
+    \subitem trisecting the angle, \hyperpage{73}
+  \item folding and tracing numbers, \hyperpage{106}
   \item free point, \hyperpage{41}
 
   \indexspace
 
   \item geometry
-    \subitem City, \hyperpage{122}
-    \subitem city, \hyperpage{124}
-    \subitem Euclidean, \hyperpage{122}
-  \item gorilla suit, \hyperpage{136}
-  \item group, \hyperpage{164}
-  \item group table, \hyperpage{165}
+    \subitem City, \hyperpage{121}
+    \subitem city, \hyperpage{123}
+    \subitem Euclidean, \hyperpage{121}
+  \item gorilla suit, \hyperpage{135}
+  \item group, \hyperpage{163}
+  \item group table, \hyperpage{164}
 
   \indexspace
 
-  \item horizontal reflection, \hyperpage{148}
+  \item horizontal reflection, \hyperpage{147}
 
   \indexspace
 
-  \item identity matrix, \hyperpage{156}
-  \item incenter, \hyperpage{54, 55}, \hyperpage{79}, \hyperpage{106}
-  \item incircle, \hyperpage{54, 55}
-  \item integers, \hyperpage{108}
-  \item interior angles, \hyperpage{176}
+  \item identity matrix, \hyperpage{155}
+  \item incenter, \hyperpage{53, 54}, \hyperpage{78}, \hyperpage{105}
+  \item incircle, \hyperpage{53, 54}
+  \item integers, \hyperpage{107}
+  \item interior angles, \hyperpage{175}
   \item intersection, \hyperpage{11}
-  \item isometry, \hyperpage{144}
+  \item isometry, \hyperpage{143}
 
   \indexspace
 
@@ -146,100 +146,100 @@
   \indexspace
 
   \item line
-    \subitem Coordinate Geometry, \hyperpage{94}
-  \item Louie Llama, \hyperpage{145}, \hyperpage{148}, \hyperpage{150}, 
-		\hyperpage{174}
+    \subitem Coordinate Geometry, \hyperpage{93}
+  \item Louie Llama, \hyperpage{144}, \hyperpage{147}, \hyperpage{149}, 
+		\hyperpage{173}
 
   \indexspace
 
-  \item matrix, \hyperpage{143}
-    \subitem multiplication, \hyperpage{144}
-  \item median, \hyperpage{52}
-  \item midset, \hyperpage{197}
-    \subitem city geometry, \hyperpage{129}
-  \item Morley's Theorem, \hyperpage{76}
+  \item matrix, \hyperpage{142}
+    \subitem multiplication, \hyperpage{143}
+  \item median, \hyperpage{51}
+  \item midset, \hyperpage{205}
+    \subitem city geometry, \hyperpage{128}
+  \item Morley's Theorem, \hyperpage{75}
 
   \indexspace
 
-  \item nexus of the universe, \hyperpage{122}
+  \item nexus of the universe, \hyperpage{121}
 
   \indexspace
 
-  \item orthocenter, \hyperpage{52}, \hyperpage{55}, \hyperpage{79}, 
-		\hyperpage{106}
+  \item orthocenter, \hyperpage{51}, \hyperpage{54}, \hyperpage{78}, 
+		\hyperpage{105}
 
   \indexspace
 
-  \item parabola, \hyperpage{73}, \hyperpage{103}
-    \subitem city geometry, \hyperpage{132}
-  \item paradox, \hyperpage{133}
-    \subitem $\sqrt{2}=2$, \hyperpage{133}
+  \item parabola, \hyperpage{72}, \hyperpage{102}
+    \subitem city geometry, \hyperpage{131}
+  \item paradox, \hyperpage{132}
+    \subitem $\sqrt{2}=2$, \hyperpage{132}
     \subitem triangle dissection, \hyperpage{29}
-  \item Parallel-Side Theorem, \hyperpage{82}
+  \item Parallel-Side Theorem, \hyperpage{81}
   \item Plato, \hyperpage{40}
   \item point
-    \subitem Coordinate Geometry, \hyperpage{94}
-  \item puzzle-stroll, \hyperpage{141}
+    \subitem Coordinate Geometry, \hyperpage{93}
+  \item puzzle-stroll, \hyperpage{140}
   \item Pythagorean Theorem, \hyperpage{22}, \hyperpage{26}, 
-		\hyperpage{57}
-  \item Pythagorean Triple, \hyperpage{92}
+		\hyperpage{56}
+  \item Pythagorean Triple, \hyperpage{91}
 
   \indexspace
 
-  \item $\Q$, \hyperpage{110}
-  \item $\Q(\alpha)$, \hyperpage{114}
+  \item $\Q$, \hyperpage{109}
+  \item $\Q(\alpha)$, \hyperpage{113}
   \item quadrilateral
     \subitem tessellation of, \hyperpage{19}
 
   \indexspace
 
-  \item rational numbers, \hyperpage{111}
-  \item reflection, \hyperpage{147}
-    \subitem diagonal, \hyperpage{148}
-    \subitem horizontal, \hyperpage{148}
-    \subitem vertical, \hyperpage{148}
+  \item rational numbers, \hyperpage{110}
+  \item reflection, \hyperpage{146}
+    \subitem diagonal, \hyperpage{147}
+    \subitem horizontal, \hyperpage{147}
+    \subitem vertical, \hyperpage{147}
   \item regular
     \subitem polygon, \hyperpage{18}
     \subitem tessellation, \hyperpage{18}
-  \item rotation, \hyperpage{150}
+  \item rotation, \hyperpage{149}
 
   \indexspace
 
-  \item SAS-Similarity Theorem, \hyperpage{89}
+  \item SAS-Similarity Theorem, \hyperpage{88}
   \item set, \hyperpage{9}
   \item set theory symbols
     \subitem $-$, \hyperpage{12}
     \subitem $\emptyset$, \hyperpage{12}
-    \subitem $\in$, \hyperpage{9}, \hyperpage{108}
+    \subitem $\in$, \hyperpage{9}, \hyperpage{107}
     \subitem $\cap$, \hyperpage{11}
     \subitem $\subset$, \hyperpage{10}
     \subitem $\cup$, \hyperpage{11}
-  \item similar triangles, \hyperpage{80}, \hyperpage{88}, 
-		\hyperpage{109, 110}
+  \item similar triangles, \hyperpage{79}, \hyperpage{87}, 
+		\hyperpage{108, 109}
   \item Socrates, \hyperpage{40}
-  \item Split-Side Theorem, \hyperpage{86}
-  \item $\sqrt{2}$, \hyperpage{133}
-  \item squaring the circle, \hyperpage{117}
+  \item Split-Side Theorem, \hyperpage{85}
+  \item $\sqrt{2}$, \hyperpage{132}
+  \item squaring the circle, \hyperpage{116}
   \item subset, \hyperpage{10}
-  \item symmetry   group, \hyperpage{168}
+  \item symmetry   group, \hyperpage{167}
 
   \indexspace
 
-  \item taxicab distance, \hyperpage{123}
+  \item taxicab distance, \hyperpage{122}
   \item tessellation, \hyperpage{18}
     \subitem any quadrilateral, \hyperpage{19}
     \subitem regular, \hyperpage{18}
     \subitem triangles, \hyperpage{19}
   \item Theorem
-    \subitem Parallel-Side, \hyperpage{82}
-    \subitem SAS Similarity, \hyperpage{89}
-    \subitem Split-Side, \hyperpage{86}
-  \item translation, \hyperpage{145}
+    \subitem Parallel-Side, \hyperpage{81}
+    \subitem SAS Similarity, \hyperpage{88}
+    \subitem Split-Side, \hyperpage{85}
+  \item translation, \hyperpage{144}
   \item triangle
-    \subitem city geometry, \hyperpage{125}
-    \subitem sum of interior angles, \hyperpage{176}
-  \item trisecting the angle, \hyperpage{74}, \hyperpage{76}, 
-		\hyperpage{118}
+    \subitem city geometry, \hyperpage{124}
+    \subitem sum of interior angles, \hyperpage{175}
+  \item trisecting the angle, \hyperpage{73}, \hyperpage{75}, 
+		\hyperpage{117}
 
   \indexspace
 
@@ -248,11 +248,11 @@
 
   \indexspace
 
-  \item vertical reflection, \hyperpage{148}
+  \item vertical reflection, \hyperpage{147}
 
   \indexspace
 
-  \item $\Z$, \hyperpage{108}
-  \item zebra, \hyperpage{142}
+  \item $\Z$, \hyperpage{107}
+  \item zebra, \hyperpage{141}
 
 \end{theindex}

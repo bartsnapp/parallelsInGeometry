@@ -42,158 +42,158 @@
 \indexentry{compass and straightedge!bisecting a segment|hyperpage}{43}
 \indexentry{compass and straightedge!perpendicular to a line through a point|hyperpage}{44}
 \indexentry{compass and straightedge!bisecting an angle|hyperpage}{45}
-\indexentry{compass and straightedge!copying an angle|hyperpage}{46}
-\indexentry{compass and straightedge!parallel to a line through a point|hyperpage}{47}
-\indexentry{altitude|hyperpage}{52}
-\indexentry{median|hyperpage}{52}
-\indexentry{orthocenter|hyperpage}{52}
-\indexentry{centroid|hyperpage}{52}
-\indexentry{circumcircle|hyperpage}{53}
-\indexentry{circumcenter|hyperpage}{53}
-\indexentry{incircle|hyperpage}{54}
+\indexentry{compass and straightedge!copying an angle|hyperpage}{45}
+\indexentry{compass and straightedge!parallel to a line through a point|hyperpage}{46}
+\indexentry{altitude|hyperpage}{51}
+\indexentry{median|hyperpage}{51}
+\indexentry{orthocenter|hyperpage}{51}
+\indexentry{centroid|hyperpage}{51}
+\indexentry{circumcircle|hyperpage}{52}
+\indexentry{circumcenter|hyperpage}{52}
+\indexentry{incircle|hyperpage}{53}
+\indexentry{incenter|hyperpage}{53}
+\indexentry{circumcenter|hyperpage}{54}
+\indexentry{orthocenter|hyperpage}{54}
 \indexentry{incenter|hyperpage}{54}
-\indexentry{circumcenter|hyperpage}{55}
-\indexentry{orthocenter|hyperpage}{55}
-\indexentry{incenter|hyperpage}{55}
-\indexentry{centroid|hyperpage}{55}
-\indexentry{incircle|hyperpage}{55}
-\indexentry{circumcircle|hyperpage}{55}
-\indexentry{compass and straightedge!SAS triangle|hyperpage}{56}
-\indexentry{compass and straightedge!SSS triangle|hyperpage}{56}
-\indexentry{Pythagorean Theorem|hyperpage}{57}
-\indexentry{compass and straightedge!SAA triangle|hyperpage}{57}
-\indexentry{boat!lost at night|hyperpage}{62}
-\indexentry{brain juices|hyperpage}{63}
-\indexentry{folding and tracing!transferring a segment|hyperpage}{67}
-\indexentry{folding and tracing!copying an angle|hyperpage}{67}
-\indexentry{folding and tracing!bisecting a segment|hyperpage}{68}
-\indexentry{folding and tracing!perpendicular through a point|hyperpage}{68}
-\indexentry{folding and tracing!bisecting an angle|hyperpage}{69}
-\indexentry{folding and tracing!parallel through a point|hyperpage}{70}
-\indexentry{circle|hyperpage}{70}
-\indexentry{folding and tracing!intersection of a line and a circle|hyperpage}{71}
-\indexentry{folding and tracing!equilateral triangle|hyperpage}{71}
-\indexentry{folding and tracing!intersection of two circles|hyperpage}{72}
-\indexentry{parabola|hyperpage}{73}
-\indexentry{envelope of tangents|hyperpage}{73}
-\indexentry{folding and tracing!parabola|hyperpage}{73}
-\indexentry{trisecting the angle|hyperpage}{74}
-\indexentry{folding and tracing!trisecting the angle|hyperpage}{74}
-\indexentry{Morley's Theorem|hyperpage}{76}
-\indexentry{equilateral triangle|hyperpage}{76}
-\indexentry{trisecting the angle|hyperpage}{76}
-\indexentry{circumcenter|hyperpage}{79}
-\indexentry{orthocenter|hyperpage}{79}
-\indexentry{incenter|hyperpage}{79}
-\indexentry{centroid|hyperpage}{79}
-\indexentry{congruent!segments|hyperpage}{80}
-\indexentry{congruent!angles|hyperpage}{80}
-\indexentry{congruent!triangles|hyperpage}{80}
-\indexentry{similar triangles|hyperpage}{80}
-\indexentry{Parallel-Side Theorem|hyperpage}{82}
-\indexentry{Theorem!Parallel-Side|hyperpage}{82}
-\indexentry{Split-Side Theorem|hyperpage}{86}
-\indexentry{Theorem!Split-Side|hyperpage}{86}
-\indexentry{similar triangles|hyperpage}{88}
-\indexentry{Theorem!SAS Similarity|hyperpage}{89}
-\indexentry{SAS-Similarity Theorem|hyperpage}{89}
-\indexentry{Pythagorean Triple|hyperpage}{92}
-\indexentry{line!Coordinate Geometry|hyperpage}{94}
-\indexentry{circle!Coordinate   Geometry|hyperpage}{94}
-\indexentry{point!Coordinate Geometry|hyperpage}{94}
-\indexentry{d@$d$!Euclidean|hyperpage}{95}
-\indexentry{distance!Euclidean|hyperpage}{95}
-\indexentry{coordinate geometry!bisecting a segment|hyperpage}{95}
-\indexentry{coordinate geometry!parallel through a point|hyperpage}{95}
-\indexentry{coordinate geometry!perpendicular through a point|hyperpage}{96}
-\indexentry{coordinate geometry!line between two points|hyperpage}{96}
-\indexentry{coordinate geometry!intersection of a line and a circle|hyperpage}{97}
-\indexentry{coordinate geometry!bisecting an angle|hyperpage}{98}
-\indexentry{coordinate geometry!intersection of two circles|hyperpage}{98}
-\indexentry{coordinate geometry!equilateral triangle|hyperpage}{99}
-\indexentry{parabola|hyperpage}{103}
-\indexentry{focus of a   parabola|hyperpage}{103}
-\indexentry{directrix|hyperpage}{103}
-\indexentry{circumcenter|hyperpage}{106}
-\indexentry{orthocenter|hyperpage}{106}
-\indexentry{incenter|hyperpage}{106}
-\indexentry{centroid|hyperpage}{106}
-\indexentry{C@$\C$|hyperpage}{107}
-\indexentry{constructible numbers|hyperpage}{107}
-\indexentry{F@$\F$|hyperpage}{107}
-\indexentry{folding and tracing numbers|hyperpage}{107}
-\indexentry{D@$\D$|hyperpage}{107}
-\indexentry{Descartes numbers|hyperpage}{107}
-\indexentry{set theory symbols!in@$\in$|hyperpage}{108}
-\indexentry{e@$\in$|hyperpage}{108}
-\indexentry{integers|hyperpage}{108}
-\indexentry{Z@$\Z$|hyperpage}{108}
-\indexentry{compass and straightedge!multiplication|hyperpage}{109}
+\indexentry{centroid|hyperpage}{54}
+\indexentry{incircle|hyperpage}{54}
+\indexentry{circumcircle|hyperpage}{54}
+\indexentry{compass and straightedge!SAS triangle|hyperpage}{55}
+\indexentry{compass and straightedge!SSS triangle|hyperpage}{55}
+\indexentry{Pythagorean Theorem|hyperpage}{56}
+\indexentry{compass and straightedge!SAA triangle|hyperpage}{56}
+\indexentry{boat!lost at night|hyperpage}{61}
+\indexentry{brain juices|hyperpage}{62}
+\indexentry{folding and tracing!transferring a segment|hyperpage}{66}
+\indexentry{folding and tracing!copying an angle|hyperpage}{66}
+\indexentry{folding and tracing!bisecting a segment|hyperpage}{67}
+\indexentry{folding and tracing!perpendicular through a point|hyperpage}{67}
+\indexentry{folding and tracing!bisecting an angle|hyperpage}{68}
+\indexentry{folding and tracing!parallel through a point|hyperpage}{69}
+\indexentry{circle|hyperpage}{69}
+\indexentry{folding and tracing!intersection of a line and a circle|hyperpage}{70}
+\indexentry{folding and tracing!equilateral triangle|hyperpage}{70}
+\indexentry{folding and tracing!intersection of two circles|hyperpage}{71}
+\indexentry{parabola|hyperpage}{72}
+\indexentry{envelope of tangents|hyperpage}{72}
+\indexentry{folding and tracing!parabola|hyperpage}{72}
+\indexentry{trisecting the angle|hyperpage}{73}
+\indexentry{folding and tracing!trisecting the angle|hyperpage}{73}
+\indexentry{Morley's Theorem|hyperpage}{75}
+\indexentry{equilateral triangle|hyperpage}{75}
+\indexentry{trisecting the angle|hyperpage}{75}
+\indexentry{circumcenter|hyperpage}{78}
+\indexentry{orthocenter|hyperpage}{78}
+\indexentry{incenter|hyperpage}{78}
+\indexentry{centroid|hyperpage}{78}
+\indexentry{congruent!segments|hyperpage}{79}
+\indexentry{congruent!angles|hyperpage}{79}
+\indexentry{congruent!triangles|hyperpage}{79}
+\indexentry{similar triangles|hyperpage}{79}
+\indexentry{Parallel-Side Theorem|hyperpage}{81}
+\indexentry{Theorem!Parallel-Side|hyperpage}{81}
+\indexentry{Split-Side Theorem|hyperpage}{85}
+\indexentry{Theorem!Split-Side|hyperpage}{85}
+\indexentry{similar triangles|hyperpage}{87}
+\indexentry{Theorem!SAS Similarity|hyperpage}{88}
+\indexentry{SAS-Similarity Theorem|hyperpage}{88}
+\indexentry{Pythagorean Triple|hyperpage}{91}
+\indexentry{line!Coordinate Geometry|hyperpage}{93}
+\indexentry{circle!Coordinate   Geometry|hyperpage}{93}
+\indexentry{point!Coordinate Geometry|hyperpage}{93}
+\indexentry{d@$d$!Euclidean|hyperpage}{94}
+\indexentry{distance!Euclidean|hyperpage}{94}
+\indexentry{coordinate geometry!bisecting a segment|hyperpage}{94}
+\indexentry{coordinate geometry!parallel through a point|hyperpage}{94}
+\indexentry{coordinate geometry!perpendicular through a point|hyperpage}{95}
+\indexentry{coordinate geometry!line between two points|hyperpage}{95}
+\indexentry{coordinate geometry!intersection of a line and a circle|hyperpage}{96}
+\indexentry{coordinate geometry!bisecting an angle|hyperpage}{97}
+\indexentry{coordinate geometry!intersection of two circles|hyperpage}{97}
+\indexentry{coordinate geometry!equilateral triangle|hyperpage}{98}
+\indexentry{parabola|hyperpage}{102}
+\indexentry{focus of a   parabola|hyperpage}{102}
+\indexentry{directrix|hyperpage}{102}
+\indexentry{circumcenter|hyperpage}{105}
+\indexentry{orthocenter|hyperpage}{105}
+\indexentry{incenter|hyperpage}{105}
+\indexentry{centroid|hyperpage}{105}
+\indexentry{C@$\C$|hyperpage}{106}
+\indexentry{constructible numbers|hyperpage}{106}
+\indexentry{F@$\F$|hyperpage}{106}
+\indexentry{folding and tracing numbers|hyperpage}{106}
+\indexentry{D@$\D$|hyperpage}{106}
+\indexentry{Descartes numbers|hyperpage}{106}
+\indexentry{set theory symbols!in@$\in$|hyperpage}{107}
+\indexentry{e@$\in$|hyperpage}{107}
+\indexentry{integers|hyperpage}{107}
+\indexentry{Z@$\Z$|hyperpage}{107}
+\indexentry{compass and straightedge!multiplication|hyperpage}{108}
+\indexentry{similar triangles|hyperpage}{108}
+\indexentry{compass and straightedge!division|hyperpage}{109}
 \indexentry{similar triangles|hyperpage}{109}
-\indexentry{compass and straightedge!division|hyperpage}{110}
-\indexentry{similar triangles|hyperpage}{110}
-\indexentry{Q@$\Q$|hyperpage}{110}
-\indexentry{rational numbers|hyperpage}{111}
-\indexentry{field|hyperpage}{111}
-\indexentry{closed|hyperpage}{111}
-\indexentry{associative|hyperpage}{112}
-\indexentry{commutative|hyperpage}{112}
-\indexentry{Qalpha@$\Q(\alpha)$|hyperpage}{114}
-\indexentry{compass and straightedge!impossible problems|hyperpage}{117}
-\indexentry{doubling the cube|hyperpage}{117}
-\indexentry{squaring the circle|hyperpage}{117}
-\indexentry{trisecting the angle|hyperpage}{118}
-\indexentry{folding and tracing!solving cubic equations|hyperpage}{119}
-\indexentry{cubic equations!folding and tracing|hyperpage}{119}
-\indexentry{nexus of the universe|hyperpage}{122}
-\indexentry{city geometry|hyperpage}{122}
-\indexentry{geometry!City|hyperpage}{122}
-\indexentry{geometry!Euclidean|hyperpage}{122}
-\indexentry{taxicab distance|hyperpage}{123}
-\indexentry{d@$d$!taxicab|hyperpage}{123}
-\indexentry{distance!taxicab|hyperpage}{123}
-\indexentry{city geometry|hyperpage}{124}
-\indexentry{geometry!city|hyperpage}{124}
-\indexentry{city geometry!triangle|hyperpage}{125}
-\indexentry{triangle!city geometry|hyperpage}{125}
-\indexentry{circle!city geometry|hyperpage}{126}
-\indexentry{city geometry!circle|hyperpage}{126}
-\indexentry{city geometry!midset|hyperpage}{129}
-\indexentry{midset!city geometry|hyperpage}{129}
-\indexentry{city geometry!parabola|hyperpage}{132}
-\indexentry{parabola!city geometry|hyperpage}{132}
-\indexentry{paradox|hyperpage}{133}
-\indexentry{paradox|hyperpage}{133}
-\indexentry{paradox!$\sqrt{2}=2$|hyperpage}{133}
-\indexentry{sqrt2@$\sqrt{2}$|hyperpage}{133}
-\indexentry{gorilla suit|hyperpage}{136}
+\indexentry{Q@$\Q$|hyperpage}{109}
+\indexentry{rational numbers|hyperpage}{110}
+\indexentry{field|hyperpage}{110}
+\indexentry{closed|hyperpage}{110}
+\indexentry{associative|hyperpage}{111}
+\indexentry{commutative|hyperpage}{111}
+\indexentry{Qalpha@$\Q(\alpha)$|hyperpage}{113}
+\indexentry{compass and straightedge!impossible problems|hyperpage}{116}
+\indexentry{doubling the cube|hyperpage}{116}
+\indexentry{squaring the circle|hyperpage}{116}
+\indexentry{trisecting the angle|hyperpage}{117}
+\indexentry{folding and tracing!solving cubic equations|hyperpage}{118}
+\indexentry{cubic equations!folding and tracing|hyperpage}{118}
+\indexentry{nexus of the universe|hyperpage}{121}
+\indexentry{city geometry|hyperpage}{121}
+\indexentry{geometry!City|hyperpage}{121}
+\indexentry{geometry!Euclidean|hyperpage}{121}
+\indexentry{taxicab distance|hyperpage}{122}
+\indexentry{d@$d$!taxicab|hyperpage}{122}
+\indexentry{distance!taxicab|hyperpage}{122}
+\indexentry{city geometry|hyperpage}{123}
+\indexentry{geometry!city|hyperpage}{123}
+\indexentry{city geometry!triangle|hyperpage}{124}
+\indexentry{triangle!city geometry|hyperpage}{124}
+\indexentry{circle!city geometry|hyperpage}{125}
+\indexentry{city geometry!circle|hyperpage}{125}
+\indexentry{city geometry!midset|hyperpage}{128}
+\indexentry{midset!city geometry|hyperpage}{128}
+\indexentry{city geometry!parabola|hyperpage}{131}
+\indexentry{parabola!city geometry|hyperpage}{131}
+\indexentry{paradox|hyperpage}{132}
+\indexentry{paradox|hyperpage}{132}
+\indexentry{paradox!$\sqrt{2}=2$|hyperpage}{132}
+\indexentry{sqrt2@$\sqrt{2}$|hyperpage}{132}
+\indexentry{gorilla suit|hyperpage}{135}
+\indexentry{Crane Alley|hyperpage}{138}
 \indexentry{Crane Alley|hyperpage}{139}
-\indexentry{Crane Alley|hyperpage}{140}
-\indexentry{puzzle-stroll|hyperpage}{141}
-\indexentry{Battle Royale|hyperpage}{141}
-\indexentry{zebra|hyperpage}{142}
-\indexentry{matrix|hyperpage}{143}
-\indexentry{matrix!multiplication|hyperpage}{144}
-\indexentry{isometry|hyperpage}{144}
-\indexentry{Louie Llama|hyperpage}{145}
-\indexentry{translation|hyperpage}{145}
-\indexentry{reflection|hyperpage}{147}
-\indexentry{Louie Llama|hyperpage}{148}
-\indexentry{horizontal reflection|hyperpage}{148}
-\indexentry{reflection!horizontal|hyperpage}{148}
-\indexentry{vertical reflection|hyperpage}{148}
-\indexentry{reflection!vertical|hyperpage}{148}
-\indexentry{diagonal reflection|hyperpage}{148}
-\indexentry{reflection!diagonal|hyperpage}{148}
-\indexentry{rotation|hyperpage}{150}
-\indexentry{Louie Llama|hyperpage}{150}
-\indexentry{identity matrix|hyperpage}{156}
-\indexentry{group|hyperpage}{164}
-\indexentry{group table|hyperpage}{165}
-\indexentry{symmetry   group|hyperpage}{168}
-\indexentry{Louie Llama|hyperpage}{174}
-\indexentry{triangle!sum of interior angles|hyperpage}{176}
-\indexentry{interior angles|hyperpage}{176}
-\indexentry{focus|hyperpage}{193}
-\indexentry{directrix|hyperpage}{193}
-\indexentry{midset|hyperpage}{197}
+\indexentry{puzzle-stroll|hyperpage}{140}
+\indexentry{Battle Royale|hyperpage}{140}
+\indexentry{zebra|hyperpage}{141}
+\indexentry{matrix|hyperpage}{142}
+\indexentry{matrix!multiplication|hyperpage}{143}
+\indexentry{isometry|hyperpage}{143}
+\indexentry{Louie Llama|hyperpage}{144}
+\indexentry{translation|hyperpage}{144}
+\indexentry{reflection|hyperpage}{146}
+\indexentry{Louie Llama|hyperpage}{147}
+\indexentry{horizontal reflection|hyperpage}{147}
+\indexentry{reflection!horizontal|hyperpage}{147}
+\indexentry{vertical reflection|hyperpage}{147}
+\indexentry{reflection!vertical|hyperpage}{147}
+\indexentry{diagonal reflection|hyperpage}{147}
+\indexentry{reflection!diagonal|hyperpage}{147}
+\indexentry{rotation|hyperpage}{149}
+\indexentry{Louie Llama|hyperpage}{149}
+\indexentry{identity matrix|hyperpage}{155}
+\indexentry{group|hyperpage}{163}
+\indexentry{group table|hyperpage}{164}
+\indexentry{symmetry   group|hyperpage}{167}
+\indexentry{Louie Llama|hyperpage}{173}
+\indexentry{triangle!sum of interior angles|hyperpage}{175}
+\indexentry{interior angles|hyperpage}{175}
+\indexentry{focus|hyperpage}{190}
+\indexentry{directrix|hyperpage}{190}
+\indexentry{midset|hyperpage}{205}
