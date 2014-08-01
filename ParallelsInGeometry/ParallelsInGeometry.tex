@@ -1,19 +1,8 @@
 \PassOptionsToPackage{numbers}{natbib} % passing an option to  natbib before tufte-book
 \documentclass[justified,openany,nofonts]{tufte-book}
 
-\bibliographystyle{amsplain}
 \usepackage{teacherEd}
 
-
-%\usepackage{microtype}
-
-%\usepackage{lineno}
-%\linenumbers
-
-
-
-
-%\usepackage{framed}
 \usepackage{comment}
 
 %\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
@@ -22,16 +11,14 @@
 \newcommand{\teachingnotes}{}
 
 
-
 %%% This sets how the enumerate command works
 \renewcommand{\theenumi}{$(\mathrm{\arabic{enumi}})$}
 \renewcommand{\labelenumi}{\theenumi}
 
 \title{Parallels \\ in Geometry}
 \author{\teachingnotes}
-\publisher{Math 1165:  Spring 2014 \\ This document was typeset on \today.}
+\publisher{Math 1166:  Spring 2014 \\ This document was typeset on \today.}
 %\date{}
-
 
 
 \begin{document}
@@ -40,17 +27,13 @@
 
 %%%% Front matter
 \input{../chapters/front}
-%%%%
 
-\newpage
 %\pagenumbering{arabic}
 %\pagestyle{fancy}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%% Sections to be included %%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setcounter{secnumdepth}{2}% turn on numbering for parts and chapters
-
-
 
 \input{../chapters/picture}
 
@@ -115,8 +98,6 @@
 \input{../chapters/appendix/distance}
 
 \input{../chapters/appendix/binomPaths}
-
-%\input{../chapters/appendix/distance}
 
 \input{../chapters/appendix/midsets}
 

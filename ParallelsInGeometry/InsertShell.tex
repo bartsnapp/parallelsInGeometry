@@ -1,0 +1,103 @@
+\PassOptionsToPackage{numbers}{natbib} % passing an option to  natbib before tufte-book
+\documentclass[justified,openany,nofonts]{tufte-book}
+
+\usepackage{teacherEd}
+
+\usepackage{comment}
+
+%\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
+%\newcommand{\teachingnotes}{With Teaching Notes}
+\excludecomment{teachingnote}
+\newcommand{\teachingnotes}{}
+
+
+
+%%% This sets how the enumerate command works
+\renewcommand{\theenumi}{$(\mathrm{\arabic{enumi}})$}
+\renewcommand{\labelenumi}{\theenumi}
+
+\title{Parallels \\ in Geometry}
+\author{\teachingnotes}
+\publisher{Math 1165:  Spring 2014 \\ This document was typeset on \today.}
+%\date{}
+
+
+
+\begin{document}
+\def\document#1{} %% Needed to add standards
+%\maketitle
+
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+\setcounter{secnumdepth}{2} % turn on numbering for parts and chapters
+
+%% Put main text here
+
+%\input{../chapters/picture}
+\input{Congruence}
+%\input{Grade8toCongruence}
+
+\appendix
+
+\renewcommand{\theenumi}{$(\mathrm{\alph{enumi}})$}
+\renewcommand{\labelenumi}{\theenumi}
+\chapter{Supplemental Activities}
+
+%\setcounter{page}{1}
+%\setcounter{section}{43}
+
+
+\input{measuringArea}
+\input{triangleInvestigation}
+\input{tiltedSquare}
+\input{pythagorean}
+\input{trapezoidArea}
+\input{unMessUpable}
+\input{isoscelesBisectors}
+\input{aboutMedians}
+\input{moreCircles}
+
+\input{quadDiagonals}
+
+\input{congruenceTransformations}
+\input{moreTransformations}
+\input{symmetries}
+\input{congruenceCriteria}
+\input{parallels}
+\input{midsegment}
+%\input some version of the CMP dilation activity
+\input{similarities}
+\input{sideSplitter}
+
+\input{reptiles}
+\input{scalingArea}
+\input{volume}
+
+\input{coordinateConstructions}
+
+\input{trigCheckup}
+\input{moreMedians}
+\input{constructibleNumbers}
+\input{areaPerimeter}
+\input{perpendicularBisector}
+
+
+%\input{../chapters/appendix/parametric}
+%\input{../chapters/appendix/parametricCircles}
+%\input{../chapters/appendix/eclipseTheEllipse}
+
+\input{taxicabDistance}
+\input{absoluteValue}  % replaces \input{distance} 
+
+\input{composingTransformations}  % using matrices
+
+\chapter{Supplemental Problems}
+\input{1166-midterm}
+\input{1166-midterm2}
+
+\input{1166-SupplementalProblems}
+
+
+
+\end{document}

@@ -1,0 +1,51 @@
+\contentsline {chapter}{\numberline {1}Toward Congruence and Similarity (draft)}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}Transformations, Symmetry, and Congruence}{4}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Transformations}{4}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Symmetry}{5}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Congruence}{6}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Euclidean and non-Euclidean Geometries}{9}{section.1.2}
+\contentsline {section}{\numberline {1.3}Assumptions in Mathematics}{13}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Assumptions for School Geometry}{14}{subsection.1.3.1}
+\contentsline {section}{\numberline {1.4}Dilations, Scaling, and Similarity}{18}{section.1.4}
+\contentsline {section}{\numberline {1.5}Length, Area, and Volume Under Scaling}{18}{section.1.5}
+\contentsline {chapter}{\numberline {A}Supplemental Activities}{20}{appendix.A}
+\contentsline {section}{\numberline {A.1}Measuring Area}{21}{section.A.1}
+\contentsline {section}{\numberline {A.2}Triangle Investigation}{22}{section.A.2}
+\contentsline {section}{\numberline {A.3}Tilted Square}{23}{section.A.3}
+\contentsline {section}{\numberline {A.4}Pythagorean Theorem}{24}{section.A.4}
+\contentsline {section}{\numberline {A.5}Trapezoid Area}{25}{section.A.5}
+\contentsline {section}{\numberline {A.6}UnMessUpable Figures}{28}{section.A.6}
+\contentsline {section}{\numberline {A.7}Isosceles Bisectors}{30}{section.A.7}
+\contentsline {section}{\numberline {A.8}About Medians}{31}{section.A.8}
+\contentsline {section}{\numberline {A.9}More Circles}{33}{section.A.9}
+\contentsline {section}{\numberline {A.10}Quadrilateral Diagonals}{35}{section.A.10}
+\contentsline {section}{\numberline {A.11}Congruence via Transformations}{36}{section.A.11}
+\contentsline {section}{\numberline {A.12}More Transformations}{40}{section.A.12}
+\contentsline {section}{\numberline {A.13}Symmetries}{42}{section.A.13}
+\contentsline {section}{\numberline {A.14}Congruence Criteria}{44}{section.A.14}
+\contentsline {section}{\numberline {A.15}Parallels}{47}{section.A.15}
+\contentsline {section}{\numberline {A.16}Midsegments}{49}{section.A.16}
+\contentsline {section}{\numberline {A.17}Similarities}{50}{section.A.17}
+\contentsline {section}{\numberline {A.18}Side-Splitter Theorems}{55}{section.A.18}
+\contentsline {section}{\numberline {A.19}Rep-Tiles}{58}{section.A.19}
+\contentsline {section}{\numberline {A.20}Scaling Area and Volume}{61}{section.A.20}
+\contentsline {section}{\numberline {A.21}Turn Up the Volume!}{63}{section.A.21}
+\contentsline {section}{\numberline {A.22}Coordinate Constructions}{66}{section.A.22}
+\contentsline {section}{\numberline {A.23}Trigonometry Checkup}{68}{section.A.23}
+\contentsline {subsection}{\numberline {A.23.1}Right Triangle Trigonometry}{68}{subsection.A.23.1}
+\contentsline {subsection}{\numberline {A.23.2}Circular Trigonometry}{70}{subsection.A.23.2}
+\contentsline {section}{\numberline {A.24}More Medians}{71}{section.A.24}
+\contentsline {section}{\numberline {A.25}Constructible Numbers}{73}{section.A.25}
+\contentsline {section}{\numberline {A.26}Area and Perimeter}{77}{section.A.26}
+\contentsline {section}{\numberline {A.27}Perpendicular Bisector: Reasoning with Algebra}{80}{section.A.27}
+\contentsline {section}{\numberline {A.28}Taxicab Distance}{82}{section.A.28}
+\contentsline {section}{\numberline {A.29}City Geometry and Absolute Value}{83}{section.A.29}
+\contentsline {section}{\numberline {A.30}Composing Transformations}{84}{section.A.30}
+\contentsline {chapter}{\numberline {B}Supplemental Problems}{85}{appendix.B}
+\contentsline {section}{\numberline {B.1}Midterm 1 Review Problems}{86}{section.B.1}
+\contentsline {section}{\numberline {B.2}Midterm 2 Review Problems}{87}{section.B.2}
+\contentsline {section}{\numberline {B.3}Supplemental Problems}{90}{section.B.3}
+\contentsline {subsection}{\numberline {B.3.1}Parametric Equations}{90}{subsection.B.3.1}
+\contentsline {subsection}{\numberline {B.3.2}Absolute Value, Distance, and City Geometry}{91}{subsection.B.3.2}
+\contentsline {subsection}{\numberline {B.3.3}Measurement}{92}{subsection.B.3.3}
+\contentsfinish 

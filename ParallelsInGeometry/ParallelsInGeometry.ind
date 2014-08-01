@@ -76,8 +76,8 @@
     \subitem Euclidean, \hyperpage{94}
     \subitem taxicab, \hyperpage{122}
   \item Descartes numbers, \hyperpage{106}
-  \item diagonal reflection, \hyperpage{147}
-  \item directrix, \hyperpage{102}, \hyperpage{190}
+  \item diagonal reflection, \hyperpage{148}
+  \item directrix, \hyperpage{102}, \hyperpage{192}
   \item dissection proof, \hyperpage{28}
   \item distance
     \subitem Euclidean, \hyperpage{94}
@@ -97,7 +97,7 @@
 
   \item $\F$, \hyperpage{106}
   \item field, \hyperpage{110}
-  \item focus, \hyperpage{190}
+  \item focus, \hyperpage{192}
   \item focus of a   parabola, \hyperpage{102}
   \item folding and tracing
     \subitem bisecting a segment, \hyperpage{67}
@@ -122,8 +122,8 @@
     \subitem city, \hyperpage{123}
     \subitem Euclidean, \hyperpage{121}
   \item gorilla suit, \hyperpage{135}
-  \item group, \hyperpage{163}
-  \item group table, \hyperpage{164}
+  \item group, \hyperpage{165}
+  \item group table, \hyperpage{166}
 
   \indexspace
 
@@ -131,11 +131,11 @@
 
   \indexspace
 
-  \item identity matrix, \hyperpage{155}
+  \item identity matrix, \hyperpage{157}
   \item incenter, \hyperpage{53, 54}, \hyperpage{78}, \hyperpage{105}
   \item incircle, \hyperpage{53, 54}
   \item integers, \hyperpage{107}
-  \item interior angles, \hyperpage{175}
+  \item interior angles, \hyperpage{177}
   \item intersection, \hyperpage{11}
   \item isometry, \hyperpage{143}
 
@@ -147,15 +147,15 @@
 
   \item line
     \subitem Coordinate Geometry, \hyperpage{93}
-  \item Louie Llama, \hyperpage{144}, \hyperpage{147}, \hyperpage{149}, 
-		\hyperpage{173}
+  \item Louie Llama, \hyperpage{144}, \hyperpage{147}, \hyperpage{150}, 
+		\hyperpage{175}
 
   \indexspace
 
   \item matrix, \hyperpage{142}
     \subitem multiplication, \hyperpage{143}
   \item median, \hyperpage{51}
-  \item midset, \hyperpage{205}
+  \item midset, \hyperpage{206}
     \subitem city geometry, \hyperpage{128}
   \item Morley's Theorem, \hyperpage{75}
 
@@ -194,14 +194,14 @@
   \indexspace
 
   \item rational numbers, \hyperpage{110}
-  \item reflection, \hyperpage{146}
-    \subitem diagonal, \hyperpage{147}
+  \item reflection, \hyperpage{147}
+    \subitem diagonal, \hyperpage{148}
     \subitem horizontal, \hyperpage{147}
     \subitem vertical, \hyperpage{147}
   \item regular
     \subitem polygon, \hyperpage{18}
     \subitem tessellation, \hyperpage{18}
-  \item rotation, \hyperpage{149}
+  \item rotation, \hyperpage{150}
 
   \indexspace
 
@@ -221,7 +221,7 @@
   \item $\sqrt{2}$, \hyperpage{132}
   \item squaring the circle, \hyperpage{116}
   \item subset, \hyperpage{10}
-  \item symmetry   group, \hyperpage{167}
+  \item symmetry   group, \hyperpage{169}
 
   \indexspace
 
@@ -234,10 +234,10 @@
     \subitem Parallel-Side, \hyperpage{81}
     \subitem SAS Similarity, \hyperpage{88}
     \subitem Split-Side, \hyperpage{85}
-  \item translation, \hyperpage{144}
+  \item translation, \hyperpage{145}
   \item triangle
     \subitem city geometry, \hyperpage{124}
-    \subitem sum of interior angles, \hyperpage{175}
+    \subitem sum of interior angles, \hyperpage{177}
   \item trisecting the angle, \hyperpage{73}, \hyperpage{75}, 
 		\hyperpage{117}
 

@@ -1,8 +1,16 @@
 \NeedsTeXFormat{LaTeX2e}% LaTeX 2.09 can't be used (nor non-LaTeX)
 [1994/12/01]% LaTeX date must be December 1994 or later
-\ProvidesPackage{teacherEd}[2013/05/12 v0.76]
+\ProvidesPackage{teacherEd}[2014/05/15 v1.02]
 \ProcessOptions\relax
 
+%% The following is a quick fix for \subsubsection, which is not available in the Tufte style
+%%
+\renewcommand{\subsubsection}[1]{\paragraph{#1}}
+
+\def\fixnote#1{{\color{red}Fixnote: #1}}  % Allows insertion of red notes about needed edits
+
+
+\bibliographystyle{amsplain}
 
 %\RequirePackage{float}
 %\RequirePackage{tabu} % allows for table with thick lines
@@ -12,13 +20,14 @@
 %\RequirePackage{xkeyval}
 \RequirePackage{tikz}
 %\RequirePackage{amssymb}
-%\RequirePackage{amsmath}
+\RequirePackage{amsmath}
 \RequirePackage{mathtools} %% trying to get cases to work in caption
 \RequirePackage{ntheorem}
 \RequirePackage{thmtools}
 \RequirePackage{microtype}
 \RequirePackage{enumerate}
 \RequirePackage{makeidx} %%% gives us our groovy index
+\usepackage{marginfix}
 
 \makeindex
 
@@ -30,12 +39,7 @@
 %\usepackage{phaistos}
 \usepackage{protosem}
 
-
-\usepackage{pgfplots}\pgfplotsset{compat=1.7}  % Needed for ecclipseTheEllipse
-
-%\RequirePackage{pgfplots}
-
-
+\usepackage{pgfplots}\pgfplotsset{compat=1.7}  % Needed for eclipseTheEllipse
 
 \RequirePackage{morefloats}
 
@@ -48,9 +52,8 @@
 %% Font
 \RequirePackage[T1]{fontenc}
 
-%% New Centuary Schoolbook
+%% New Century Schoolbook
 %\RequirePackage{fouriernc}
-
 
 %% Bookman
 \let\iint\undefined 
@@ -75,24 +78,14 @@
 %%% End Header and Footer Options
 
 
-
-
-
-
 \usepackage{array}
-\setlength{\extrarowheight}{-.2cm}
+%\setlength{\extrarowheight}{-.2cm}   % Commented out by Findell to fix table headings.  Was this for typesetting division?  
 \newdimen\digitwidth
 \settowidth\digitwidth{9}
 \def~{\hspace{\digitwidth}}
 \def\divrule#1#2{
 \noalign{\moveright#1\digitwidth
 \vbox{\hrule width#2\digitwidth}}}
-
-
-%%% This set of code gives us the unnumbered footnotes
-\long\def\symbolfootnote[#1]#2{\begingroup\def\thefootnote{\fnsymbol{footnote}}
-\footnote[#1]{#2}\endgroup}
-
 
 
 %%% This set of code is all of our user defined commands
@@ -129,14 +122,19 @@
 \newcommand{\minipad}{\vspace{1ex}}
 \newcommand{\leftexp}[2]{{\vphantom{#2}}^{#1}{#2}}
 
-%% The following is a quick fix for \subsubsection, which is not available in the Tufte style
+%% More user defined commands
+\renewcommand{\epsilon}{\varepsilon}
+\renewcommand{\theta}{\vartheta} %% only for kmath
+\renewcommand{\l}{\ell}
+\renewcommand{\d}{\, d}
+\newcommand{\ddx}{\frac{d}{dx}}
+\newcommand{\dydx}{\frac{dy}{dx}}
+
+
+
 %%
-\renewcommand{\subsubsection}[1]{\paragraph{#1}}
-
-
-
-
 %% Colors
+%%
 
 \colorlet{background}{white} % Color of the page
 \colorlet{textColor}{black} % Color of the text
@@ -155,13 +153,12 @@
 \newcommand{\sliceColor}{greenyellow}
 \colorlet{gridColor}{gray!50} % Color of grid in a plot
 
-\colorlet{definitionBackground}{black!8!background} 
-\colorlet{theoremBackground}{blue!50!black!8!background} % Color of the background of a theorem
-
 % For photocopying the notes, white may be a better background color
 %
 %\colorlet{definitionBackground}{white} 
 %\colorlet{theoremBackground}{white} 
+\colorlet{definitionBackground}{black!8!background} 
+\colorlet{theoremBackground}{blue!50!black!8!background} % Color of the background of a theorem
 
 \colorlet{mainTheoremBorder}{blue!50!black} % Color of the border of a main theorem
 \colorlet{mainOtherBorder}{black} % Color of the border of a main theorem
@@ -184,37 +181,18 @@
 %% Table colors
 \newenvironment{tchart}{\rowcolors{2}{}{background!95!textColor}\array}{\endarray}
 
-
-
-
-
-
-
-
-
 \pagecolor{background}
 \color{textColor} 
 
-
-
-%% User defined commands
-\renewcommand{\epsilon}{\varepsilon}
-\renewcommand{\theta}{\vartheta} %% only for kmath
-\renewcommand{\l}{\ell}
-\renewcommand{\d}{\, d}
-\newcommand{\ddx}{\frac{d}{dx}}
-\newcommand{\dydx}{\frac{dy}{dx}}
-
-\renewcommand{\footnote}[1]{~(#1)}
 
 %%% This set of code gives us the unnumbered footnotes
 \long\def\symbolfootnote[#1]#2{\begingroup\def\thefootnote{\fnsymbol{footnote}}
 \footnote[#1]{#2}\endgroup}
 
+\renewcommand{\footnote}[1]{~(#1)}
+
 %\newenvironment{activitynote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Note:}{\end{bfseries}\end{itshape}\end{framed}}
-
 \NewEnviron{activitynote}{\marginnote{\BODY}}
-
 
 
 
@@ -236,9 +214,6 @@
 %\DeclareMathOperator*\plim{lim}
 %\renewcommand{\lim}{\displaystyle\plim} if we really want all limits display style
 \everymath{\displaystyle}
-
-
-
 
 
 \geometry{landscape, 
@@ -283,10 +258,6 @@ skipabove=\baselineskip]},
   headformat={\NUMBER}]
 {probStyle}% 
 \declaretheorem[style=probStyle,numberwithin=section]{prob}
-
-
-
-
 
 
 \declaretheoremstyle[ headfont=\normalfont\bfseries,
@@ -448,9 +419,6 @@ skipabove=\baselineskip]{warning}%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
-
-
 \renewcommand{\maketitlepage}[0]{%
   %\cleardoublepage%
   {%
@@ -459,7 +427,6 @@ skipabove=\baselineskip]{warning}%
     %\vfill
 
     \vspace*{1.75in}
-
 
 
   \fontsize{56}{60}\selectfont\par\noindent\textcolor{textColor}{\bfseries\allcaps{\thanklesstitle}}%
@@ -472,8 +439,6 @@ skipabove=\baselineskip]{warning}%
   \thispagestyle{empty}%
   %\clearpage%
 }
-
-
 
 
 \RequirePackage{titlesec}
@@ -510,7 +475,6 @@ skipabove=\baselineskip]{warning}%
   []% after the title body
 
 
-
 \ifthenelse{\boolean{@tufte@toc}}{%
   \titlecontents{part}% FIXME
     [0em] % distance from left margin
@@ -529,7 +493,7 @@ skipabove=\baselineskip]{warning}%
   \titlecontents{section}% FIXME
     [0em] % distance from left margin
     {\vspace{0\baselineskip}\begin{fullwidth}\Large\sffamily} % above (global formatting of entry)
-    {\hspace*{2em}\contentslabel{2em}} % before w/label (label = ``2.6'')
+    {\hspace*{2em}\contentslabel{2.5em}} % before w/label (label = ``2.6'')   % Findell modified to 2.5em from 2 to accommodate 2-digit activity numbers  
     {\hspace*{2em}} % before w/o label
     {\sffamily\qquad\thecontentspage} % filler + page (leaders and page num)
     [\end{fullwidth}] % after
@@ -551,11 +515,7 @@ skipabove=\baselineskip]{warning}%
 
 
 
-
-
-
-
-
+%%
 %% Header mods
 %
 % The main matter in Tufte's /Beautiful Evidence/ doesn't restart the page
@@ -599,8 +559,6 @@ skipabove=\baselineskip]{warning}%
 
 
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -609,57 +567,6 @@ skipabove=\baselineskip]{warning}%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%% \usepackage{amsmath}
-%% \usepackage{amssymb}
-%% \usepackage{graphicx}
-%% \usepackage{color}
-%% \usepackage{pifont}
-%%\usepackage{mathabx}
-%% \usepackage{colortbl}
-
-\usepackage{threeparttable}
-\usepackage{wrapfig}
-\usepackage{multirow}
-\usepackage{rotating}
-\usepackage{url}
-
-
-
-\newenvironment{tablelist}{
-\begin{list}
-{$\bullet$}
-{
-\setlength\leftmargin{10pt}
-\setlength\topsep{6pt}
-}}
-{
-\end{list}}
-
-\newenvironment{tablelistii}{
-\begin{list}
-{$\circ$}
-{
-\setlength\topsep{0pt}
-\setlength\leftmargin{10pt}
-}}
-{
-\end{list}}
-
-% \usepackage{palatino}
-% \settypeblocksize{*}{4.22in}{2} %for Palatino
-% \setmarginnotes{0.5in}{2.65in}{0.1in} %for Palatino
-
-%% \settypeblocksize{*}{4.0in}{2} %for Kurier
-%% \setmarginnotes{0.5in}{3in}{0.1in} %for Kurier
-%% \setlrmargins{0.5in}{*}{*}
-%% \checkandfixthelayout
-%% \setlength{\intextsep}{0.5\intextsep}
-%% \makeevenfoot{plain}{}{\thepage}{\textit{Draft, 8/12/2011, comment at \url{commoncoretools.wordpress.com}}} 
-%% \makeoddfoot{plain}{\textit{Draft, 8/12/2011, comment at \url{commoncoretools.wordpress.com}.}}{}{\thepage} 
-%% \makeevenfoot{headings}{}{}{\textit{Draft, 8/12/2011, 
-%%     comments at \url{http://commoncoretools.wordpress.com}.}} 
-%% \makeoddfoot{headings}{\textit{Draft, 8/12/2011,
-%%    comment at \url{commoncoretools.wordpress.com}.}}{}{}
 
 \renewcommand{\thetable}{\arabic{table}}
 \def\billcomment#1{\footnote{#1}}
@@ -679,100 +586,25 @@ skipabove=\baselineskip]{warning}%
 \def\letter#1{}
 \def\adv#1{}
 \def\mod#1{}
-%\def\text#1{\def\thetext{#1}} %clobbered text - hence moved
-
-
+%\def\text#1{\def\thetext{#1}} % clobbered text - hence moved
 
 
 \definecolor{light}{gray}{.75} 
 \definecolor{mcgray}{gray}{0.9}
 \definecolor{magenta}{rgb}{.451,.137,.11}
 
+% To move up comments, use the optional marginnote parameter [-3\baselineskip].  But this causes multiple notes to overwrite each other.  
 
 \def\standard#1{\textsuperscript{\color{black}\footnotesize{#1}}%
-\marginnote{\def\text##1{\def\thetext{##1}}\input{../../../CCSS/Standards/#1.tex}\noindent Standard #1: \thetext}}
+\marginnote{\def\text##1{\def\thetext{##1}}\input{../../../CCSS/Standards/#1.tex}\noindent CCSS #1: \thetext}}
 
 \def\standardhs#1{\textsuperscript{\color{black}\footnotesize{#1}}%
-\marginnote{\def\text##1{\def\thetext{##1}}\input{../../../CCSS/Standards/9-12.#1.tex}\noindent Standard #1: \thetext}}
+\marginnote{\def\text##1{\def\thetext{##1}}\input{../../../CCSS/Standards/9-12.#1.tex}\noindent CCSS #1: \thetext}}
+
+%\def\document#1{} %% Needed to add standards;  Placed in main document
 
 \def\clarification#1{}
 %\def\clarification#1{\emph{#1}}
-
-
-%\def\document#1{} %% Needed to add standards
-
-
-%% \def\standardmark#1{\textsuperscript{\footnotesize #1}}
-
-%% \def\manualstandard#1#2#3{\textsuperscript{\footnotesize{#1}}%
-%% \marginpar{
-%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{\footnotesize\textbf{#2}}%
-%% \footnotesize\sffamily#3\normalfont}}%
-%% \box1}}
-
-%% \def\standard#1{\textsuperscript{\color{black}\footnotesize{#1}}%
-%% \marginpar{\input{../../../CCSS/Standards/#1.tex}%
-%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{\footnotesize\textbf{#1}}%
-%% \footnotesize%
-%% \sffamily%
-%% \thetext\normalfont}}%
-%% \box1}}
-
-%% \def\standardnomark#1{\marginpar{\input{Standards/#1.tex}%
-%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{\footnotesize\textbf{#1}}%
-%% \footnotesize%
-%% \sffamily%
-%% \thetext\normalfont}}%
-%% \box1}}
-
-%% \def\standardcustommark#1#2{\marginpar{\input{Standards/#2.tex}%
-%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{\footnotesize\textbf{#1}}%
-%% \footnotesize%
-%% \sffamily%
-%% \thetext\normalfont}}%
-%% \box1}}
-
-%% \def\letterstandard#1#2{{\textsuperscript{\color{black}\footnotesize{#1#2}}\marginpar{\input{Standards/#1.tex}
-%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{{\footnotesize\textbf{#1#2}}}
-%% \footnotesize%
-%% \sffamily%
-%% %{\color{black}#1#2.} 
-%% \thetext\input{Standards/#1#2.tex}
-%%       \begin{itemize}
-%%       \item[#2] \thetext
-%%       \end{itemize}}}\box1
-%% }}\normalfont}
-
-%% \def\letterstandardnomark#1#2{\marginpar{\input{Standards/#1.tex}
-%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{{\footnotesize\textbf{#1#2}}}
-%% \footnotesize%
-%% \sffamily%
-%% %{\color{black}#1#2.} 
-%% \thetext\input{Standards/#1#2.tex}
-%%       \begin{itemize}
-%%       \item[#2] \thetext
-%%       \end{itemize}}}\box1
-%% }\normalfont}
-
-%% \def\letteronlystandard#1#2{{\textsuperscript{\color{black}\footnotesize{#1#2}}\marginpar{\input{Standards/#1.tex}
-%% \footnotesize%
-%% \sffamily%
-%% %{\color{black}#1#2.} 
-%% \input{Standards/#1#2.tex}
-%%       \begin{itemize}
-%%       \item[#2] \thetext
-%%       \end{itemize}
-%% }}\normalfont}
-
-%% \def\letteronlystandardnomark#1#2{{\marginpar{\input{Standards/#1.tex}
-%% \footnotesize%
-%% \sffamily%
-%% %{\color{black}#1#2.} 
-%% \input{Standards/#1#2.tex}
-%%       \begin{itemize}
-%%       \item[#2] \thetext
-%%       \end{itemize}
-%% }}\normalfont}
 
 %% \def\practice#1#2{%
 %% %$^{\mbox{\footnotesize\color{blue}\ding{171}}}$
@@ -801,48 +633,10 @@ skipabove=\baselineskip]{warning}%
 %% \box1
 %% }}
 
-%% \def\marginhead#1{\centering{\textbf{#1}}\includegraphics[width=0cm]{Figures/null}\\
-%% \smallskip}
 \def\margincomment#1{$^{\mbox{\footnotesize\color{red}\textbullet}}$%
 \marginpar{%
 \setbox1=\hbox{\parbox{3in}{\footnotesize {\color{red}\textbullet} \sffamily #1}}\hbox{\box1}
-}%
 }
-
-%% \def\margincommentnodotintext#1{\marginpar{%
-%% \setbox1=\hbox{\parbox{3in}{\footnotesize {\color{red}\textbullet} \sffamily #1}}\box1
-%% }%
-%% }
-
-%% \def\reddot{$^{\mbox{\footnotesize\color{red}\textbullet}}$}
-
-%% \def\margincommentnodot#1{\marginpar{%
-%% \setbox1=\hbox{\parbox{3in}{\footnotesize  \sffamily #1}}\colorbox[gray]{0.9}{\box1}
-%% }%
-%% }
-
-%% %% \def\figure#1{
-%% %% \begin{figure*}[h]\centering#1\end{figure*}
-%% %% }
-
-%% % Findell Additions
-
-%% \def\adv#1{\def\theadv{#1}}
-%% \def\mod#1{\def\themod{#1}}
-
-%% \def\standardhs#1{\textsuperscript{\color{black}\footnotesize{#1}}%
-%% \marginpar{\input{Standards/9-12.#1.tex}%
-%% \setbox1=\hbox{\parbox{3in}{\textsuperscript{\footnotesize\textbf{#1}}%
-%% \footnotesize%
-%% \sffamily%
-%% \ifcat\theadv1{(+) }\fi%
-%% \thetext
-%% \ifcat\themod1{$\star$}\fi%
-%% \normalfont}}%
-%% \box1}}
-
-%% \def\note#1{{\color{red}#1}}
-
-
+}
 
 \endinput
