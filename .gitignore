@@ -1,3 +1,16 @@
+#####
+## TeX
+#####
+.aux
+.tmp
+.idx
+.log
+.out
+.thm
+.toc
+.ilg
+.ind
+
 #################
 ## Eclipse
 #################
@@ -77,6 +90,9 @@ build/
 *.pidb
 *.log
 *.scc
+*.gz
+*.aux
+*.out
 
 # Visual C++ cache files
 ipch/
