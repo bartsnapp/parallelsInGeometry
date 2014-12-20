@@ -1,0 +1,142 @@
+\PassOptionsToPackage{numbers}{natbib} % passing an option to  natbib before tufte-book
+\documentclass[justified,openany,nofonts]{tufte-book}
+
+\usepackage{teacherEd}
+
+\usepackage{framed}
+\usepackage{comment}
+
+%\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
+%\newcommand{\teachingnotes}{With Teaching Notes}
+\excludecomment{teachingnote}
+\newcommand{\teachingnotes}{}
+
+%\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
+\def\fixnote#1{}
+
+%%% This sets how the enumerate command works
+\renewcommand{\theenumi}{$(\mathrm{\arabic{enumi}})$}
+\renewcommand{\labelenumi}{\theenumi}
+
+\title{Parallels \\ in Geometry}
+\author{\teachingnotes}
+\publisher{Math 1166:  Spring 2014 \\ This document was typeset on \today.}
+%\date{}
+
+
+\begin{document}
+\def\document#1{} %% Needed to add standards
+\maketitle
+
+%%%% Front matter
+\input{../chapters/front}
+
+%\pagenumbering{arabic}
+%\pagestyle{fancy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% Sections to be included %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{secnumdepth}{2}% turn on numbering for parts and chapters
+
+\input{../chapters/picture}
+
+\input{../chapters/compass}
+
+\input{../chapters/origami}
+
+\input{../chapters/coordinate}
+
+\input{../chapters/city}
+
+\input{../chapters/isometries}
+
+\appendix
+
+\renewcommand{\theenumi}{$(\mathrm{\alph{enumi}})$}
+\renewcommand{\labelenumi}{\theenumi}
+\chapter{Activities}
+%\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+
+
+\input{../chapters/appendix/venn}
+
+\input{../chapters/appendix/sets}
+
+\input{../chapters/appendix/louieTri}    
+
+%\input{../chapters/appendix/louieRegPoly}
+
+\input{../chapters/appendix/funkyShapes}
+
+\input{../chapters/appendix/coin}
+
+\input{../chapters/appendix/lines}
+
+%\input{../chapters/appendix/apothem}
+
+\input{../chapters/appendix/verify}
+
+\input{../chapters/appendix/circThms}
+
+\input{../chapters/appendix/intoTri}
+
+\input{../chapters/appendix/morley}
+
+\input{../chapters/appendix/rational}
+
+\input{../chapters/appendix/parabola}
+
+% Functions activities, including parametric functions
+
+\input{../chapters/appendix/readingInfoFromAGraph}
+
+\input{../chapters/appendix/parametric}
+
+\input{../chapters/appendix/parametricCircles}
+
+\input{../chapters/appendix/eclipseTheEllipse}
+
+% City geometry activities
+
+\input{../chapters/appendix/distance}
+
+\input{../chapters/appendix/binomPaths}
+
+\input{../chapters/appendix/midsets}
+
+\input{../chapters/appendix/cityPara}
+
+% Matrices as transformations
+
+\input{../chapters/appendix/inverseMapping}
+
+\input{../chapters/appendix/linesAndParallel}
+
+\input{../chapters/appendix/center}
+
+%\input{../chapters/appendix/goldenRatio}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% End of sections to be included %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%\newpage
+%\rhead[]{}   
+%\rfoot[]{}   
+%\lhead[]{}   
+%\lfoot[]{}   
+%\cfoot[\thepage]{\thepage}
+%%%
+%%%% Free Documentation License
+%\hfill %%% May be needed to be present or removed to make  GNU license appear on left hand side
+%\input{../chapters/gnu}
+%%%%
+
+% \cleardoublepage %%% May be needed to be present or removed to make Bibliography appear on left hand side
+
+%%%% Index and References
+\input{../chapters/back}
+%%%%
+
+\end{document}
