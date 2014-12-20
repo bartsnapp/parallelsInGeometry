@@ -3,6 +3,7 @@
 
 \usepackage{teacherEd}
 
+\usepackage{framed}
 \usepackage{comment}
 
 %\newenvironment{teachingnote}{\begin{framed}\begin{itshape}\begin{bfseries}\noindent Teaching Note:}{\end{bfseries}\end{itshape}\end{framed}}
@@ -10,6 +11,8 @@
 \excludecomment{teachingnote}
 \newcommand{\teachingnotes}{}
 
+%\def\fixnote#1{\begin{framed}{\color{red}Fixnote: #1}\end{framed}}  % Allows insertion of red notes about needed edits
+\def\fixnote#1{}
 
 %%% This sets how the enumerate command works
 \renewcommand{\theenumi}{$(\mathrm{\arabic{enumi}})$}
