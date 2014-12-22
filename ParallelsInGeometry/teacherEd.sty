@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}% LaTeX 2.09 can't be used (nor non-LaTeX)
 [1994/12/01]% LaTeX date must be December 1994 or later
-\ProvidesPackage{teacherEd}[2014/12/20 v1.03]
+\ProvidesPackage{teacherEd}[2014/12/22 v1.04]
 \ProcessOptions\relax
 
 %% The following is a quick fix for \subsubsection, which is not available in the Tufte style
@@ -311,9 +311,19 @@ font=\upshape
 {Definition}
 
 %% 
-%% For want of a better solution, the following styles for Construction, Paradox, Conjecture, and Corollary 
+%% For want of a better solution, the following styles for Postulate, Construction, Paradox, Conjecture, and Corollary 
 %%  are the same as that of Definition
 %%
+
+\theoremheaderfont{\normalfont\bfseries}
+\theorembodyfont{\upshape}
+\newmdtheoremenv[hidealllines=true,roundcorner=10pt,leftmargin=40,%
+rightmargin=40,backgroundcolor=definitionBackground,fontcolor=textColor,%%
+innertopmargin=6pt,%\topskip,%
+splittopskip=\topskip,skipbelow=\baselineskip,skipabove=\baselineskip,
+font=\upshape
+]{postulate}%
+{Postulate}
 
 \theoremheaderfont{\normalfont\bfseries}
 \theorembodyfont{\upshape}

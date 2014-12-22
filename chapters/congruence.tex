@@ -133,27 +133,44 @@ Sometimes a sequence of transformations can be described as a single translation
 \section{Euclidean and non-Euclidean Geometries}
 The geometry of school mathematics is called \emph{Euclidean Geometry} for it is the geometry organized and detailed by Euclid more than 2,000 years ago.  To better understand the assumptions that underlie Euclidean geometry and the results that follow, it helps to be aware of non-Euclidean geometries.  Perhaps the most accessible of these is spherical geometry, because we can make use of basketballs that we can hold in our hands, and we can take advantage of our experience traveling on our (approximately spherical) Earth, modeled by a globe.  
 
+\begin{question}
+Before we talk about spheres, what does it mean to say that a plane is two-dimensional and space is three-dimensional?    What is ``dimension''?  
+\end{question}
+\QM
+
 To think about spherical geometry, it helps to imagine a bug crawling on the surface of a sphere.  From the bug's perspective, the surface of the sphere is very much the same as the surface of a Euclidean plane.  Both surfaces are two-dimensional in the sense that the bug has two degrees of freedom:  forward/backward and left/right.  Any other movement can be expressed as a combination of these.  (We are assuming the bug must stay \emph{on the surface}:  It can neither fly away from nor burrow underneath the surface.)  Whereas the surface of a Euclidean plane is infinite and flat, the surface of a sphere is finite and curved.  But if the sphere is reasonably large (compared to the bug), then even a very smart bug might have trouble determining whether she or he was walking on a sphere or on a flat plane.
+
+\begin{question}
+Explain in your own words how to think about the surface of a sphere as two-dimensional.  
+\end{question}
+\QM
 
 Points in spherical geometry are taken to be points on the surface of the sphere.  But ``lines'' present more of a challenge:  We want lines to be ``straight'', but any path on the surface of a sphere curves with the surface.  Suppose the bug travels forward along a path that is as straight as possible, being very careful to veer neither right nor left.  Alternatively, because lines should determine ``shortest paths'' between two points, stretch a rubber band between two points on a basketball or on a globe to find the shortest path.  (Try this!)  In both cases, you will find that best answer is that a ``line'' in spherical geometry is a \emph{great circle}, which is to say a circle that is as big as possible on the sphere.  From a three-dimensional perspective, the center of a great circle is the same as the center of the sphere.  
 \begin{question}
+Consider the pictures below. 
+$$\includegraphics[scale=0.7]{../graphics/spherical1}$$
 Are longitude lines on the earth ``lines'' in spherical geometry?  What about latitude lines?  Explain your reasoning.  
 \end{question}
-$$\includegraphics[scale=0.7]{../graphics/spherical1}$$
 \QM
 
 % Intrinsic vs. extrinsic curvature.  geodesics.  
 
-In non-Euclidean geometries, many familiar results no longer hold.  In spherical geometry, for example, there are no parallel lines because any two lines intersect in two points, and the sum of the angles in a triangle is greater than $180^\circ$.  In hyperbolic geometry, in contrast, parallel lines are not a fixed distance apart, the sum of the angles in a triangle is less than $180^\circ$.  
+In non-Euclidean geometries, many familiar results no longer hold.  In spherical geometry, for example, there are no parallel lines because any two ``lines'' (i.e., great circles) intersect in two points, and the sum of the angles in a triangle is greater than $180^\circ$.  
+\begin{question}
+Use the following picture to explain that the sum of the angles in a triangle in spherical geometry can be greater than $180^\circ$. 
 $$\includegraphics[scale=0.7]{../graphics/spherical2}$$
+\end{question}
+\QM
+
+Other non-Euclidean geometries are even stranger than spherical geometry!  In hyperbolic geometry, for example, parallel lines are not a fixed distance apart, and the sum of the angles in a triangle is less than $180^\circ$.  
 
 The following statements characterize three different types of geometries:  
 \begin{itemize}
-\item Euclidean geometry: Given a line and a point not on the line, there is \emph{exactly one line} parallel to the given line.
+\item \textbf{Euclidean geometry}: Given a line and a point not on the line, there is \emph{exactly one line} parallel to the given line.
 
-\item Spherical geometry:  Given a line and a point not on the line, there are \emph{no lines} through the point parallel to the given line. 
+\item \textbf{Spherical geometry}:  Given a line and a point not on the line, there are \emph{no lines} through the point parallel to the given line. 
 
-\item Hyperbolic geometry:  Given a line and a point not on the line, there is \emph{more than one line} parallel to the given line. 
+\item \textbf{Hyperbolic geometry}:  Given a line and a point not on the line, there is \emph{more than one line} parallel to the given line. 
 \end{itemize}
 
 % Each of these geometries requires other postulates, of course.  Here we are merely highlighting a crucial distinction among them.  
@@ -173,11 +190,15 @@ In this course, we explore neither spherical nor hyperbolic geometry in detail, 
 \item What does this imply about the usefulness of familiar (Euclidean) area formulas in these other geometries?  Explain your reasoning. 
 \end{enumerate} 
 
+\item In Euclidean geometry, when three distinct points $A$, $B$, and $C$, lie on a line, it is easy to tell which point is between the other two.  Does this work in spherical geometry?  Explain your reasoning.  
+
 \item A bear goes traveling.  She walks due south for one mile, turns left $90^\circ$, and walks due east for one mile.  She again turns left $90^\circ$, and then walks due north for one mile, ending in the place where she started.  What color is the bear?  Explain your reasoning.  
 
 \item When walking on a sphere, how could a bug check whether she or he was traveling straight.  
 
-\item In the Euclidean plane, any two distinct points determine a unique line.  Is that true in spherical geometry?  
+\item In Euclidean geometry, any two distinct points determine a unique line.  This is sometimes (but not always) true in spherical geometry.  What can you say about two distinct points that do not lie on a unique line in spherical geometry?  
+
+\item In Euclidean geometry, given a line and a point, there is a unique perpendicular to the given line through the given point.  Describe how this sometimes fails in spherical geometry.  
 
 \item Can the Euclidean definition of a circle make sense on a sphere?  Be sure that the center of the circle is a point on the sphere.  How would you measure the radius of the circle?  
 
@@ -195,12 +216,8 @@ In this course, we explore neither spherical nor hyperbolic geometry in detail, 
 % Wrapping a ribbon on a sphere.    
 % driving a car with fixed wheels (distance traveled). 
 
-
-% Betweenness collapses. 
-% Two points do not always determine a unique line.  
 % antipodal points lie on opposite ends of a diameter
 % lines are finite in extent
-% perpendicular from a point to a line is not necessarily unique.
 % exterior angle theorem 
 
 
@@ -214,21 +231,14 @@ In this course, we explore neither spherical nor hyperbolic geometry in detail, 
 Every area of mathematics is based on a set of assumptions, sometimes called axioms or postulates,\margincomment{In classical mathematics, ``axioms'' were self-evident statements that were common to many areas of science (including mathematics), whereas ``postulates'' were common-sense facts drawn from experience in specific areas, such as geometry.  In modern mathematics, this distinction is no longer seen as significant, and most assumptions are merely called axioms.  In deference to Euclid's \emph{Elements}, the word postulate is used almost exclusively to discuss key assumptions in geometry, as you will see below.}
 which are merely statements that are accepted without proof.  They serve as the foundation of the theory being developed, and all other facts are proven beginning with these assumptions.  This approach is called the \emph{axiomatic method}.  
 
-\dots Or at least that's how mathematics is imagined to work.  In practice, because mathematics is so vast and interconnected, most mathematical reasoning and problem solving starts ``in the middle'' from a collection of accepted facts, with little worry about which statements were taken as assumptions and which were proven as theorems.  
-
-And there are choices.  For example, to build Euclidean geometry, we may choose any one of the following statements as an axiom and then prove the other two as theorems:   
-\begin{itemize}\parsep0pt\parskip0pt
-\item Given a line and a point not on the line, there is \emph{exactly one line} parallel to the given line.
-\item If parallel lines are cut by a transversal, then corresponding angles are congruent.
-\item The sum of the interior angles of a triangle is $180^\circ$.
-\end{itemize}
-
-In these notes, we take the first statement as an axiom, and we prove the other two statements.  
+\dots Or at least that's how mathematics is imagined to work.  In practice, because mathematics is so vast and interconnected, most mathematical reasoning and problem solving starts ``in the middle''\margincomment{In this course, we started in the middle.  In this section, we are examining the foundation.} from a collection of accepted facts, with little worry about which statements were taken as assumptions and which were proven as theorems.  
 
 % Incorporate meanings of fractions, and the fundamental assumption of school mathematics.  
 
 \begin{question}
-In school mathematics we can ``explain'' the properties of whole or rational numbers by appealing to models and to meanings of the arithmetic operations.  But in advanced mathematics courses, the real numbers are usually specified via axioms, some of the axioms have names.  What are the names of the following axioms:  
+In school mathematics we can ``explain'' the properties of whole or rational numbers by appealing to models and to meanings of the arithmetic operations.  But in advanced mathematics courses, the real numbers are usually specified via axioms, some of the axioms have names.  
+
+What are the names of the following axioms:  
 \begin{enumerate}
 \item $a + b = b + a$  
 \item $a(bc) = (ab)c$
@@ -238,10 +248,20 @@ In school mathematics we can ``explain'' the properties of whole or rational num
 \end{question}
 \QM
 
-Chances are you used the word ``property'' or ``law'' rather than ``axiom'' in your response.  Some of the properties have important names, such as the \emph{distributive property of multiplication over addition}.  The last of these is called the transitive property of equality.  But in school mathematics, it is neither necessary to instructive to insist that every such property have a shared name.  
+Chances are you used the word ``property'' or ``law'' rather than ``axiom'' in your responses.  Some properties of arithmetic have important names, such as the \emph{distributive property of multiplication over addition}.  The fourth property above is called the transitive property of equality.  But in school mathematics, it is neither necessary to instructive to insist that every such property have a name that students are expected to recall.  
 
 % Much of school mathematics proceeds along the same lines:  axioms, assumptions, and postulates are rarely explicit; 
-% and outside of the high school geometry course, about the only fact that is called a theorem is that of Pythagoras. 
+% and outside of the high school geometry course, about the only commonly mentioned theorem is that of Pythagoras. 
+
+%And there are choices.  For example, to build Euclidean geometry, we may choose any one of the following statements as an axiom and then prove the other two as theorems:   
+%\begin{itemize}\parsep0pt\parskip0pt
+%\item Given a line and a point not on the line, there is \emph{exactly one line} parallel to the given line.
+%\item If parallel lines are cut by a transversal, then corresponding angles are congruent.
+%\item The sum of the interior angles of a triangle is $180^\circ$.
+%\end{itemize}
+%
+%In this course, we take the first statement as an axiom, and we prove the other two statements.  
+
 
 \subsection{Assumptions for School Geometry}
 We propose the following set of assumptions\margincomment{In addition to these geometric assumptions, we of course assume the properties of the algebra of real numbers.} for school geometry:  
@@ -269,18 +289,28 @@ We propose the following set of assumptions\margincomment{In addition to these g
 
 \bigskip
 
-These assumptions can be remembered easily in the following chunks:  
+These formal axioms, we should be clear, are intended not for students but for teachers.  And even teachers need not 
+memorize them.  Instead, we suggest that teachers remember them informally in the following chunks:  
+
 \begin{itemize}
 \itemsep0em
-\item (A1) and (A2):  Points, lines, and parallel lines behave as they should. 
-\item (A3) and (A4):  Distance and angle measure behave as they should. 
-\item (A5):  Basic rigid motions behave as they should.
-\item (A6):  Area behaves as it should.  
+\item Points, lines, and parallel lines behave as they should (A1 and A2) 
+\item Distance and angle measure behave as they should (A3 and A4)
+\item Basic rigid motions behave as they should (A5)
+\item Area behaves as it should (A6)
 \end{itemize}
 
+We are almost ready to use these axioms to prove some basic results.  First, we need a crucial definition.  
+\begin{definition}
+Two distinct lines are said to be \textbf{parallel} if they have no point in common.
+\end{definition}
+
+Most of the time, of course, two distinct lines will have exactly one point in common.  
+
 \begin{question}
-Given two distinct lines, if they have no points in common, they are said to be parallel.  Most of the time, of course, they will have exactly one point in common.  Can the two lines have more than one point in common?  Use the above axioms to explain your reasoning.  
+Can the two distinct lines have more than one point in common?  Use the above axioms to explain your reasoning.  
 \end{question}
+\QM
 
 %Lemma 2. If three lines L1, L2, and L3 have the property that L1 || L2 and L2 || L3,
 %then L1 || L3.
@@ -294,15 +324,23 @@ If points $A$, $X$, and $B$ are on a line $l$, we say that $X$ is \emph{between}
 \begin{question}
 Use the concept of betweenness to define line segment $\overline{AB}$.  Now use the concept of betweenness to define ray $\overrightarrow{AB}$. 
 \end{question}
+\QM
 
 \begin{question}
 Use the protractor postulate to provide a definition of adjacent angles, analogous to betweenness for distances.  
 \end{question}
+\QM
+
+\begin{theorem}
+Let $l$ be a line and $O$ be a point on $l$. Let $R$ be the $180^\circ$
+rotation around $O$. Then $R$ maps $l$ to to itself.  
+\end{theorem}
 
 \begin{question}
-Prove:  Let $l$ be a line and $O$ be a point on $l$. Let $R$ be the $180^\circ$
-rotation around $O$. Then $R$ maps $l$ to to itself.  (Hint:  Pick points $P$ and $Q$ on $l$ so that $O$ is between them, and consider the straight angle $\angle POQ$.)
+Can you prove this theorem?  
+(Hint:  Pick points $P$ and $Q$ on $l$ so that $O$ is between them, and consider the straight angle $\angle POQ$.)
 \end{question}
+\QM
 
 \begin{theorem}
 Let $l$ be a line and $O$ be a point \emph{not} lying on $l$. Let $R$ be the $180^\circ$
@@ -347,7 +385,7 @@ In a previous section, we saw how transformations can be used as a foundation fo
 Given a point $O$ and a positive number $r$, a \emph{dilation} about $O$ by scale factor $r$, is a mapping that takes a point $P$ to a point $P'$ so that $OP' = r\cdot OP$.  
 \end{definition}
 
-With this definition, rubber bands are natural tools for exploring dilations.  By tying together two rubber bands 
+With this definition, rubber bands are natural tools for exploring dilations.  
 Through explorations with rubber bands and with geometry software, we observe that a dilation has the following properties:\standardhs{G-SRT.1}%\standardhs{G-SRT.1a}\standardhs{G-SRT.1b}  
 
 \begin{enumerate}[(i)]\parskip0pt\parsep0pt
@@ -357,20 +395,209 @@ Through explorations with rubber bands and with geometry software, we observe th
 \item It preserves angle measure.
 \end{enumerate}
 
-We could assume these properties, just as we have assumed the properties of the basic rigid motions.  It is possible to use our assumptions about area to prove some of these properties.  These are the Side-Splitter Theorems.\standard{8.G.4}  
+We could assume these properties, just as we have assumed the properties of the basic rigid motions.  Instead, we use our assumptions about area to prove some of these properties.  These are the Side-Splitter Theorems.
 
+Now we are ready to define similarity.\standard{8.G.4}  
 
 \begin{definition}
 A geometric figure is \emph{similar} to another if the second can be obtained from the first by a sequence of rotations, reflections, translations, and dilations.  
 \end{definition}
 
-If the objects are similar, try to find a single dilation that demonstrates the similarity.   If you cannot find such a dilation, explain how you know you cannot.  
+\begin{center}
+To Be Continued.
+\end{center}
+
+%If the objects are similar, try to find a single dilation that demonstrates the similarity.   If you cannot find such a dilation, explain how you know you cannot.  
+
+\fixnote{Fold in Bart's notes on similarity, which are in a file called similarity.tex in the chapters directory}
+
+
+
+\begin{problems}
+\begin{enumerate}
+\item Compare and contrast the ideas of \textit{equal triangles},
+  \textit{congruent triangles}, and \textit{similar triangles}.
+\item Explain why all equilateral triangles are similar to each other.
+\item Explain why all isosceles right triangles are similar to each other. 
+\item Explain why when given a right triangle, the altitude of the
+  right angle divides the triangle into two smaller triangles each
+  similar to the original right triangle.
+\item The following sets contain lengths of sides of similar
+  triangles. Solve for all unknowns---give all solutions. In each case
+  explain your reasoning.
+\begin{enumerate}
+\item $\{3,4,5\}$, $\{6,8,x\}$
+\item $\{3,3,5\}$, $\{9,9,x\}$
+\item $\{5,5,x\}$, $\{10,4,y\}$
+\item $\{5,5,x\}$, $\{10,8,y\}$
+\item $\{3,4,x\}$, $\{4,5,y\}$ 
+\end{enumerate}
+\item A \textit{Pythagorean Triple}\index{Pythagorean Triple} is a set
+  of three positive integers $\{a,b,c\}$ such that $a^2 + b^2 =
+  c^2$. Write down an infinite list of Pythagorean Triples. Explain
+  your reasoning and justify all claims.
+\item Here is a right triangle, note it is \textbf{not} drawn to
+  scale:
+\[
+\includegraphics{../graphics/origamiSimQ.pdf}
+\]
+Solve for all unknowns in the following cases.
+\begin{enumerate}
+\item $a = 3$, $b = ?$, $c = ?$, $d = 12$, $e = 5$, $f = ?$
+\item $a = ?$, $b = 3$, $c = ?$, $d =8$, $e = 13$, $f = ?$
+\item $a = 7$, $b = 4$, $c = ?$, $d =?$, $e = 11$, $f = ?$
+\item $a = 5$, $b = 2$, $c = ?$, $d =6$, $e = ?$, $f = ?$
+\end{enumerate}
+In each case explain your reasoning.
+
+\item Suppose you have two similar triangles. What can you say about
+  the area of one in terms of the area of the other? Be specific and
+  explain your reasoning.
+
+\item During a solar eclipse we see that the apparent diameter of the
+  Sun and Moon are nearly equal. If the Moon is around $240000$ miles
+  from Earth, the Moon's diameter is about $2000$ miles, and the Sun's
+  diameter is about $865000$ miles how far is the Sun from the Earth?
+\begin{enumerate}
+\item Draw a relevant (and helpful) picture showing the important
+  points of this problem.
+\item Solve this problem, be sure to explain your reasoning.
+\end{enumerate}
+
+
+\item When jets fly above $8000$ meters in the air they form a vapor
+  trail. Cruising altitude for a commercial airliner is around $10000$
+  meters. One day I reached my arm into the sky and measured the
+  length of the vapor trail with my hand---my hand could just span the
+  entire trail. If my hand spans $9$ inches and my arm extends $25$
+  inches from my eye, how long is the vapor trail? Explain your
+  reasoning.
+\begin{enumerate}
+\item Draw a relevant (and helpful) picture showing the important
+  points of this problem.
+\item Solve this problem, be sure to explain your reasoning.
+\end{enumerate}
+
+\item David proudly owns a 42 inch (measured diagonally) flat screen
+  TV. Michael proudly owns a 13 inch (measured diagonally) flat screen
+  TV. Dave sits comfortably with his dog Fritz at a distance of 10
+  feet. How far must Michael stand from his TV to have the ``same''
+  viewing experience?  Explain your reasoning.
+\begin{enumerate}
+\item Draw a relevant (and helpful) picture showing the important
+  points of this problem.
+\item Solve this problem, be sure to explain your reasoning.
+\end{enumerate}
+
+\item You love IMAX movies. While the typical IMAX screen is 72 feet
+  by 53 feet, your TV is only a 32 inch screen---it has a 32 inch
+  diagonal. How close do you have to sit to your screen to simulate
+  the IMAX format? Explain your reasoning.
+\begin{enumerate}
+\item Draw a relevant (and helpful) picture showing the important
+  points of this problem.
+\item Solve this problem, be sure to explain your reasoning.
+\end{enumerate}
+
+\item David proudly owns a 42 inch (measured diagonally) flat screen
+  TV. Michael proudly owns a 13 inch (measured diagonally) flat screen
+  TV. Michael stands and watches his TV at a distance of 2 feet. Dave
+  sits comfortably with his dog Fritz at a distance of 10 feet. Whose
+  TV appears bigger to the respective viewer? Explain your reasoning.
+\begin{enumerate}
+\item Draw a relevant (and helpful) picture showing the important
+  points of this problem.
+\item Solve this problem, be sure to explain your reasoning.
+\end{enumerate}
+
+\item Here is a personal problem: Suppose you are out somewhere and
+  you see that when you stretch out your arm, the width of your thumb
+  is the same apparent size as a distant object. How far away is the
+  object if you know the object is:
+\begin{enumerate}
+\item 6' long (as tall as a person).
+\item 16' long (as long as a car).
+\item 40' long (as long as a school bus).
+\item 220' long (as long as a large passenger airplane).
+\item 340' long (as long as an aircraft carrier).
+\end{enumerate}
+Explain your reasoning.
+
+\item I was walking down Woody Hayes Drive, standing in front of
+  St.\ John Arena when a car pulled up and the driver asked, ``Where
+  is Ohio Stadium?'' At this point I was a bit perplexed, but
+  nevertheless I answered, ``Do you see the enormous concrete building
+  on the other side of the street that looks like the Roman Colosseum?
+  That's it.''
+ 
+The person in the car then asked, ``Where are the Twin-Towers then?''
+Looking up, I realized that the towers were in fact just covered by
+top of Ohio Stadium. I told the driver to just drive around the
+stadium until they found two enormous identical towers---that would be
+them. They thanked me and I suppose they met their destiny.
+
+I am about 2 meters tall, I was standing about 100 meters from the
+Ohio Stadium and Ohio Stadium is about 40 meters tall. If the Towers
+are around 500 meters from the rotunda (the front entrance of the
+stadium), how tall could they be and still be obscured by the stadium?
+Explain your reasoning---for the record, the towers are about 80
+meters tall.
+
+
+\item Explain how to use the notion of similar triangles to multiply
+  numbers with your answer expressed as a segment of the appropriate
+  length.
+
+\item Explain how to use the notion of similar triangles to divide
+  numbers with your answer expressed as a segment of the appropriate
+  length.
+
+
+\item Consider the following combinations of S's and A's. Which of
+  them produce a \textit{Congruence Theorem}? Which of them produce a
+  \textit{Similarity Theorem}? Explain your reasoning.
+\[
+\text{SSS},\quad \text{SSA},\quad \text{SAS},\quad 
+\text{SAA},\quad \text{ASA},\quad \text{AAA} 
+\]
+
+
+\item Explain how the following picture ``proves'' the Pythagorean Theorem.
+\[
+\includegraphics[scale=0.8]{../graphics/pbpdilation.pdf}
+\]
+
+
+%\item \label{P:CP} Given a circle centered at point $O$, we'll call
+%  two points $P$ and $P'$ a \textit{connected pair} if:
+%\begin{enumerate}
+%\item $O$, $P$, and $P'$ all lie on a line.
+%\item $OP = \dfrac{1}{OP'}$.
+%\end{enumerate}
+%For example, if the radius of the circle was $12$ and $P$ was $6$
+%units from $O$, then $P'$ would be $18$ units from $O$. Give some
+%other examples of connected pairs.
+%\item If $P$ and $P'$ are a connected pair (see Problem~\ref{P:CP})
+%  and $P$ is on the circle, what can you say about $P'$? Explain your
+%  reasoning.
+%\item Consider the following diagram where $P$ and $P'$ are connected
+%  pairs (see Problem~\ref{P:CP}):
+%\[
+%\includegraphics{../graphics/origamiConnected.pdf}
+%\]
+%What is the distance $P'Q'$? Hint: Try to use the SAS-Similarity
+%Theorem, to do this you'll have to find some sides with common ratios!
+
+\end{enumerate}
+\end{problems}
 
 
 \section{Length, Area, and Volume Under Scaling}
 
-\fixnote{To be written.}  
+To be written. 
 
 \fixnote{Include problems on making scale drawings and on using scale drawings to solve problems about length and area.}
 
-\fixnote{Also need to write a section for parametric equations, coordinates, functions.}
+
+
+

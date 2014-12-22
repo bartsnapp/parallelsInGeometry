@@ -33,6 +33,12 @@ as:
 \includegraphics{../graphics/set1.pdf}
 \]
 
+Sometimes the elements of a set can be listed or described by words or formulas.  
+In such cases, we often use curly braces \{ and \} to enclose the elements of the set 
+or a description of the set.  For example, if $X = \{2, 3, 7\}$, and $Y=\{\text{even numbers}\}$, 
+then each of the following statements are true:  
+$$2\in X\qquad 4\notin X\qquad 6\in Y\qquad 9\notin Y.$$
+
 \begin{definition} 
 A \textbf{subset}\index{subset} $Y$ of a set $X$ is a set $Y$ such
 that every element of $Y$ is also an element of $X$. We denote this
@@ -51,17 +57,22 @@ than $Y$ is a bit misleading?
 \end{question}
 \QM
 
+Sometimes it is useful to list a set of sets.  For example, if $X = \{2, 3, 7\}$, then 
+$$Y=\{ \{2\}, \{2,7\}, \{3,7\}\}$$
+is a set containing a few subsets of $X$.  
+\begin{question}
+How many elements are in the set $Y$?  
+\end{question}
+\QM
+
 \begin{question} 
 How is the meaning of the symbol $\in$ different from the meaning of
 the symbol $\subset$?
 \end{question}
 \QM
 
-
 \subsection{Union}
-
-
-\begin{definition}\index{union}\index{u@$\cup$}\index{set theory symbols!union@$\cup$} Given two sets $X$ and $Y$, $X$ \textbf{union} $Y$ is the set of all the elements in $X$ or $Y$. We denote this by $X\cup Y$.  \fixnote{This is inclusive or.}
+\begin{definition}\index{union}\index{u@$\cup$}\index{set theory symbols!union@$\cup$} Given two sets $X$ and $Y$, $X$ \textbf{union} $Y$ is the set of all the elements in $X$ or $Y$. We denote this by $X\cup Y$.  
 \end{definition}
 
 Pictorially, we can imagine this as:
@@ -70,10 +81,16 @@ Pictorially, we can imagine this as:
 \includegraphics{../graphics/set2.pdf}
 \]
 
+\begin{warning}
+Note that this definition uses the \emph{inclusive or}.  In everyday language, it is common to use the word ``or'' in an exclusive sense, meaning, ``but not both.''  But in mathematics, the word ``or'' is almost always used inclusively.  Thus, the phrase ``A or B'' allows for the possibility of both.
+\end{warning}
 
+\begin{question}
+What about the above picture shows that ``or'' is used inclusively in the definition of union?  
+\end{question}
+\QM
 
 \subsection{Intersection}
-
 \begin{definition}\index{intersection}\index{set theory symbols!intersection@$\cap$} Given two sets $X$ and $Y$, 
 $X$ \textbf{intersect} $Y$ is the set of all the elements that are simultaneously in $X$ and in $Y$. We denote this by $X\cap Y$. 
 \end{definition}
@@ -90,13 +107,21 @@ Pictorially, we can imagine this as:
 What is $X\cap Y$?
 \end{question}
 
-I'll take this one: Nothing! We have a special notation for the set with no elements, it is called the \index{empty set}\textbf{empty set}. We denote the empty set by the symbol $\emptyset$.\index{set theory symbols!emptyset@$\emptyset$}  \fixnote{Include subtleties about the empty set.}
+I'll take this one: Nothing! The set with no elements is called the \index{empty set}\textbf{empty set}. We sometimes denote the empty set as $\{\}$, but it is more common to denote the empty set with the symbol $\emptyset$.\index{set theory symbols!emptyset@$\emptyset$}  
 
+\begin{question}
+How is $\{\emptyset\}$ different from $\emptyset$?  
+\end{question}
+\QM
 
+\begin{question}
+The empty set is a subset of every set.  Why does this makes sense?  Why does it make sense 
+to say \emph{the} empty set rather than \emph{an} empty set?  
+\end{question}
+\QM
 
 
 \subsection{Complement}
-
 \begin{definition}\index{complement}\index{set theory symbols!complement@$-$} Given two sets $X$ and $Y$, 
 $X$ \textbf{complement} $Y$ is the set of all the elements that are in $X$ and are not in $Y$. We denote this by $X-Y$.
 \end{definition}
@@ -116,7 +141,6 @@ What is $X-Y$? What is $Y-X$?
 
 
 \subsection{Putting Things Together}
-
 OK, let's try something more complex:
 
 \begin{question} Prove that:
@@ -157,15 +181,19 @@ are done.
 \end{proof}
 
 \begin{problems}
-\fixnote{Add a problem about exclusive or.}
 \begin{enumerate}
 \item Given two sets $X$ and $Y$, explain what is meant by $X\cup Y$.
 \item Given two sets $X$ and $Y$, explain what is meant by $X\cap Y$.
 \item Given two sets $X$ and $Y$, explain what is meant by $X - Y$.
 \item Explain the difference between the symbols $\in$ and $\subset$.
+\item How is $\{\emptyset\}$ different from $\emptyset$?  
+\item List all the subsets of the set $X=\{2, 3, 5, 7\}$.  In general, how many 
+subsets are there of an $n$-element set?  Explain why this makes sense.  
+\item Draw a Venn diagram for the set of elements that are in $X$ or $Y$ \emph{but not both}. 
+How does it differ from the Venn diagram for $X\cup Y$?  
 \item If we let $X$ be the set of ``right triangles'' and we let $Y$ be the set of ``equilateral triangles'' does the picture below show the relationship between these two sets?
 \[
-\includegraphics{../graphics/set4.pdf}
+\includegraphics[scale=0.8]{../graphics/set4.pdf}
 \]
 Explain your reasoning.
 \item If $X = \{1,2,3,4,5\}$ and $Y = \{3,4,5,6\}$ find:
@@ -228,11 +256,11 @@ X - (Y \cap Z) = (X -Y)\cup (X - Z)
 X - (Y \cup Z) = (X -Y)\cap (X -Z)
 \]
 \item If $X\cup Y = X$, what can we say about the relationship between the sets $X$ and $Y$? Explain your reasoning.
-\item If $X\cup Y = Y$, what can we say about the relationship between the sets $X$ and $Y$? Explain your reasoning.
+%\item If $X\cup Y = Y$, what can we say about the relationship between the sets $X$ and $Y$? Explain your reasoning.
 \item If $X\cap Y = X$, what can we say about the relationship between the sets $X$ and $Y$? Explain your reasoning.
-\item If $X\cap Y = Y$, what can we say about the relationship between the sets $X$ and $Y$? Explain your reasoning.
+%\item If $X\cap Y = Y$, what can we say about the relationship between the sets $X$ and $Y$? Explain your reasoning.
 \item If $X-Y =\emptyset$, what can we say about the relationship between the sets $X$ and $Y$? Explain your reasoning.
-\item If $Y-X =\emptyset$, what can we say about the relationship between the sets $X$ and $Y$? Explain your reasoning.
+%\item If $Y-X =\emptyset$, what can we say about the relationship between the sets $X$ and $Y$? Explain your reasoning.
 \end{enumerate}
 \end{problems}
 
@@ -384,9 +412,9 @@ Since we can always put two squares together in this pattern, this
 proof will work for any right triangle.
 \end{proof}
 
-\begin{question} Can you use the above tessellation to give a dissection proof of the Pythagorean Theorem?
-\end{question}
-\QM
+%\begin{question} Can you use the above tessellation to give a dissection proof of the Pythagorean Theorem?
+%\end{question}
+%\QM
 
 
 
@@ -455,10 +483,9 @@ Hint: A regular $n$-gon has interior angles of $180(n-2)/n$ degrees.
 
 \newpage
 
-
-
 \section{Proof by Picture}
-\marginnote{Most of the \textit{pictures} from this section are adapted from the wonderful source books: \cite{nelsen} and \cite{nelsen1}.}  
+%\marginnote{Most of the \textit{pictures} from this section are adapted from the wonderful source books: \cite{nelsen} and \cite{nelsen1}.}  
+\fixnote{Citation omitted until it works.}
 
 Pictures generally do not constitute a proof on their own. However, a
 good picture can show insight and communicate concepts better than
@@ -505,7 +532,7 @@ While everyone may know the Pythagorean Theorem, not as many know how to prove i
 
 Consider the following picture:
 \[
-\includegraphics[scale=0.8]{../graphics/pbppythsqr.pdf}
+\includegraphics[scale=0.7]{../graphics/pbppythsqr.pdf}
 \]
 Now, cut up the squares $a^2$ and $b^2$ in such a way that they fit into $c^2$ perfectly. When you give a proof that involves cutting up the shapes and putting them back together, it is called a \textbf{dissection proof}.\index{dissection proof} The trick to ensure that this is actually a proof is in making sure
 that your dissection will work no matter what right triangle you are
@@ -531,7 +558,7 @@ Now a paradox:
 
 \begin{paradox}\index{paradox!triangle dissection} What is wrong with this picture?
 \[
-\includegraphics[scale=0.8]{../graphics/triparadox.pdf}
+\includegraphics[scale=0.7]{../graphics/triparadox.pdf}
 \]
 \end{paradox}
 
@@ -691,7 +718,7 @@ pictures. Second give an explanation based on algebra.
 \item\label{P:RTA} Explain how the following picture ``proves'' that
   the area of a right triangle is half the base times the height.
 \[
-\includegraphics{../graphics/pbpAreaRight.pdf}
+\includegraphics[scale=0.8]{../graphics/pbpAreaRight.pdf}
 \]
 
 \item Suppose you know that the area of a \textbf{right} triangle is
@@ -699,14 +726,14 @@ pictures. Second give an explanation based on algebra.
   ``proves'' that the area of \textbf{every} triangle is half the base times the
   height.
 \[
-\includegraphics{../graphics/pbpDisTri.pdf}
+\includegraphics[scale=0.8]{../graphics/pbpDisTri.pdf}
 \]
 Now suppose that a student, say \textit{Geometry Giorgio} attempts to
 solve a similar problem. Again knowing that the area of a right
 triangle is half the base times the height, he draws the following
 picture:
 \[
-\includegraphics{../graphics/pbpDisTriGio.pdf}
+\includegraphics[scale=0.8]{../graphics/pbpDisTriGio.pdf}
 \]
 \textit{Geometry Giorgio} states that the diagonal line cuts the
 rectangle in half, and thus the area of the triangle is half the base
@@ -745,7 +772,7 @@ explanation. If not, give correct reasoning based on \textit{Geometry
 \]
 \item Explain how the following picture ``proves'' the Pythagorean Theorem.
 \[
-\includegraphics{../graphics/pbpdavinci.pdf}
+\includegraphics[scale=0.8]{../graphics/pbpdavinci.pdf}
 \]
 Note: This proof is due to Leonardo da Vinci.
 %\item Explain how the following picture ``proves'' the Pythagorean Theorem.
@@ -823,7 +850,7 @@ Give a complete argument based on his picture.
   disturbing? How would you assure them that actually everything is
   good and well in the geometrical world?
 \[
-\includegraphics[scale=.8]{../graphics/triparadox.pdf}
+\includegraphics[scale=.7]{../graphics/triparadox.pdf}
 \]
 
 
@@ -832,7 +859,7 @@ Give a complete argument based on his picture.
   disturbing? How would you assure them that actually everything is
   good and well in the geometrical world?
 \[
-\includegraphics[scale=.8]{../graphics/triparadox2.pdf}
+\includegraphics[scale=.7]{../graphics/triparadox2.pdf}
 \]
 
 
